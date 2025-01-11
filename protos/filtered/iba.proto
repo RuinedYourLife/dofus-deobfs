@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iba {
+  int64 ejtp = 1;
+}

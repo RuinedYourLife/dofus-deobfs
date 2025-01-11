@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message joh {
+  string epxx = 1;
+  int64 epxy = 2;
+  int64 epxz = 3;
+  string epya = 4;
+}

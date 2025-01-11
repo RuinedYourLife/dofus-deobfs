@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "kae.proto";
+message kad {
+  repeated kae ervj = 1;
+}

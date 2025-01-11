@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jws {
+  bool erho = 1;
+}

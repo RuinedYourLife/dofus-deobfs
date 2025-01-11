@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message iew {
+  repeated ieu ekij = 1;
+  message ieu {
+    int64 ekid = 1;
+    string ekie = 2;
+    int64 ekif = 3;
+  }
+}

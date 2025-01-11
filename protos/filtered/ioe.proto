@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ioe {
+  int32 elzm = 1;
+  bool elzn = 2;
+}

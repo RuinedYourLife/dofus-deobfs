@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jru {
+  string eqnl = 1;
+  repeated int32 eqnm = 2;
+  string eqnn = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jmu.proto";
+message jmv {
+  int32 epqk = 1;
+  repeated jmu epql = 2;
+}

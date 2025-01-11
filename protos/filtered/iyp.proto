@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jhw.proto";
+message iyp {
+  jhw enog = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "hdq.proto";
+message hea {
+  hdq egej = 1;
+  hdy egek = 2;
+  enum hdy {
+    ERROR_UNDEFINED = 0;
+    ERROR_NO_QUEST_FOUND = 1;
+    ERROR_ALREADY_HAVE_QUEST = 2;
+    ERROR_NOT_AVAILABLE = 3;
+    ERROR_DAILY_LIMIT_EXCEEDED = 4;
+    OK = 5;
+  }
+}

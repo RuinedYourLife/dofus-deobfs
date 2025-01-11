@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message hzi {
+  int32 ejlh = 1;
+  repeated int32 ejli = 2;
+  repeated jnn ejlj = 3;
+}

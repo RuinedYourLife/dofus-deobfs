@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hvr {
+  bool eivk = 1;
+}

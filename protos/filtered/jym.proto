@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jft.proto";
+import "jhu.proto";
+import "jny.proto";
+import "jom.proto";
+message jym {
+  jft eroz = 1;
+  repeated jhu erpa = 2;
+  repeated jny erpb = 3;
+  repeated jom erpc = 4;
+}

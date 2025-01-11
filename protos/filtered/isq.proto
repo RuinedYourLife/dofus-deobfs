@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message isq {
+  iso emrz = 1;
+  enum iso {
+    UNLOCKED = 0;
+    CODE_ERROR = 1;
+    UNLOCK_FORBIDDEN = 2;
+  }
+}

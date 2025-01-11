@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jns.proto";
+message hyd {
+  repeated jns ejft = 1;
+}

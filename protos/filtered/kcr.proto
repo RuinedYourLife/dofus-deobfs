@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "kcu.proto";
+message kcr {
+  repeated kcu esev = 1;
+  int32 esew = 2;
+  bool ctip = 3;
+}

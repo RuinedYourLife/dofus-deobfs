@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jho.proto";
+message iyj {
+  jho enne = 1;
+}

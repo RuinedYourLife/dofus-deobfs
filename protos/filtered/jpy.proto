@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "jcs.proto";
+import "jlg.proto";
+import "jft.proto";
+import "jcp.proto";
+message jpy {
+  bool eqgr = 1;
+  jcs eqgs = 2;
+  string eqgt = 3;
+  string eqgu = 4;
+  int64 eqgv = 5;
+  string eqgw = 6;
+  int64 eqgx = 7;
+  int32 eqgy = 8;
+  int32 eqgz = 9;
+  int32 eqha = 10;
+  jlg eqhb = 11;
+  jft eqhc = 12;
+  bool eqhd = 13;
+  jcp eqhe = 14;
+}

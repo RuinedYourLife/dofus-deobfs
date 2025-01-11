@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jos {
+  int32 eqan = 1;
+  int32 eqao = 2;
+}

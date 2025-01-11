@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jmk {
+  int32 epoe = 1;
+  int32 epof = 2;
+}

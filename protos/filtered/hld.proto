@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hld {
+  int64 ehgj = 1;
+  int64 ehgk = 2;
+}

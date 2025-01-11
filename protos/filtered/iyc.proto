@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "ixx.proto";
+import "jne.proto";
+message iyc {
+  string enlw = 1;
+  ixx enlx = 2;
+  string enly = 3;
+  int64 enlz = 4;
+  int64 enma = 5;
+  string enmb = 6;
+  string enmc = 7;
+  bool enmd = 8;
+  repeated jne enme = 9;
+  optional int32 enmf = 10;
+}

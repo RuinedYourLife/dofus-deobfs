@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jvc {
+  bool eraw = 1;
+}

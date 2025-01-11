@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jit.proto";
+import "jij.proto";
+message igo {
+  int32 ekqb = 1;
+  repeated jit ekqc = 2;
+  repeated jit ekqd = 3;
+  repeated jij ekqe = 4;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ift {
+  bool ekmo = 1;
+}

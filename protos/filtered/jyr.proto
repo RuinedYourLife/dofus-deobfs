@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "joh.proto";
+message jyr {
+  joh erqd = 1;
+}

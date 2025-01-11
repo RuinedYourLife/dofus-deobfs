@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jqf.proto";
+message jqh {
+  repeated jqf eqif = 1;
+}

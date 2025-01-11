@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jbm {
+  int64 enxs = 1;
+}

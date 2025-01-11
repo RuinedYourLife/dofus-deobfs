@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hgm {
+  string egnx = 1;
+  int32 egny = 2;
+}

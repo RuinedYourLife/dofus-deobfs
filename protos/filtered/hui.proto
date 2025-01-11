@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hui {
+  int32 eira = 1;
+  string eirb = 2;
+}

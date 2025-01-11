@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hqf {
+  int32 eiam = 1;
+  int64 eian = 2;
+}

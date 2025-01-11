@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jdc.proto";
+import "jcz.proto";
+message imn {
+  int32 elsw = 1;
+  jdc elsx = 2;
+  jcz elsy = 3;
+  bool elsz = 4;
+}

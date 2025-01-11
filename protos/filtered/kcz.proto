@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "kda.proto";
+import "kdb.proto";
+message kcz {
+  oneof esft {
+    kda esfr = 2;
+    kdb esfs = 3;
+  }
+}

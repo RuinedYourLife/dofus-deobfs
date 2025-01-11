@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jmh.proto";
+message iek {
+  jmh ekgs = 1;
+}

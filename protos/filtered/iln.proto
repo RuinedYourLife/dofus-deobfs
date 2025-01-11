@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jfp.proto";
+message iln {
+  repeated jfp elom = 1;
+}

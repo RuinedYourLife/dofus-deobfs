@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jhi.proto";
+message ite {
+  int64 emtn = 1;
+  repeated jhi emto = 2;
+}

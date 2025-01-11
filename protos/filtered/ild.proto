@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jdc.proto";
+message ild {
+  int32 elmt = 1;
+  jdc elmu = 2;
+  int32 elmv = 3;
+}

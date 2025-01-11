@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+import "kcr.proto";
+import "kda.proto";
+message kcl {
+  oneof esea {
+    kci esdy = 1;
+    Error esdz = 2;
+  }
+  message kci {
+    int64 esde = 1;
+    string esdf = 2;
+    string esdg = 3;
+    kcr esdh = 4;
+    string esdi = 5;
+    kcg esdj = 6;
+    optional int32 esdk = 7;
+    kda esdm = 8;
+    message kcg {
+      bool escv = 1;
+      bool escw = 2;
+      bool escx = 3;
+      bool escy = 4;
+      bool escz = 5;
+      bool esda = 6;
+    }
+  }
+  message Error {
+    Reason esdq = 1;
+    optional string esdr = 2;
+    optional string esdt = 3;
+    enum Reason {
+      UNKNOWN_AUTH_ERROR = 0;
+      ALREADY_CONNECTED = 1;
+      OTP_TIMEOUT = 2;
+      BANNED = 3;
+      INVALID_SHIELD_CERTIFICATE = 4;
+      LOCKED = 5;
+      CREDENTIALS_RESET = 6;
+      WRONG_CREDENTIALS = 7;
+      EMAIL_UNVALIDATED = 8;
+      ANONYMOUS_IP_FORBIDDEN = 9;
+      NICKNAME_REGISTRATION = 10;
+      UNAUTHORIZED = 11;
+      INVALID_CLIENT_VERSION = 12;
+      OUTDATED_CLIENT_VERSION = 13;
+    }
+  }
+}

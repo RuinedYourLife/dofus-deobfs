@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hku {
+  int32 ehep = 1;
+  bool eheq = 2;
+}

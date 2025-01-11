@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hhw {
+  string egtv = 1;
+  string egtw = 2;
+  int32 egtx = 3;
+}

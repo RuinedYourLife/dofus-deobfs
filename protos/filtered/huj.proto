@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message huj {
+  int32 eirf = 1;
+  int32 eirg = 2;
+}

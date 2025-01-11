@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message jbs {
+  int32 enyh = 1;
+  jbq enyi = 2;
+  enum jbq {
+    SUCCESS = 0;
+    FAIL_NOT_ENOUGH_BUDGET = 1;
+  }
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hve {
+  int32 eiua = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message iqs {
+  int32 emku = 1;
+  int32 emkv = 2;
+  repeated iqq emkw = 3;
+  message iqq {
+    int32 emkm = 1;
+    int32 emkn = 2;
+    int32 emko = 3;
+    repeated jnn emkp = 4;
+    repeated int64 emkq = 5;
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ilz {
+  int32 elqf = 1;
+  int64 elqg = 2;
+}

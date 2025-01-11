@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hvz {
+  int32 eiwo = 1;
+  string eiwp = 2;
+  string eiwq = 3;
+}

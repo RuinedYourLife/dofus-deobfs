@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hxq {
+  int32 ejdp = 1;
+  int32 ejdq = 2;
+  int32 ejdr = 3;
+}

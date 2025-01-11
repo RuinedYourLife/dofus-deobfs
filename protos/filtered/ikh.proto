@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ikp.proto";
+import "ikz.proto";
+message ikh {
+  ikp elhn = 1;
+  map<int64, ikz> elho = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kce {
+  string escr = 1;
+}

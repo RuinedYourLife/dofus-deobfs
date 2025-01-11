@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "jft.proto";
+import "jmr.proto";
+import "jdo.proto";
+import "jie.proto";
+import "jop.proto";
+import "jhi.proto";
+import "jne.proto";
+import "jos.proto";
+message jom {
+  string epyv = 1;
+  int32 epyw = 2;
+  int32 epyx = 3;
+  jft epyy = 4;
+  int64 epyz = 5;
+  string epza = 6;
+  int64 epzb = 7;
+  jmr epzc = 8;
+  int32 epzd = 9;
+  int64 epze = 10;
+  jdo epzf = 11;
+  jie epzg = 12;
+  repeated jop epzh = 13;
+  repeated jhi epzi = 14;
+  repeated jne epzj = 15;
+  repeated jos epzk = 16;
+}

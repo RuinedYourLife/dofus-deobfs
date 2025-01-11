@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message int {
+  bool elya = 1;
+  int32 elyb = 2;
+  int32 elyc = 3;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum ihf {
+  SPELL = 0;
+  WEAPON = 1;
+  GLYPH_TRAP = 2;
+  TRIGGERED = 3;
+  MOVE = 4;
+  CHARACTER_DEATH = 5;
+  TURN_START = 6;
+  TURN_END = 7;
+  FIGHT_START = 8;
+}

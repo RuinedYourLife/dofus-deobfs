@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdt.proto";
+message ivk {
+  bool enau = 1;
+  jdt enav = 2;
+}

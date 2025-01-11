@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jpr {
+  int32 eqfq = 1;
+  int32 eqfr = 2;
+  int32 eqfs = 3;
+}

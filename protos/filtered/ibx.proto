@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jlh.proto";
+message ibx {
+  jlh ejwl = 1;
+}

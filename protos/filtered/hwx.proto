@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "hxj.proto";
+import "hxk.proto";
+import "jie.proto";
+message hwx {
+  hxj ejag = 1;
+  repeated hxk ejah = 2;
+  jie ejai = 3;
+}

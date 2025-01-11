@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jht.proto";
+message iur {
+  jht emxw = 1;
+}

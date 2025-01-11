@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iou {
+  bool emcl = 1;
+  int64 emcm = 2;
+}

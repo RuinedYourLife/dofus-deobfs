@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ieo {
+  int32 ekhh = 1;
+  string ekhi = 2;
+  int32 ekhj = 3;
+  repeated int32 ekhk = 4;
+}

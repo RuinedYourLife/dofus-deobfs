@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "hnm.proto";
+message hnn {
+  string ehqk = 1;
+  int32 ehql = 2;
+  hnm ehqm = 3;
+}

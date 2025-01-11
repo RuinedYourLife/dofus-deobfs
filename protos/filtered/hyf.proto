@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hyf {
+  repeated int32 ejgb = 1;
+}

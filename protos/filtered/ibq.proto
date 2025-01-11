@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ibq {
+  int32 ejvp = 1;
+  int32 ejvq = 2;
+  int32 ejvr = 3;
+}

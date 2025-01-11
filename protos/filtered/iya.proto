@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jne.proto";
+message iya {
+  string enli = 1;
+  string enlj = 2;
+  int64 enlk = 3;
+  string enll = 4;
+  repeated jne enlm = 5;
+}

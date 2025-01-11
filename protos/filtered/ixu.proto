@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ixu {
+  int64 enkp = 1;
+  int32 enkq = 2;
+}

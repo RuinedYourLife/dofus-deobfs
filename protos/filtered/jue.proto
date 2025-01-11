@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jnf.proto";
+message jue {
+  repeated jnf eqwx = 1;
+}

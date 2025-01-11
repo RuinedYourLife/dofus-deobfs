@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hnd {
+  int32 ehpa = 1;
+  int32 ehpb = 2;
+  bool ehpc = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum jdd {
+  GENERAL_SHORTCUT_BAR = 0;
+  SPELL_SHORTCUT_BAR = 1;
+}

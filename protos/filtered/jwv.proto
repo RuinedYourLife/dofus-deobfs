@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jft.proto";
+message jwv {
+  bool eria = 1;
+  jft erib = 2;
+}

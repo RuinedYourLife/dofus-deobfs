@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "irm.proto";
+import "iqk.proto";
+message iqj {
+  irm emjg = 1;
+  repeated iqh emjh = 2;
+  message iqh {
+    iqk emja = 1;
+    int64 emjb = 2;
+    int32 emjc = 3;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jve {
+  string erbh = 1;
+  string erbi = 2;
+  int32 erbj = 3;
+}

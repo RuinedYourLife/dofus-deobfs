@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message iph {
+  int32 emfc = 1;
+  int32 emfd = 2;
+  int32 emfe = 3;
+  repeated jnn emff = 4;
+  repeated int64 emfg = 5;
+}

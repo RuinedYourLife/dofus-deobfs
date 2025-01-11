@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message jbw {
+  jnn enzb = 1;
+}

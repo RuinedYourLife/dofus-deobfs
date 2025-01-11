@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "kbx.proto";
+import "kcl.proto";
+import "kcq.proto";
+import "kcz.proto";
+import "kdm.proto";
+import "kds.proto";
+message kbt {
+  string esay = 1;
+  oneof esbf {
+    kbx esaz = 2;
+    kcl esba = 3;
+    kcq esbb = 4;
+    kcz esbc = 5;
+    kdm esbd = 6;
+    kds esbe = 7;
+  }
+}

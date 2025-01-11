@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message kau {
+  repeated kas erxw = 1;
+  message kas {
+    int32 erxr = 1;
+    int32 erxs = 2;
+  }
+}

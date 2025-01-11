@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jdt.proto";
+message iwf {
+  oneof endr {
+    Error endp = 1;
+    iwd endq = 2;
+  }
+  message Error {
+  }
+  message iwd {
+    jdt endl = 1;
+  }
+}

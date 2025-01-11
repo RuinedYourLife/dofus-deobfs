@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hdq.proto";
+message hdu {
+  hdq egds = 1;
+  int32 egdt = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hvs {
+  int32 eivo = 1;
+  int32 eivp = 2;
+}

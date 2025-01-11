@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ibv {
+  string ejwg = 1;
+}

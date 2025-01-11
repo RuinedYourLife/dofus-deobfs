@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message imv {
+  int32 elue = 1;
+  int32 eluf = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jlg.proto";
+import "jgz.proto";
+message ieh {
+  jlg ekgh = 1;
+  int32 ekgi = 2;
+  repeated jgz ekgj = 3;
+}

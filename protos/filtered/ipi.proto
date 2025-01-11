@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message ipi {
+  int32 emfk = 1;
+  int32 emfl = 2;
+  int32 emfm = 3;
+  repeated jnn emfn = 4;
+  repeated int64 emfo = 5;
+}

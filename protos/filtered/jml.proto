@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jml {
+  int32 epoj = 1;
+}

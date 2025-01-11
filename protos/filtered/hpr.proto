@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hpr {
+  string ehym = 1;
+  optional string ehyn = 2;
+}

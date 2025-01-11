@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hxw {
+  int32 ejer = 1;
+  int32 ejes = 2;
+}

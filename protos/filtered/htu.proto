@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message htu {
+  repeated hts eiow = 1;
+  message hts {
+    int64 eior = 1;
+    repeated htq eios = 2;
+    message htq {
+      int32 eiol = 1;
+      repeated int32 eiom = 2;
+      repeated int32 eion = 3;
+    }
+  }
+}

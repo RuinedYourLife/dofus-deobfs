@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hyb {
+  int64 ejfl = 1;
+}

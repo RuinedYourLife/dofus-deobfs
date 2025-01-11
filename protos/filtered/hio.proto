@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message hio {
+  int32 egwd = 1;
+  him egwe = 2;
+  enum him {
+    FORGET = 0;
+    EQUIP = 1;
+    REMOVE = 2;
+  }
+}

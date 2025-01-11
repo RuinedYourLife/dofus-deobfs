@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message idn {
+  int64 ekct = 1;
+  string ekcu = 2;
+}

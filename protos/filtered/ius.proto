@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ius {
+  int64 emya = 1;
+}

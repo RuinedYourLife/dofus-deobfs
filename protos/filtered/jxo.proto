@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdn.proto";
+message jxo {
+  string erle = 1;
+  jdn erlf = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ixx.proto";
+import "jne.proto";
+message iyb {
+  string enlq = 1;
+  ixx enlr = 2;
+  repeated jne enls = 3;
+}

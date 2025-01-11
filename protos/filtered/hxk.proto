@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hxk {
+  int32 ejcl = 1;
+  int32 ejcm = 2;
+  bool ejcn = 3;
+  int32 ejco = 4;
+}

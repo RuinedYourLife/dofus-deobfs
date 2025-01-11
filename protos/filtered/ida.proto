@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ida {
+  icy ekar = 1;
+  enum icy {
+    INFO_GENERAL = 0;
+    INFO_MEMBERS = 1;
+    INFO_BOOSTS = 2;
+    INFO_PADDOCKS = 3;
+    INFO_HOUSES = 4;
+    INFO_RECRUITMENT = 5;
+    INFO_LOGBOOK = 6;
+  }
+}

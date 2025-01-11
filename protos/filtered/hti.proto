@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message hti {
+  htg einb = 1;
+  int32 einc = 2;
+  int64 eind = 3;
+  enum htg {
+    BUY = 0;
+    SELL = 1;
+  }
+}

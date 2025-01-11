@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hlr {
+  int32 ehit = 1;
+  int32 ehiu = 2;
+}

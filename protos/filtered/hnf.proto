@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hne.proto";
+message hnf {
+  hne ehpk = 1;
+  bool ehpl = 2;
+}

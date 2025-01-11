@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message ihc {
+  int32 ekss = 1;
+  iha ekst = 2;
+  enum iha {
+    OBSTACLE_OPENED = 0;
+    OBSTACLE_CLOSED = 1;
+  }
+}

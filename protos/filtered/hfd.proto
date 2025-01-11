@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hev.proto";
+message hfd {
+  hev egic = 1;
+}

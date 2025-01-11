@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdc.proto";
+message jij {
+  jdc eovv = 1;
+  string eovw = 2;
+}

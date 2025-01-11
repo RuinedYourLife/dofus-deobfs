@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jth.proto";
+message juz {
+  jth erah = 1;
+}

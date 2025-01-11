@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ifz {
+  int32 eknk = 1;
+}

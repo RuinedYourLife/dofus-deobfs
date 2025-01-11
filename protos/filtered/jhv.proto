@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jhm.proto";
+message jhv {
+  jhm eosq = 1;
+  string eosr = 2;
+  int64 eoss = 3;
+}

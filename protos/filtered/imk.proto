@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message imk {
+  int32 elsf = 1;
+  int64 elsg = 2;
+  int32 elsh = 3;
+  int64 elsi = 4;
+  int32 elsj = 5;
+}

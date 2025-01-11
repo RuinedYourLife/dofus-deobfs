@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jir {
+  bool eows = 1;
+  bool eowt = 2;
+  bool eowu = 3;
+  bool eowv = 4;
+}

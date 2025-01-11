@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ibm {
+  int32 ejux = 1;
+}

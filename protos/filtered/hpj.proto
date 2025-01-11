@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jde.proto";
+message hpj {
+  string ehxa = 1;
+  jde ehxb = 2;
+  int32 ehxc = 3;
+}

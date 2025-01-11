@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message isr {
+  int32 emsd = 1;
+  int32 emse = 2;
+  bool emsf = 3;
+  bool emsg = 4;
+}

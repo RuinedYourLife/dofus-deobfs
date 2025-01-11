@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jje {
+  int32 eozl = 1;
+  int32 eozm = 2;
+  bool eozn = 3;
+  bool eozo = 4;
+  bool eozp = 5;
+  bool eozq = 6;
+  bool eozr = 7;
+}

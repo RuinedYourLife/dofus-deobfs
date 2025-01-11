@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jid.proto";
+message hzr {
+  jid ejmz = 1;
+}

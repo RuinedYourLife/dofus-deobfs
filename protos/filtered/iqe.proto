@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "jnf.proto";
+message iqe {
+  ipz emij = 1;
+  oneof emin {
+    int32 emik = 2;
+    iqc emim = 3;
+  }
+  enum ipz {
+    IMPOSSIBLE = 0;
+    FAILED = 1;
+    SUCCESS = 2;
+    NEUTRAL = 3;
+    FORBIDDEN = 4;
+  }
+  message iqc {
+    jnf emic = 1;
+    optional iqa emid = 2;
+    float emif = 3;
+    enum iqa {
+      NO_CHANGE = 0;
+      INCREASE = 1;
+      LOSS = 2;
+    }
+  }
+}

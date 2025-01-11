@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message jnc {
+  int32 eprj = 1;
+  int32 eprk = 2;
+  jna eprl = 3;
+  message jna {
+    int64 eprd = 1;
+    repeated jnn epre = 2;
+    int64 eprf = 3;
+  }
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jms.proto";
+message hgx {
+  hgv egpy = 1;
+  int32 egpz = 2;
+  int32 egqa = 3;
+  jms egqb = 4;
+  int64 egqc = 5;
+  string egqd = 6;
+  enum hgv {
+    TAX_COLLECTOR_UNKNOWN_ACTION = 0;
+    TAX_COLLECTOR_HIRED = 1;
+    TAX_COLLECTOR_HARVESTED = 2;
+    TAX_COLLECTOR_DEFEATED = 3;
+    TAX_COLLECTOR_DESTROYED = 4;
+  }
+}

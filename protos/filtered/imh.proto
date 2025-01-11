@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "imf.proto";
+import "jij.proto";
+message imh {
+  imf elrs = 1;
+  repeated jij elrt = 2;
+}

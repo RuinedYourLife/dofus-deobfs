@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message hty {
+  int64 eipd = 1;
+  int32 eipe = 2;
+  optional htw eipf = 3;
+  enum htw {
+    UNSUPPORTED = 0;
+    ENUTROSOR = 1;
+    SRAMBAD = 2;
+    XELORIUM = 3;
+    ECAFLIPUS = 4;
+  }
+}

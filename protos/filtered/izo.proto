@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message izo {
+  int64 enrf = 1;
+  jgz enrg = 2;
+}

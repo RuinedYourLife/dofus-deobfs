@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jja.proto";
+message imo {
+  int32 eltd = 1;
+  jja elte = 2;
+}

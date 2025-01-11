@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message hdo {
+  hdm egcy = 1;
+  optional int32 egcz = 2;
+  enum hdm {
+    UNDEFINED = 0;
+    TELEPORT_GUILD_HOUSE = 1;
+    TELEPORT_GUILD_PADDOCK = 2;
+    OBJECT_MIMICRY = 3;
+    LEGENDARY_TREASURE_QUEST = 4;
+    TELEPORT_HOUSE = 5;
+  }
+}

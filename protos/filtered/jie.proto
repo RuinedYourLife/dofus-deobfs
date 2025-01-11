@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jih.proto";
+message jie {
+  int32 eoux = 1;
+  repeated int32 eouy = 2;
+  repeated int32 eouz = 3;
+  repeated int32 eova = 4;
+  repeated jih eovb = 5;
+}

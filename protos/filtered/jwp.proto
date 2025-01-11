@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jwp {
+  int64 erhb = 1;
+  int64 erhc = 2;
+}

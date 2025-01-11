@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jim.proto";
+import "jiq.proto";
+message jze {
+  jim errz = 1;
+  jiq ersa = 2;
+}

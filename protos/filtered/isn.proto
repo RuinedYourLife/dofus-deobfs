@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message isn {
+  isl emru = 1;
+  int32 emrv = 2;
+  enum isl {
+    CHANGE = 0;
+    USE = 1;
+  }
+}

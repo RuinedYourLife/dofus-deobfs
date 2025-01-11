@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jrw {
+  repeated string eqny = 1;
+  repeated string eqnz = 2;
+  optional int32 eqoa = 3;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message juq {
+  bool eqyo = 1;
+}

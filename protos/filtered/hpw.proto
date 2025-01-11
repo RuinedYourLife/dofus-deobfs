@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hmw.proto";
+message hpw {
+  hmw ehzl = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "kay.proto";
+message kap {
+  kay erxd = 1;
+  string erxe = 2;
+  int64 erxf = 3;
+}

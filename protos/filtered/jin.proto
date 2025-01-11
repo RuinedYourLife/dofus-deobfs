@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jim.proto";
+import "jgz.proto";
+import "jiq.proto";
+message jin {
+  jim eowg = 1;
+  repeated jgz eowh = 2;
+  repeated jgz eowi = 3;
+  jiq eowj = 4;
+}

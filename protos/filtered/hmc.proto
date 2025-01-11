@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hmf.proto";
+message hmc {
+  repeated hmf ehks = 1;
+}

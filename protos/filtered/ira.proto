@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ira {
+  repeated int32 emmk = 1;
+}

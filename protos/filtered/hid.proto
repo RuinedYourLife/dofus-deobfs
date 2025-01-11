@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hid {
+  int32 eguu = 1;
+}

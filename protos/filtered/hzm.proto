@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hzm {
+  int64 ejma = 1;
+  int32 ejmb = 2;
+  int32 ejmc = 3;
+  int32 ejmd = 4;
+  bool ejme = 5;
+}

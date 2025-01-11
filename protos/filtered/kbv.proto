@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "kcw.proto";
+import "kby.proto";
+message kbv {
+  oneof esbl {
+    kcw esbj = 1;
+    kby esbk = 2;
+  }
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "kcd.proto";
+import "kce.proto";
+message kca {
+  string esbz = 1;
+  string escc = 5;
+  oneof escd {
+    kcd esca = 3;
+    kce escb = 4;
+  }
+}

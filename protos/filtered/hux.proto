@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message hux {
+  int32 eisv = 1;
+  huv eisw = 2;
+  int32 eisx = 3;
+  int32 eisy = 4;
+  enum huv {
+    EQUIPPED = 0;
+    INVENTORY = 1;
+    STABLED = 2;
+    MAP = 3;
+  }
+}

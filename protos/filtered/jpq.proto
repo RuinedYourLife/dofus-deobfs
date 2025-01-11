@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jpq {
+  int32 eqfm = 1;
+}

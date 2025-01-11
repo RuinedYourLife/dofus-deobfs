@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hfs {
+  int32 egkh = 1;
+  int64 egki = 2;
+  repeated int64 egkj = 3;
+}

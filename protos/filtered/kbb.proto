@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kbb {
+  int64 eryz = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message kdn {
+  string eshn = 1;
+  string esho = 2;
+}

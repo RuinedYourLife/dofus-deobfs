@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ixa {
+  bool enhm = 1;
+  string enhn = 2;
+}

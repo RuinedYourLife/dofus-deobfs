@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "iul.proto";
+import "iwq.proto";
+message ivs {
+  oneof enbz {
+    Error enbx = 1;
+    ivq enby = 2;
+  }
+  message Error {
+    iul enbp = 1;
+  }
+  message ivq {
+    iwq enbt = 1;
+  }
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "iqk.proto";
+message ipd {
+  iqk emek = 1;
+  int64 emel = 2;
+  int64 emem = 3;
+}

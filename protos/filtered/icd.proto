@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jol.proto";
+message icd {
+  repeated jol ejxg = 1;
+}

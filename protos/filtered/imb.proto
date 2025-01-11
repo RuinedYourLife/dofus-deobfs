@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message imb {
+  int32 elqo = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message ioy {
+  jcw emdg = 1;
+}

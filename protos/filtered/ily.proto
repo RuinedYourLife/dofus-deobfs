@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ily {
+  int64 elqb = 1;
+}

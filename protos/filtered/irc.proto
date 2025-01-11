@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jmr.proto";
+message irc {
+  string emms = 1;
+  jmr emmt = 2;
+  string emmu = 3;
+}

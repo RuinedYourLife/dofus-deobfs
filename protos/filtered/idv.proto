@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jlg.proto";
+message idv {
+  string ekea = 1;
+  jlg ekeb = 2;
+}

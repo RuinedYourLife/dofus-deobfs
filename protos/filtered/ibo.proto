@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message ibo {
+  jgz ejvf = 1;
+  bool ejvg = 2;
+}

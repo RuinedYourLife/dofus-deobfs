@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "kcw.proto";
+import "kdg.proto";
+message kcu {
+  kcw esfa = 1;
+  kcs esfb = 2;
+  repeated kdg esfc = 3;
+  enum kcs {
+    ACCESSIBLE = 0;
+    SUBSCRIBE_RESTRICTION = 1;
+    MONO_ACCOUNT_RESTRICTION = 2;
+    UNKNOWN = 3;
+  }
+}

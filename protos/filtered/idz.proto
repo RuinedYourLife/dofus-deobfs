@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jpf.proto";
+message idz {
+  int32 ekfa = 1;
+  repeated jpf ekfb = 2;
+}

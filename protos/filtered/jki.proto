@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jkh.proto";
+message jki {
+  int64 epet = 1;
+  repeated jkh epeu = 2;
+  int32 epev = 3;
+  int32 epew = 4;
+}

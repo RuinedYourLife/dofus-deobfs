@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jdg.proto";
+message hyk {
+  jdg ejgx = 1;
+}

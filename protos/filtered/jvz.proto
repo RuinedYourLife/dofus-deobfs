@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jwd.proto";
+message jvz {
+  jwd erey = 1;
+}

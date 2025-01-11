@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jql {
+  int64 eqim = 1;
+  jqj eqin = 2;
+  enum jqj {
+    UNKNOWN_TYPE = 0;
+    CLASSIC_TYPE = 1;
+    FRAUD_TYPE = 2;
+  }
+}

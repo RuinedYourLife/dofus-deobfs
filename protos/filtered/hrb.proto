@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hrb {
+  hqz eidf = 1;
+  enum hqz {
+    SUCCESS = 0;
+    ERROR = 1;
+  }
+}

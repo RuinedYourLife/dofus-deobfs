@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+message kdg {
+  string esgl = 1;
+  kde esgm = 2;
+  kdd esgn = 3;
+  int32 esgo = 4;
+  string esgp = 5;
+  enum kde {
+    FECA = 0;
+    OSAMODAS = 1;
+    ENUTROF = 2;
+    SRAM = 3;
+    XELOR = 4;
+    ECAFLIP = 5;
+    ENIRIPSA = 6;
+    IOP = 7;
+    CRA = 8;
+    SADIDA = 9;
+    SACRIER = 10;
+    PANDAWA = 11;
+    ROGUE = 12;
+    MASQUERAIDER = 13;
+    FOGGERNAUTS = 14;
+    ELIOTROPE = 15;
+    HUPPERMAGE = 16;
+    OUGINAK = 17;
+    FORGELANCE = 18;
+  }
+  enum kdd {
+    MALE = 0;
+    FEMALE = 1;
+  }
+}

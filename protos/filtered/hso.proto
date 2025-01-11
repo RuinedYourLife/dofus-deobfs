@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "hpy.proto";
+message hso {
+  int32 eijt = 1;
+  hpy eiju = 2;
+  int64 eijv = 3;
+  int64 eijw = 4;
+  string eijx = 5;
+  int32 eijy = 6;
+  int32 eijz = 7;
+  int32 eika = 8;
+  int32 eikb = 9;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jco.proto";
+message jbe {
+  jco enwr = 1;
+}

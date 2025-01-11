@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iga {
+  int32 ekno = 1;
+  bool eknp = 2;
+}

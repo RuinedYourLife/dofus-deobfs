@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jnt.proto";
+message ihl {
+  repeated jnt ektw = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jnd.proto";
+message hxx {
+  int32 ejew = 1;
+  repeated jnd ejex = 2;
+}

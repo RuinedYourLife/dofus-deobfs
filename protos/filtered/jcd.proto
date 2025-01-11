@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message jcd {
+  jgz eoaf = 1;
+}

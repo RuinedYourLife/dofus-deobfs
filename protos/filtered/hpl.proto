@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jde.proto";
+message hpl {
+  string ehxk = 1;
+  jde ehxl = 2;
+  bool ehxm = 3;
+}

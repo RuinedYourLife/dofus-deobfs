@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message hnc {
+  int32 ehot = 1;
+  optional int32 ehou = 2;
+  repeated jnn ehow = 3;
+}

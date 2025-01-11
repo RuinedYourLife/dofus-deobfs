@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message hvq {
+  hvo eivg = 1;
+  enum hvo {
+    UNEQUIPPED = 0;
+    EQUIPPED = 1;
+    RIDING = 2;
+  }
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hdx {
+  repeated int32 egef = 1;
+}

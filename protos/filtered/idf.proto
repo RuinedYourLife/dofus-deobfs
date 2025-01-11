@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message idf {
+  int64 ekbn = 1;
+}

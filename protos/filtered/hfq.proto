@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hfq {
+  repeated int64 egjz = 1;
+}

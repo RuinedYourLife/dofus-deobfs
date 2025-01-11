@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message efi {
+  int64 bkdz = 1;
+  ebg bkec = 2;
+  string bkxf = 3;
+  enum ebg {
+    CHEATING = 0;
+    ILLEGAL_TRADE = 1;
+    ILLEGAL_PROMOTE = 2;
+    EXPLOITING = 3;
+    OFFENSIVE_NAME = 4;
+    VERBAL_ABUSE = 5;
+    PHISHING = 6;
+  }
+}

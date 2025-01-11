@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "iul.proto";
+import "iwq.proto";
+message iwb {
+  oneof ende {
+    Error endc = 1;
+    ivz endd = 2;
+  }
+  message Error {
+    iul encu = 1;
+  }
+  message ivz {
+    iwq ency = 1;
+  }
+}

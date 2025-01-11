@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message iox {
+  jcw emda = 1;
+  int64 emdb = 2;
+  int64 emdc = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hxv {
+  int32 ejem = 1;
+  int64 ejen = 2;
+}

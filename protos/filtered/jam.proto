@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jam {
+  int64 entz = 1;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jog.proto";
+import "jof.proto";
+message jft {
+  string eojl = 1;
+  string eojm = 2;
+  optional string eojn = 3;
+  jog eojp = 4;
+  jfr eojq = 5;
+  message jfr {
+    int64 eojd = 1;
+    int32 eoje = 2;
+    int32 eojf = 3;
+    int32 eojg = 4;
+    jof eojh = 5;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jde.proto";
+message jmq {
+  string eppg = 1;
+  jde epph = 2;
+}

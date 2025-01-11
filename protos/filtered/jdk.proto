@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum jdk {
+  UNDEFINED = 0;
+  CLASSICAL = 1;
+  KOLIZEUM = 2;
+  TOURNAMENT = 3;
+  EPIC = 4;
+  TEMPORIS = 5;
+}

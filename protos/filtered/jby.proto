@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jby {
+  bool enzj = 1;
+}

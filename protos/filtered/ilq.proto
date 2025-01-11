@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jfp.proto";
+message ilq {
+  jfp eloz = 1;
+}

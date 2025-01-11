@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hhw.proto";
+message hhs {
+  hhw egte = 1;
+}

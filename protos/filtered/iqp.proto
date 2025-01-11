@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iqp {
+  int32 emkh = 1;
+  repeated int32 emki = 2;
+}

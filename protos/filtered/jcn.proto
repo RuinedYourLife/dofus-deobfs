@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum jcn {
+  CHALLENGE_CHOICE = 0;
+  CHALLENGE_RANDOM = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hfu {
+  int32 egkt = 1;
+  int64 egku = 2;
+}

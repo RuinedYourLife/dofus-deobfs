@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message joq {
+  int32 eqac = 1;
+  int64 eqad = 2;
+}

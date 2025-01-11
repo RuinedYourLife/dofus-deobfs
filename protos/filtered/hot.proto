@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hot {
+  string ehuy = 1;
+  map<int32, int32> ehuz = 2;
+}

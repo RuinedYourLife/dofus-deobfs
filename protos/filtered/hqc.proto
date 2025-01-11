@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hqc {
+  int32 ehzz = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iuj {
+  int64 emxc = 1;
+  int32 emxd = 2;
+}

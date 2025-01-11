@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jom.proto";
+message ips {
+  jom emgy = 1;
+}

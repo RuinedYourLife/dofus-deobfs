@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "hja.proto";
+message hiz {
+  bool egxn = 1;
+  repeated hja egxo = 2;
+  repeated hja egxp = 3;
+}

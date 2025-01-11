@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "hnc.proto";
+import "hng.proto";
+import "hnb.proto";
+import "hmy.proto";
+import "hnd.proto";
+message hmw {
+  string ehnb = 1;
+  string ehnc = 2;
+  int32 ehnd = 3;
+  bool ehne = 4;
+  string ehnf = 5;
+  map<int32, hnc> ehng = 6;
+  hng ehnh = 7;
+  hnb ehni = 8;
+  hmy ehnj = 9;
+  hnd ehnk = 10;
+  optional string ehnl = 11;
+}

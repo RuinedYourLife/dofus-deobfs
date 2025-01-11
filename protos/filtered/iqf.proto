@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jne.proto";
+message iqf {
+  repeated jne emir = 1;
+}

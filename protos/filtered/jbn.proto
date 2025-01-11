@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jbn {
+  int64 enxw = 1;
+}

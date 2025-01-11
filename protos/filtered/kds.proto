@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message kds {
+  oneof esic {
+    kdp esia = 1;
+    Error esib = 2;
+  }
+  message kdp {
+    repeated int32 eshs = 1;
+  }
+  message Error {
+    Reason eshw = 1;
+    enum Reason {
+      UNKNOWN = 0;
+      NO_RESULT = 1;
+      FLOOD = 2;
+      INVALID_ACCOUNT = 3;
+    }
+  }
+}

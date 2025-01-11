@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message iey {
+  int32 ekir = 1;
+  int64 ekis = 2;
+  int64 ekit = 3;
+  int64 ekiu = 4;
+  int64 ekiv = 5;
+}

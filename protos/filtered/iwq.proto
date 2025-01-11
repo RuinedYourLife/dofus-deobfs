@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdt.proto";
+message iwq {
+  int64 enga = 1;
+  jdt engb = 2;
+}

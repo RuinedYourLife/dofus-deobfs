@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iws {
+  string engg = 1;
+  string engh = 2;
+}

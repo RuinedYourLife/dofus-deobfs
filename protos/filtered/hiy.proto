@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "hja.proto";
+message hiy {
+  hiw egxi = 1;
+  repeated hja egxj = 2;
+  enum hiw {
+    DISPATCH = 0;
+    UPDATE = 1;
+  }
+}

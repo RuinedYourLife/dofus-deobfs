@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hne {
+  repeated int32 ehpg = 1;
+}

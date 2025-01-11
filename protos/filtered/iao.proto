@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iao {
+  int64 ejry = 1;
+}

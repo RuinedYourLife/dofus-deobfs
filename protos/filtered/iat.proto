@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iat {
+  int32 ejsp = 1;
+}

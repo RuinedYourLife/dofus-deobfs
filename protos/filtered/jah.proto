@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jah {
+  string entk = 1;
+}

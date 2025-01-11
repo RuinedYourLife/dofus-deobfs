@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jdt.proto";
+import "jlg.proto";
+message jma {
+  int32 eplw = 1;
+  bool eplx = 2;
+  bool eply = 3;
+  jdt eplz = 4;
+  bool epma = 5;
+  optional int64 epmb = 6;
+  bool epmd = 7;
+  bool epme = 8;
+  jlg epmf = 9;
+  int32 epmg = 10;
+  int32 epmh = 11;
+  repeated int32 epmi = 12;
+}

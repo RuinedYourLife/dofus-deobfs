@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jsz {
+  int32 eqrv = 1;
+}

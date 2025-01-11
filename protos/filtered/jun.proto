@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jun {
+  bool eqya = 1;
+}

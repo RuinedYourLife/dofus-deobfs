@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jhj {
+  int64 eoqh = 1;
+}

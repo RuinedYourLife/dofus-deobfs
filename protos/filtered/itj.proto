@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message itj {
+  ith emua = 1;
+  string emub = 2;
+  enum ith {
+    TRACE = 0;
+    DEBUG = 1;
+    INFO = 2;
+    WARN = 3;
+    ERROR = 4;
+    FATAL = 5;
+  }
+}

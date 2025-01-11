@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message ijm {
+  repeated ijk eleb = 1;
+  message ijk {
+    int32 eldv = 1;
+    int64 eldw = 2;
+    int32 eldx = 3;
+  }
+}

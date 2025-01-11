@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hxh.proto";
+message hwm {
+  hxh eiyr = 1;
+  int64 eiys = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message hiv {
+  hit egxd = 1;
+  repeated int32 egxe = 2;
+  enum hit {
+    UNKNOWN = 0;
+    ADMIN_COMMAND_REQUEST = 1;
+    FORGOTTEN = 2;
+    DISABLED = 3;
+    NOT_FOUND = 4;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hkt {
+  int64 ehej = 1;
+  int32 ehek = 2;
+  bool ehel = 3;
+}

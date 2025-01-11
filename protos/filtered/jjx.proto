@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message jjx {
+  int32 epcs = 1;
+  oneof epda {
+    int32 epct = 2;
+    int32 epcv = 3;
+    int32 epcx = 4;
+    jjv epcz = 5;
+  }
+  message jjv {
+    int32 epcm = 1;
+    int32 epcn = 2;
+    int32 epco = 3;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jos.proto";
+message hgg {
+  string egmw = 1;
+  jos egmx = 2;
+}

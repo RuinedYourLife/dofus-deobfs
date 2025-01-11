@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message hoo {
+  oneof ehuk {
+    hol ehuh = 1;
+    hom ehuj = 2;
+  }
+  enum hol {
+    OK = 0;
+    ERROR_COOLDOWN = 1;
+    ERROR_BAD_PRESET_UUID = 2;
+    ERROR_INVALID_STATE = 3;
+    ERROR_UNKNOWN = 4;
+    ERROR_INVALID_DATA = 5;
+    MISSING_SPELLS = 6;
+  }
+  message hom {
+    repeated int32 ehub = 1;
+    optional int32 ehuc = 2;
+  }
+}

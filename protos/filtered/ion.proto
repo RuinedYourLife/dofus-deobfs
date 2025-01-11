@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jne.proto";
+message ion {
+  bool emba = 1;
+  repeated jne embb = 2;
+  optional float embc = 3;
+}

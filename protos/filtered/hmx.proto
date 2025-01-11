@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "hng.proto";
+import "hnf.proto";
+message hmx {
+  string ehnq = 1;
+  string ehnr = 2;
+  int32 ehns = 3;
+  bool ehnt = 4;
+  string ehnu = 5;
+  hng ehnv = 6;
+  map<int32, hnf> ehnw = 7;
+}

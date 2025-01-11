@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jne.proto";
+message joe {
+  jne epww = 1;
+  joc epwx = 2;
+  enum joc {
+    NO_CRISTAL = 0;
+    PROTECTIVE = 1;
+    INHIBITOR = 2;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jft.proto";
+message jxq {
+  jft erln = 1;
+  int32 erlo = 2;
+}

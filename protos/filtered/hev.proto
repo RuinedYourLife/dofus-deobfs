@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum hev {
+  UNDEFINED = 0;
+  INVALID = 1;
+  ALREADY = 2;
+}

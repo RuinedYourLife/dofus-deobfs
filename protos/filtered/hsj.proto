@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsj {
+  int32 eiip = 1;
+  int64 eiiq = 2;
+}

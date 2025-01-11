@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message iwj {
+  string eneh = 1;
+  int64 enei = 2;
+  int32 enej = 3;
+}

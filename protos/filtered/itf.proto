@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message itf {
+  int64 emts = 1;
+  repeated int32 emtt = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message icf {
+  int32 ejxo = 1;
+  repeated int32 ejxp = 2;
+}

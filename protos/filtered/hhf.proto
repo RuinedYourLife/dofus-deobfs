@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jot.proto";
+message hhf {
+  repeated jot egrf = 1;
+}

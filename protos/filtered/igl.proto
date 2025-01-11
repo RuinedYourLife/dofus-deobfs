@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message igl {
+  int32 ekpn = 1;
+}

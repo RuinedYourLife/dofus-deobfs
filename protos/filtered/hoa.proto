@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hmx.proto";
+message hoa {
+  bool ehsh = 1;
+  hmx ehsi = 2;
+}

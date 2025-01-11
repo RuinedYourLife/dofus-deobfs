@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jns.proto";
+message hyc {
+  jns ejfp = 1;
+}

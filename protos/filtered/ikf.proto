@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jjp.proto";
+import "jkf.proto";
+import "jkg.proto";
+import "ilu.proto";
+message ikf {
+  repeated jjp elgu = 1;
+  repeated jkf elgv = 2;
+  int32 elgw = 3;
+  int32 elgx = 4;
+  repeated jkg elgy = 5;
+  ilu elgz = 6;
+}

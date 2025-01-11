@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jkg {
+  int32 epei = 1;
+  int64 epej = 2;
+  int32 epek = 3;
+}

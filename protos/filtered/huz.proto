@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message huz {
+  int32 eitg = 1;
+  int64 eith = 2;
+}

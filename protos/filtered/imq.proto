@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message imq {
+  int64 elto = 1;
+  bool eltp = 2;
+}

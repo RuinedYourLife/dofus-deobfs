@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jph.proto";
+message hip {
+  int64 egwi = 1;
+  jph egwj = 2;
+}

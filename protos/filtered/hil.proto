@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hil {
+  int32 egvz = 1;
+}

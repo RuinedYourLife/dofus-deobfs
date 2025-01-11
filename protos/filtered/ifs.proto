@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ifs {
+  string ekmj = 1;
+  int64 ekmk = 2;
+}

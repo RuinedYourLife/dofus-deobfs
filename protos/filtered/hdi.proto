@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+message hdi {
+  int32 egcj = 1;
+  google.protobuf.Any egck = 2;
+}

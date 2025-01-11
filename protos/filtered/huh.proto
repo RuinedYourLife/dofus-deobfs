@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message huh {
+  int32 eiqv = 1;
+  int32 eiqw = 2;
+}

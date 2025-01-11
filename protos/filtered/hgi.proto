@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hgi {
+  string egng = 1;
+  int32 egnh = 2;
+  int32 egni = 3;
+}

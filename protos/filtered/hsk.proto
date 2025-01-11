@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsk {
+  int32 eiiu = 1;
+  bool eiiv = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jdn.proto";
+message jxp {
+  jdn erlj = 1;
+}

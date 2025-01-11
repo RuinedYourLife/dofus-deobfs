@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hrw {
+  int32 eiga = 1;
+  int64 eigb = 2;
+}

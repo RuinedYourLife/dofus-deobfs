@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jdc.proto";
+import "jcq.proto";
+import "jcy.proto";
+import "jjf.proto";
+import "jje.proto";
+message jja {
+  jdc eoyn = 1;
+  int64 eoyo = 2;
+  jcq eoyp = 3;
+  jcy eoyq = 4;
+  int32 eoyr = 5;
+  oneof eoyu {
+    jjf eoys = 6;
+    jje eoyt = 7;
+  }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jne.proto";
+import "jhi.proto";
+message hgz {
+  string egql = 1;
+  jne egqm = 2;
+  bool egqn = 3;
+  repeated jhi egqo = 4;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jud.proto";
+message jut {
+  optional int32 eqzb = 1;
+  jud eqzd = 2;
+  optional int32 eqze = 3;
+}

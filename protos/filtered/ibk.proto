@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message ibk {
+  ibi ejun = 1;
+  optional int64 ejuo = 2;
+  enum ibi {
+    HAVEN_BAG_DAILY_LOTTERY_OK = 0;
+    HAVEN_BAG_DAILY_LOTTERY_ALREADY_USED = 1;
+    HAVEN_BAG_DAILY_LOTTERY_ERROR = 2;
+  }
+}

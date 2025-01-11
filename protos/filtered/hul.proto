@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hul {
+  int32 eirl = 1;
+}

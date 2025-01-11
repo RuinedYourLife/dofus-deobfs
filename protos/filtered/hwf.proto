@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hwf {
+  int32 eixo = 1;
+  int64 eixp = 2;
+  string eixq = 3;
+  int32 eixr = 4;
+}

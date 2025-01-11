@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hza.proto";
+message hzb {
+  repeated hza ejke = 1;
+}

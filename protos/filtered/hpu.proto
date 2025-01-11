@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "hmw.proto";
+import "hmx.proto";
+message hpu {
+  map<string, hmw> ehzd = 1;
+  map<string, hmx> ehze = 2;
+}

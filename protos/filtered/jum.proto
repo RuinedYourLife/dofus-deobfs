@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jum {
+  optional int32 eqxv = 1;
+}

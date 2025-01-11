@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "iwm.proto";
+message ivj {
+  iwm enaq = 1;
+}

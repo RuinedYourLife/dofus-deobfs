@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hxl.proto";
+message hwr {
+  repeated hxl eizk = 1;
+}

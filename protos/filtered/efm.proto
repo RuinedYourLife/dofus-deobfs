@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "efn.proto";
+message efm {
+  int32 bleq = 1;
+  int32 bler = 2;
+  efn bles = 3;
+}

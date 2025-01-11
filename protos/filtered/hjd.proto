@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hjd {
+  int64 egyf = 1;
+  int32 egyg = 2;
+  optional int64 egyh = 3;
+  optional int32 egyj = 4;
+}

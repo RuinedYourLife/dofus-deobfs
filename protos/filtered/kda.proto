@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "kcr.proto";
+message kda {
+  bool esfx = 1;
+  int64 esfy = 2;
+  string esfz = 3;
+  string esga = 4;
+  kcr esgb = 5;
+}

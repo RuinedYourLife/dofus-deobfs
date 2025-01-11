@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hig {
+  int32 egvd = 1;
+  int32 egve = 2;
+  int32 egvf = 3;
+  int32 egvg = 4;
+  int32 egvh = 5;
+}

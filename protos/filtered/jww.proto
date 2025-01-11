@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jhv.proto";
+message jww {
+  int64 erif = 1;
+  int64 erig = 2;
+  int64 erih = 3;
+  repeated jhv erii = 4;
+}

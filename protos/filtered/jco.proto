@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum jco {
+  CHALLENGE_EXPERIENCE_BONUS = 0;
+  CHALLENGE_DROP_BONUS = 1;
+}

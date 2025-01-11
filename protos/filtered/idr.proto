@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message idr {
+  bool ekdn = 1;
+  bool ekdo = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jlg.proto";
+message iam {
+  int32 ejro = 1;
+  int32 ejrp = 2;
+  bool ejrq = 3;
+  jlg ejrr = 4;
+  int32 ejrs = 5;
+  bool ejrt = 6;
+}

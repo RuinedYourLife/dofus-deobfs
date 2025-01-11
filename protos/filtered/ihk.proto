@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ihk {
+  bool ektr = 1;
+  int32 ekts = 2;
+}

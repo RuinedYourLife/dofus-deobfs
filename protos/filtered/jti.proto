@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jti {
+  int32 eqth = 1;
+}

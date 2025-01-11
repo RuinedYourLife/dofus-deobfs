@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jog.proto";
+message jxw {
+  string ermk = 1;
+  string erml = 2;
+  jog ermm = 3;
+}

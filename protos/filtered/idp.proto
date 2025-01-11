@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jlg.proto";
+message idp {
+  int64 ekdd = 1;
+  int64 ekde = 2;
+  int64 ekdf = 3;
+  repeated jlg ekdg = 4;
+}

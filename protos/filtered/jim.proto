@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jim {
+  int32 eowa = 1;
+  jik eowb = 2;
+  int64 eowc = 3;
+  enum jik {
+    TAX_COLLECTOR = 0;
+    PRISM = 1;
+  }
+}

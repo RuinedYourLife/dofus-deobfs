@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ifi {
+  int64 ekkr = 1;
+  int32 ekks = 2;
+}

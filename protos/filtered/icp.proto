@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message icp {
+  bool ejzc = 1;
+  int64 ejzd = 2;
+}

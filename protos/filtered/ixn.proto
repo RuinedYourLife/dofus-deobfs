@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ixn {
+  int32 enjg = 1;
+  int32 enjh = 2;
+  repeated int64 enji = 3;
+}

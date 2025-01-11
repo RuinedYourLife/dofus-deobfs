@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jfp.proto";
+message igs {
+  repeated jfp ekre = 1;
+}

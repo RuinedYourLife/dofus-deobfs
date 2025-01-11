@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jdt {
+  string eoba = 1;
+  string eobb = 2;
+}

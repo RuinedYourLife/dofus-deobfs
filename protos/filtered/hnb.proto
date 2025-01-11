@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message hnb {
+  map<int32, hmz> ehop = 1;
+  message hmz {
+    optional int32 ehof = 1;
+    int32 ehoh = 2;
+    int32 ehoi = 3;
+    int32 ehoj = 4;
+    int32 ehok = 5;
+    int32 ehol = 6;
+  }
+}

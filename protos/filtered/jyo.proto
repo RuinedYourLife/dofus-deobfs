@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jft.proto";
+import "jgz.proto";
+message jyo {
+  jft erpk = 1;
+  repeated jgz erpl = 2;
+  repeated int32 erpm = 3;
+  int64 erpn = 4;
+  string erpo = 5;
+}

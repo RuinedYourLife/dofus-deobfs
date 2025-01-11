@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message ico {
+  jgz ejyy = 1;
+}

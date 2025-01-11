@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jpo {
+  int64 eqfe = 1;
+}

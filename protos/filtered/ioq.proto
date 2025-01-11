@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jne.proto";
+message ioq {
+  bool embr = 1;
+  repeated jne embs = 2;
+}

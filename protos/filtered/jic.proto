@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message jic {
+  int32 eoug = 1;
+  int32 eouh = 2;
+  repeated jia eoui = 3;
+  repeated jia eouj = 4;
+  bool eouk = 5;
+  optional int32 eoul = 6;
+  message jia {
+    int32 eotz = 1;
+    int32 eoua = 2;
+    optional int32 eoub = 3;
+  }
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "jdi.proto";
+message jlh {
+  int32 epja = 1;
+  jdi epjb = 2;
+  string epjc = 3;
+  string epjd = 4;
+  repeated int32 epje = 5;
+  repeated int32 epjf = 6;
+  int32 epjg = 7;
+  bool epjh = 8;
+  bool epji = 9;
+  string epjj = 10;
+  int64 epjk = 11;
+  bool epjl = 12;
+  int32 epjm = 13;
+  bool epjn = 14;
+}

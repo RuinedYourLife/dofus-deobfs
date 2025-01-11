@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jyd {
+  bool erno = 1;
+  bool ernp = 2;
+  bool ernq = 3;
+}

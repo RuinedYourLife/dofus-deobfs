@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iut {
+  bool emye = 1;
+}

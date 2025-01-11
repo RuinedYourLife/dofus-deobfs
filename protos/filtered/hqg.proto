@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hqg {
+  int32 eiar = 1;
+  int64 eias = 2;
+  optional bool eiat = 3;
+}

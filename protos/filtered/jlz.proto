@@ -1,0 +1,75 @@
+syntax = "proto3";
+
+import "jnf.proto";
+import "jms.proto";
+import "jol.proto";
+message jlz {
+  int32 eplj = 1;
+  int64 eplk = 2;
+  oneof epls {
+    jll epll = 3;
+    jlo eplm = 4;
+    jlr epln = 5;
+    jls eplo = 6;
+    jlt eplp = 7;
+    jlw eplq = 8;
+    jlx eplr = 9;
+  }
+  message jll {
+    int64 epjr = 1;
+    string epjs = 2;
+    jlj epjt = 3;
+    int32 epju = 4;
+    jnf epjv = 5;
+    int32 epjw = 6;
+    int32 epjx = 7;
+    enum jlj {
+      DEPOSIT = 0;
+      WITHDRAW = 1;
+      TRANSFER = 2;
+    }
+  }
+  message jlo {
+    int64 epkb = 1;
+    string epkc = 2;
+    jms epkd = 3;
+    int64 epke = 4;
+    jlm epkf = 5;
+    enum jlm {
+      BUY = 0;
+      PUT_ON_SELL = 1;
+      SOLD = 2;
+    }
+  }
+  message jlr {
+    int64 epkj = 1;
+    string epkk = 2;
+    jlp epkl = 3;
+    enum jlp {
+      JOIN = 0;
+      LEAVE = 1;
+      APPLY_REFUSED = 2;
+    }
+  }
+  message jls {
+    int32 epkp = 1;
+  }
+  message jlt {
+  }
+  message jlw {
+    jlu epkw = 1;
+    jol epkx = 2;
+    enum jlu {
+      CREATION = 0;
+      UPDATE = 1;
+      DELETE = 2;
+    }
+  }
+  message jlx {
+    jol eplb = 1;
+    int64 eplc = 2;
+    int64 epld = 3;
+    string eple = 4;
+    string eplf = 5;
+  }
+}

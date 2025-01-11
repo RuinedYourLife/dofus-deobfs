@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jic.proto";
+message hzo {
+  repeated jic ejmn = 1;
+}

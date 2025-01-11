@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+import "jie.proto";
+import "jlg.proto";
+import "jft.proto";
+import "jcr.proto";
+import "jhg.proto";
+import "jcq.proto";
+import "jms.proto";
+import "jho.proto";
+import "jhf.proto";
+import "jol.proto";
+import "jcp.proto";
+import "jhc.proto";
+message jgz {
+  int64 eool = 1;
+  oneof eooo {
+    jgx eoom = 2;
+    jhc eoon = 3;
+  }
+  message jgx {
+    string eoob = 1;
+    optional int32 eooc = 2;
+    oneof eooh {
+      jgv eooe = 4;
+      jol eoof = 5;
+      jgk eoog = 6;
+    }
+    message jgv {
+      jie eonq = 1;
+      int32 eonr = 2;
+      oneof eonx {
+        jlg eons = 3;
+        jft eont = 4;
+        int32 eonu = 5;
+        jgt eonw = 6;
+      }
+      message jgt {
+        jcr eoni = 1;
+        oneof eonm {
+          jgp eonj = 2;
+          jgq eonk = 3;
+          jgr eonl = 4;
+        }
+        message jgp {
+          jgn eomm = 1;
+          int32 eomn = 2;
+          int32 eomo = 3;
+          enum jgn {
+            DEATH_STATE_ALIVE = 0;
+            DEATH_STATE_DEAD = 1;
+            DEATH_STATE_WAITING_CONFIRMATION = 2;
+          }
+        }
+        message jgq {
+          jhg eoms = 1;
+          int32 eomt = 2;
+          jcq eomu = 3;
+          jms eomv = 4;
+          jho eomw = 5;
+          repeated jhf eomx = 6;
+          optional int32 eomy = 7;
+        }
+        message jgr {
+          jms eond = 1;
+          repeated jhf eone = 2;
+        }
+      }
+    }
+    message jgk {
+      int32 eoly = 1;
+      jcr eolz = 2;
+      jcp eoma = 3;
+      int64 eomb = 4;
+      int64 eomc = 5;
+      jho eomd = 6;
+      int32 eome = 7;
+      int64 eomf = 8;
+      optional int32 eomg = 9;
+      jgi eomi = 10;
+      message jgi {
+        int64 eolo = 1;
+        int32 eolp = 2;
+        jcq eolq = 3;
+        int32 eolr = 4;
+        int32 eols = 5;
+        bool eolt = 6;
+        jgg eolu = 7;
+        message jgg {
+          string eolj = 1;
+          int64 eolk = 2;
+        }
+      }
+    }
+  }
+}

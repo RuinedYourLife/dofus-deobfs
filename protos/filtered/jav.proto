@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jco.proto";
+message jav {
+  jco envf = 1;
+}

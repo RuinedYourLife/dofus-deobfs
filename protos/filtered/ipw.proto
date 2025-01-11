@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jmz.proto";
+message ipw {
+  int64 emhq = 1;
+  int32 emhr = 2;
+  repeated jmz emhs = 3;
+}

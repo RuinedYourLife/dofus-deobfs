@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum jcq {
+  UNKNOWN = 0;
+  WITHOUT = 1;
+  NEUTRAL = 2;
+  ANGEL = 3;
+  EVIL = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ilb {
+  repeated int64 elmg = 1;
+  repeated int64 elmh = 2;
+}

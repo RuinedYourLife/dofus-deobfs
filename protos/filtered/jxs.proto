@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jxs {
+  bool erlx = 1;
+  int64 erly = 2;
+}

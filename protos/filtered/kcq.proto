@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message kcq {
+  oneof eser {
+    kco eseo = 1;
+    Error esep = 2;
+  }
+  message kco {
+    string esei = 1;
+    string esej = 2;
+    repeated int32 esek = 3;
+  }
+  enum Error {
+    REFUSED = 0;
+    SUBSCRIBER_ONLY = 1;
+    SINGLE_ACCOUNT_VERIFIED_ONLY = 2;
+    MAINTENANCE = 3;
+  }
+}

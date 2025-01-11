@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jta {
+  repeated int32 eqrz = 1;
+}

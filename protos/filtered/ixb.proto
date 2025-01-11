@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ixb {
+  int32 enhr = 1;
+  int32 enhs = 2;
+}

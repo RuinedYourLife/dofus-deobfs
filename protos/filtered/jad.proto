@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message jad {
+  oneof ensu {
+    Error enss = 1;
+    jab enst = 2;
+  }
+  message Error {
+  }
+  message jab {
+    jgz enso = 1;
+  }
+}

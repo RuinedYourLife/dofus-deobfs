@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jdd.proto";
+message hxp {
+  jdd ejdj = 1;
+  int32 ejdk = 2;
+  int32 ejdl = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jcn.proto";
+message jat {
+  jcn enux = 1;
+}

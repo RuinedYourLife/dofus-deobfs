@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hsh {
+  int32 eiie = 1;
+  bool eiif = 2;
+  bool eiig = 3;
+  int64 eiih = 4;
+}

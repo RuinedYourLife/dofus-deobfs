@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hkm.proto";
+message hkn {
+  hkm ehdp = 1;
+  string ehdq = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "iwp.proto";
+message iwi {
+  repeated iwp ened = 1;
+}

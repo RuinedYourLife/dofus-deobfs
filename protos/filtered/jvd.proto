@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jth.proto";
+message jvd {
+  string erba = 1;
+  int32 erbb = 2;
+  int32 erbc = 3;
+  jth erbd = 4;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message hnm {
+  oneof ehqg {
+    hni ehqd = 1;
+    hnj ehqe = 2;
+    hnk ehqf = 3;
+  }
+  message hni {
+  }
+  message hnj {
+  }
+  message hnk {
+    string ehpz = 1;
+  }
+}

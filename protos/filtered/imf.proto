@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jcx.proto";
+message imf {
+  bool elrj = 1;
+  bool elrk = 2;
+  bool elrl = 3;
+  bool elrm = 4;
+  int64 elrn = 5;
+  jcx elro = 6;
+}

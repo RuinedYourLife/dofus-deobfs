@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jiy.proto";
+message hle {
+  jiy ehgo = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message jhk {
+  int32 eoql = 1;
+  int32 eoqm = 2;
+  int32 eoqn = 3;
+  int32 eoqo = 4;
+  int32 eoqp = 5;
+  int32 eoqq = 6;
+}

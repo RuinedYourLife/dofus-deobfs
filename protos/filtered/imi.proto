@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jjo.proto";
+import "jdc.proto";
+message imi {
+  jjo elrx = 1;
+  jdc elry = 2;
+}

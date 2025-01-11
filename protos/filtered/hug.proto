@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hug {
+  int64 eiqp = 1;
+  int32 eiqq = 2;
+  repeated string eiqr = 3;
+}

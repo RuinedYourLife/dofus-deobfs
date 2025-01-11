@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hkz {
+  int64 ehfk = 1;
+  int64 ehfl = 2;
+}

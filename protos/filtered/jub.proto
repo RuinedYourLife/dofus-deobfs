@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "izg.proto";
+message jub {
+  string eqwr = 1;
+  izg eqws = 2;
+}

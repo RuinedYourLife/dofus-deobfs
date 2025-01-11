@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+import "jft.proto";
+message jzq {
+  repeated jzo ertr = 1;
+  string erts = 2;
+  int64 ertt = 3;
+  message jzo {
+    jft ertj = 1;
+    int64 ertk = 2;
+    repeated jzj ertl = 3;
+    repeated jzm ertm = 4;
+    int32 ertn = 5;
+    message jzj {
+      int64 ersy = 1;
+      int32 ersz = 2;
+    }
+    message jzm {
+      jzk ertd = 1;
+      int32 erte = 2;
+      int32 ertf = 3;
+      enum jzk {
+        FIGHT = 0;
+        DOMINATION = 1;
+        PRISM = 2;
+      }
+    }
+  }
+}

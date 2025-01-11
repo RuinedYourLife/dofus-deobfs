@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jcj.proto";
+message jcg {
+  repeated jcj eoan = 1;
+}

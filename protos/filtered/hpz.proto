@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum hpz {
+  UNDEFINED = 0;
+  CLASSICAL = 1;
+  ARENA = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "hnb.proto";
+import "hmy.proto";
+message hpe {
+  bool ehwl = 1;
+  hpc ehwm = 2;
+  message hpc {
+    hnb ehwg = 1;
+    hmy ehwh = 2;
+  }
+}

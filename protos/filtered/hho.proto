@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hho {
+  repeated int32 egsn = 1;
+}

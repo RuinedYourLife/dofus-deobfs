@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hfv {
+  int64 egky = 1;
+  string egkz = 2;
+  int32 egla = 3;
+  int64 eglb = 4;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hfr {
+  int32 egkd = 1;
+}

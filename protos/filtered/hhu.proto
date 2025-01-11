@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hhv.proto";
+message hhu {
+  repeated hhv egtm = 1;
+}

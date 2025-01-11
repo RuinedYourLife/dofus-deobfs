@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hfw {
+  int64 eglf = 1;
+  int64 eglg = 2;
+}

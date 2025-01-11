@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jne.proto";
+message iot {
+  bool emcg = 1;
+  jne emch = 2;
+}

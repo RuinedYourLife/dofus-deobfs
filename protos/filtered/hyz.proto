@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jdd.proto";
+import "jmj.proto";
+message hyz {
+  jdd ejjp = 1;
+  jmj ejjq = 2;
+}

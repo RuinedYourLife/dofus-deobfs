@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jiv {
+  int32 eoxr = 1;
+  int64 eoxs = 2;
+}

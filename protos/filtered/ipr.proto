@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jcv.proto";
+message ipr {
+  jcv emgt = 1;
+  bool emgu = 2;
+}

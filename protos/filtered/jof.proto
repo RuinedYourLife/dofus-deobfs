@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "jdi.proto";
+message jof {
+  string epxb = 1;
+  jdi epxc = 2;
+  string epxd = 3;
+  string epxe = 4;
+  repeated int32 epxf = 5;
+  repeated int32 epxg = 6;
+  int32 epxh = 7;
+  bool epxi = 8;
+  bool epxj = 9;
+  string epxk = 10;
+  int64 epxl = 11;
+  bool epxm = 12;
+}

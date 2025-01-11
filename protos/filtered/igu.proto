@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jmr.proto";
+import "igx.proto";
+import "igy.proto";
+message igu {
+  int32 ekri = 1;
+  int64 ekrj = 2;
+  oneof ekrn {
+    jmr ekrk = 3;
+    igx ekrl = 4;
+    igy ekrm = 5;
+  }
+}

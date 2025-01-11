@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jct.proto";
+message hjx {
+  jct ehbq = 1;
+  int64 ehbr = 2;
+  int32 ehbs = 3;
+  int32 ehbt = 4;
+}

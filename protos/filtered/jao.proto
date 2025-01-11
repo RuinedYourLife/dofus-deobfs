@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jao {
+  int32 enug = 1;
+}

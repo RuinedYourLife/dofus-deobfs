@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ixf {
+  string enid = 1;
+}

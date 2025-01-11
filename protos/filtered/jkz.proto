@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+import "jda.proto";
+import "jft.proto";
+message jkz {
+  jda ephl = 1;
+  int32 ephm = 2;
+  jkl ephn = 3;
+  jkx epho = 4;
+  message jkl {
+    repeated jkj epfg = 1;
+    int64 epfh = 2;
+    message jkj {
+      int32 epfa = 1;
+      int32 epfb = 2;
+      int32 epfc = 3;
+    }
+  }
+  message jkx {
+    int64 ephc = 1;
+    bool ephd = 2;
+    oneof ephh {
+      jkt ephe = 3;
+      jku ephf = 4;
+      jkv ephg = 5;
+    }
+    message jkt {
+      int32 epgp = 1;
+      repeated jkr epgq = 2;
+      message jkr {
+        oneof epgl {
+          jko epgj = 1;
+          jkp epgk = 2;
+        }
+        message jko {
+          int64 epfl = 1;
+          bool epfm = 2;
+          int64 epfn = 3;
+          bool epfo = 4;
+          int64 epfp = 5;
+          bool epfq = 6;
+          int64 epfr = 7;
+          bool epfs = 8;
+          int64 epft = 9;
+          bool epfu = 10;
+          int64 epfv = 11;
+          bool epfw = 12;
+          int32 epfx = 13;
+        }
+        message jkp {
+          int32 epgb = 1;
+          int32 epgc = 2;
+          int32 epgd = 3;
+          int32 epge = 4;
+          int32 epgf = 5;
+        }
+      }
+    }
+    message jku {
+      int32 epgu = 1;
+    }
+    message jkv {
+      jft epgy = 1;
+    }
+  }
+}

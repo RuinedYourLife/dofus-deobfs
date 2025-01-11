@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "jpg.proto";
+import "jhw.proto";
+import "jmj.proto";
+message ilj {
+  int64 elnp = 1;
+  int64 elnq = 2;
+  int32 elnr = 3;
+  repeated jpg elns = 4;
+  jhw elnt = 5;
+  repeated jmj elnu = 6;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message iel {
+  int32 ekgw = 1;
+  int32 ekgx = 2;
+  bool ekgy = 3;
+}

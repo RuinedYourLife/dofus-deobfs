@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ipm {
+  int64 emgg = 1;
+  bool emgh = 2;
+}

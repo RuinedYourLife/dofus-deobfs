@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jzy {
+  string eruv = 1;
+  bool eruw = 2;
+}

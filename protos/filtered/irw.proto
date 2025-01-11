@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message irw {
+  repeated iru empq = 1;
+  message iru {
+    int32 empj = 1;
+    float empk = 2;
+    float empl = 3;
+    repeated irs empm = 4;
+    message irs {
+      int32 empe = 1;
+      int32 empf = 2;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+message ilt {
+  int64 elpd = 1;
+  ilr elpe = 2;
+  enum ilr {
+    FIGHTER_REFUSED = 0;
+    FIGHTER_ACCEPTED = 1;
+    CHALLENGE_FULL = 2;
+    TEAM_FULL = 3;
+    WRONG_ALIGNMENT = 4;
+    WRONG_GUILD = 5;
+    TOO_LATE = 6;
+    MUTANT_REFUSED = 7;
+    WRONG_MAP = 8;
+    JUST_RESPAWNED = 9;
+    IM_OCCUPIED = 10;
+    OPPONENT_OCCUPIED = 11;
+    FIGHT_MYSELF = 12;
+    INSUFFICIENT_RIGHTS = 13;
+    MEMBER_ACCOUNT_NEEDED = 14;
+    OPPONENT_NOT_MEMBER = 15;
+    TEAM_LIMITED_BY_MAIN_CHARACTER = 16;
+    MULTI_ACCOUNT_NOT_ALLOWED = 17;
+    GHOST_REFUSED = 18;
+    WRONG_ALLIANCE = 19;
+    AVA_ZONE = 20;
+    ENTITY_REFUSED = 21;
+    NOT_ENOUGH_ROOM = 22;
+    GUEST_ACCOUNT = 23;
+  }
+}

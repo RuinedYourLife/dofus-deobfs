@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jij.proto";
+import "jda.proto";
+message jla {
+  jij ephs = 1;
+  jda epht = 2;
+}

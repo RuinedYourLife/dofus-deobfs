@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jog {
+  int32 epxq = 1;
+  int32 epxr = 2;
+  int32 epxs = 3;
+  int32 epxt = 4;
+}

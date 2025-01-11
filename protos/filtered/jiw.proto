@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jiw {
+  int32 eoxw = 1;
+  int32 eoxx = 2;
+}

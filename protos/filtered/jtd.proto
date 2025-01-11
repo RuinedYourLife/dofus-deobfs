@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jtf.proto";
+import "jtg.proto";
+message jtd {
+  jtf eqsh = 1;
+  jtg eqsi = 2;
+}

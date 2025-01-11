@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "jmk.proto";
+import "jmq.proto";
+import "jml.proto";
+import "jmm.proto";
+import "jmn.proto";
+import "jmo.proto";
+import "jmp.proto";
+message jmj {
+  int32 epns = 1;
+  oneof epoa {
+    jmk epnt = 2;
+    jmq epnu = 3;
+    jml epnv = 4;
+    jmm epnw = 5;
+    jmn epnx = 6;
+    jmo epny = 7;
+    jmp epnz = 8;
+  }
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message iag {
+  int32 ejpu = 1;
+  int32 ejpv = 2;
+  bool ejpw = 3;
+  bool ejpx = 4;
+  int64 ejpy = 5;
+}

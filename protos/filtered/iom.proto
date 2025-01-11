@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iom {
+  int32 emaw = 1;
+}

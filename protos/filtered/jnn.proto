@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+import "jcr.proto";
+message jnn {
+  int32 eptx = 1;
+  oneof epul {
+    string epty = 2;
+    int32 epua = 3;
+    jni epuc = 4;
+    jnj epud = 5;
+    jnh epue = 6;
+    int64 epuf = 7;
+    int32 epuh = 8;
+    jnk epuj = 9;
+    jnl epuk = 10;
+  }
+  message jni {
+    int32 epsq = 1;
+    int32 epsr = 2;
+  }
+  message jnj {
+    int64 epsv = 1;
+    int32 epsw = 2;
+    int32 epsx = 3;
+  }
+  message jnh {
+    int32 epsi = 1;
+    int32 epsj = 2;
+    int32 epsk = 3;
+    int32 epsl = 4;
+    int32 epsm = 5;
+  }
+  message jnk {
+    int32 eptb = 1;
+    int32 eptc = 2;
+  }
+  message jnl {
+    int64 eptg = 1;
+    string epth = 2;
+    int32 epti = 3;
+    string eptj = 4;
+    string eptk = 5;
+    int32 eptl = 6;
+    jcr eptm = 7;
+    bool eptn = 8;
+    bool epto = 9;
+    bool eptp = 10;
+    int32 eptq = 11;
+    int32 eptr = 12;
+    repeated jnn epts = 13;
+    repeated int32 eptt = 14;
+  }
+}

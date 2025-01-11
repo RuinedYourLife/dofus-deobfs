@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jjk.proto";
+import "jjl.proto";
+import "jjm.proto";
+import "jjn.proto";
+message jjh {
+  int64 epab = 1;
+  oneof epag {
+    jjk epac = 2;
+    jjl epad = 3;
+    jjm epae = 4;
+    jjn epaf = 5;
+  }
+}

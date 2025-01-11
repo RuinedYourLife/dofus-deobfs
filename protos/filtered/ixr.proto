@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ixn.proto";
+message ixr {
+  int32 enkb = 1;
+  repeated ixn enkc = 2;
+}

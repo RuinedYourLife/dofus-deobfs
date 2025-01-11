@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iud {
+  repeated int64 emwb = 1;
+}

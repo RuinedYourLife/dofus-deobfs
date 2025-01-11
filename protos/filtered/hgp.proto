@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdo.proto";
+message hgp {
+  string egon = 1;
+  jdo egoo = 2;
+}

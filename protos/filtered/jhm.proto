@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jho.proto";
+message jhm {
+  int64 eore = 1;
+  string eorf = 2;
+  int32 eorg = 3;
+  jcr eorh = 4;
+  int32 eori = 5;
+  int64 eorj = 6;
+  string eork = 7;
+  string eorl = 8;
+  jho eorm = 9;
+}

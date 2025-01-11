@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jjy {
+  int32 epde = 1;
+}

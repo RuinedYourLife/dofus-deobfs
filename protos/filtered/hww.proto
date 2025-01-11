@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hxi.proto";
+message hww {
+  hxi ejac = 1;
+}

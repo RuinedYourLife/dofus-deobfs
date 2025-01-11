@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "hpz.proto";
+import "jgz.proto";
+import "hst.proto";
+message hrt {
+  int32 eife = 1;
+  hpz eiff = 2;
+  string eifg = 3;
+  int64 eifh = 4;
+  string eifi = 5;
+  int64 eifj = 6;
+  repeated jgz eifk = 7;
+  repeated hst eifl = 8;
+}

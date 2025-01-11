@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "hfh.proto";
+import "hgc.proto";
+message hfp {
+  hfh egjs = 1;
+  repeated hgc egjt = 2;
+  optional int64 egju = 3;
+}

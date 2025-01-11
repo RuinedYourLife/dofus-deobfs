@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum iul {
+  UNKNOWN = 0;
+  OVER_QUOTA = 1;
+  NOT_FOUND = 2;
+  EGOCENTRIC = 3;
+  IS_DOUBLE = 4;
+  IS_CONFLICTING_DOUBLE = 5;
+}

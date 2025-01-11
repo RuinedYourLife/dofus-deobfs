@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hwv {
+  int32 eizx = 1;
+  int64 eizy = 2;
+}

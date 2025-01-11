@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iab {
+  int32 ejot = 1;
+  int32 ejou = 2;
+}

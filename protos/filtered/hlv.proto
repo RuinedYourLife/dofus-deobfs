@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "hmf.proto";
+message hlv {
+  repeated hlt ehjh = 1;
+  repeated hmf ehji = 2;
+  repeated int32 ehjj = 3;
+  optional int64 ehjk = 4;
+  message hlt {
+    int32 ehjc = 1;
+    int32 ehjd = 2;
+  }
+}

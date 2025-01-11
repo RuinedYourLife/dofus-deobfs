@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jic.proto";
+message hzq {
+  jic ejmv = 1;
+}

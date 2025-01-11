@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jds.proto";
+message iaa {
+  int32 ejok = 1;
+  int32 ejol = 2;
+  int32 ejom = 3;
+  int32 ejon = 4;
+  int64 ejoo = 5;
+  jds ejop = 6;
+}

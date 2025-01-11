@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ife {
+  string ekkc = 1;
+  int32 ekkd = 2;
+}

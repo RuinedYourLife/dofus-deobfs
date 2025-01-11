@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hmy.proto";
+message hps {
+  bool ehys = 1;
+  hmy ehyt = 2;
+}

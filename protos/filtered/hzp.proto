@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jid.proto";
+message hzp {
+  repeated jid ejmr = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message isk {
+  isi emrm = 1;
+  int64 emrn = 2;
+  int32 emro = 3;
+  bool emrp = 4;
+  int64 emrq = 5;
+  enum isi {
+    BUY = 0;
+    SELL = 1;
+  }
+}

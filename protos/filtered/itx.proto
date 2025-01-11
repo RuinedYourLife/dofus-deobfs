@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message itx {
+  int32 emvm = 1;
+}

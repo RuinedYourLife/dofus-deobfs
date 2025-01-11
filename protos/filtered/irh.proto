@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message irh {
+  int32 emnh = 1;
+}

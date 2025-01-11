@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jpf.proto";
+message iea {
+  jpf ekff = 1;
+}

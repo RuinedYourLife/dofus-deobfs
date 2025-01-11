@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message icg {
+  int32 ejxt = 1;
+  int32 ejxu = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jtv {
+  repeated int32 eqvg = 1;
+  int32 eqvh = 2;
+}

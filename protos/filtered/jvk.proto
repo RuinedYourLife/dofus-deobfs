@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jvo.proto";
+message jvk {
+  jvo erci = 1;
+  repeated jvo ercj = 2;
+}

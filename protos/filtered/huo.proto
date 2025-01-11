@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message huo {
+  int32 eirw = 1;
+  repeated string eirx = 2;
+  bool eiry = 3;
+}

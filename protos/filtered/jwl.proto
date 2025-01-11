@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jwl {
+  string ergm = 1;
+  string ergn = 2;
+}

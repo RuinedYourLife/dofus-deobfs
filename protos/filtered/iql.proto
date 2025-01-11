@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "irm.proto";
+message iql {
+  irm emjs = 1;
+}

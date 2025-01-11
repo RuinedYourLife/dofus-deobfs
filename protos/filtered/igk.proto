@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message igk {
+  int64 ekpi = 1;
+  int32 ekpj = 2;
+}

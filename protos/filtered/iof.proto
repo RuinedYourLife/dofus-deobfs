@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iof {
+  int32 elzr = 1;
+  bool elzs = 2;
+}

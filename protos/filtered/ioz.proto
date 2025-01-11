@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message ioz {
+  jcw emdk = 1;
+  int64 emdl = 2;
+  int32 emdm = 3;
+  int32 emdn = 4;
+  int64 emdo = 5;
+  int32 emdp = 6;
+  int32 emdq = 7;
+}

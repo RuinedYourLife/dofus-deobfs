@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jne.proto";
+message job {
+  jne epwr = 1;
+  jnz epws = 2;
+  enum jnz {
+    NO_MODULE = 0;
+    TELEPORTER = 1;
+    RECYCLER = 2;
+  }
+}

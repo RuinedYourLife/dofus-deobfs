@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jpg {
+  int32 eqdu = 1;
+  int32 eqdv = 2;
+  optional bool eqdw = 3;
+}

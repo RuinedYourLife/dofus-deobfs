@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jnc.proto";
+message ipl {
+  repeated jnc emgc = 1;
+}

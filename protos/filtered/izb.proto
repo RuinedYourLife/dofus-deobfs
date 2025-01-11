@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jcu.proto";
+message izb {
+  int64 enps = 1;
+  repeated jcu enpt = 2;
+}

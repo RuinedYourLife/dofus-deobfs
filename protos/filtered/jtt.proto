@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jtt {
+  int32 equw = 1;
+  int32 equx = 2;
+}

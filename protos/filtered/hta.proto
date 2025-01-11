@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jds.proto";
+message hta {
+  int32 eilx = 1;
+  int32 eily = 2;
+  int32 eilz = 3;
+  int64 eima = 4;
+  jds eimb = 5;
+}

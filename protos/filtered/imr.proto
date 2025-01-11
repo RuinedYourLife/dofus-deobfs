@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message imr {
+  int64 eltt = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "iwq.proto";
+message ivx {
+  repeated iwq encq = 1;
+}

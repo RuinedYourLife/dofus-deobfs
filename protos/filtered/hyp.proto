@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jne.proto";
+message hyp {
+  jne ejhs = 1;
+}

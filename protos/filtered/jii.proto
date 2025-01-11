@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jdf.proto";
+message jii {
+  optional int64 eovl = 1;
+  optional int32 eovn = 2;
+  jdf eovp = 3;
+  optional int64 eovq = 4;
+}

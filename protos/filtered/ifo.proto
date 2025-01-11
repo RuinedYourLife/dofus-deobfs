@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jlg.proto";
+import "jhv.proto";
+message ifo {
+  ifm ekln = 1;
+  message ifm {
+    jlg ekli = 1;
+    jhv eklj = 2;
+  }
+}

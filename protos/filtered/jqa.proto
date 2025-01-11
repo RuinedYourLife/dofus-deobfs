@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jqa {
+  int64 eqhl = 1;
+  int64 eqhm = 2;
+}

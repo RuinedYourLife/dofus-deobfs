@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ixx.proto";
+message iyg {
+  ixx enmt = 1;
+  bool enmu = 2;
+}

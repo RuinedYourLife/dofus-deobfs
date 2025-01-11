@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message jui {
+  jug eqxf = 1;
+  enum jug {
+    ERROR = 0;
+    DUPLICATE = 1;
+    SUCCESS = 2;
+  }
+}

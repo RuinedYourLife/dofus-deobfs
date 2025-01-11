@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+import "hdq.proto";
+import "jdf.proto";
+message hem {
+  hdq egfx = 1;
+  int64 egfy = 2;
+  repeated heh egfz = 3;
+  int32 egga = 4;
+  int32 eggb = 5;
+  int32 eggc = 6;
+  int32 eggd = 7;
+  repeated hek egge = 8;
+  message heh {
+    oneof egfo {
+      hec egfj = 1;
+      hed egfk = 2;
+      hee egfl = 3;
+      Fight egfm = 4;
+      hef egfn = 5;
+    }
+    message hec {
+      jdf egeo = 1;
+      int32 egep = 2;
+    }
+    message hed {
+      jdf eget = 1;
+      int32 egeu = 2;
+    }
+    message hee {
+      jdf egey = 1;
+      int32 egez = 2;
+    }
+    message Fight {
+    }
+    message hef {
+    }
+  }
+  message hek {
+    int64 egfs = 1;
+    hei egft = 2;
+    enum hei {
+      UNKNOWN = 0;
+      OK = 1;
+      WRONG = 2;
+    }
+  }
+}

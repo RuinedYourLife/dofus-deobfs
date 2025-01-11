@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message igz {
+  jgz eksl = 1;
+  int32 eksm = 2;
+  int32 eksn = 3;
+  int32 ekso = 4;
+}

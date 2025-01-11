@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message hwp {
+  bool eizb = 1;
+  hwn eizc = 2;
+  message hwn {
+    int64 eiyw = 1;
+    repeated int32 eiyx = 2;
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hqk {
+  int32 eibl = 1;
+  int64 eibm = 2;
+}

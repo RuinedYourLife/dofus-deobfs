@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hjr {
+  bool ehar = 1;
+}

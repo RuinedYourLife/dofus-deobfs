@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "hmi.proto";
+message hmf {
+  int32 ehlb = 1;
+  hmd ehlc = 2;
+  message hmd {
+    int32 ehkw = 1;
+    repeated hmi ehkx = 2;
+  }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jie.proto";
+message jtz {
+  string eqwg = 1;
+  int32 eqwh = 2;
+  jcr eqwi = 3;
+  jie eqwj = 4;
+}

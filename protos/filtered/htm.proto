@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "jmr.proto";
+message htm {
+  int32 einu = 1;
+  int32 einv = 2;
+  repeated htk einw = 3;
+  message htk {
+    string einl = 1;
+    jmr einm = 2;
+    int32 einn = 3;
+    int32 eino = 4;
+    int32 einp = 5;
+    int64 einq = 6;
+  }
+}

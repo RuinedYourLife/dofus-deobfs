@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jht.proto";
+import "hpz.proto";
+message hqa {
+  jht ehzq = 1;
+  hpz ehzr = 2;
+}

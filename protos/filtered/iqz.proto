@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jou.proto";
+message iqz {
+  repeated jou emmg = 1;
+}

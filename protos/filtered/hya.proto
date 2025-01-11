@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message hya {
+  repeated hxy ejfg = 1;
+  bool ejfh = 2;
+  message hxy {
+    int32 ejfb = 1;
+    int32 ejfc = 2;
+  }
+}

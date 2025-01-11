@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hto {
+  int32 eiob = 1;
+  int32 eioc = 2;
+  int64 eiod = 3;
+}

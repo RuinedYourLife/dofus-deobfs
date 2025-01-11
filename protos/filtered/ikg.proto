@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jkz.proto";
+import "jla.proto";
+message ikg {
+  int32 elhd = 1;
+  int32 elhe = 2;
+  int32 elhf = 3;
+  repeated jkz elhg = 4;
+  repeated jla elhh = 5;
+  optional int32 elhi = 6;
+}

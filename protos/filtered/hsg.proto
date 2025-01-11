@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsg {
+  int32 eihz = 1;
+  int64 eiia = 2;
+}

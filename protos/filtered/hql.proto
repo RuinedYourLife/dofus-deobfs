@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hql {
+  int32 eibq = 1;
+  bool eibr = 2;
+}

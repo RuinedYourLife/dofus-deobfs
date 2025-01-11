@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "jqe.proto";
+message jqr {
+  jqe eqjk = 1;
+  jqp eqjl = 2;
+  enum jqp {
+    BID_GENERIC_ERROR = 0;
+    BID_BUFFER_OVERLOAD = 1;
+    BID_OFFER_DOESNT_EXIST = 2;
+    BID_OFFER_ALREADY_EXISTS = 3;
+    BID_NOT_ENOUGH_KAMAS = 4;
+    BID_NOT_ENOUGH_OGRINES = 5;
+    BID_SERVER_MAINTENANCE = 6;
+    BID_PLAYER_IN_DEBT = 7;
+    BID_OFFER_IS_YOURS = 8;
+    BID_VALIDATION_SUCCESS = 9;
+  }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message iyw {
+  iyu enpf = 1;
+  int64 enpg = 2;
+  enum iyu {
+    ALIVE_AND_KICKING = 0;
+    TOMBSTONE = 1;
+    PHANTOM = 2;
+  }
+}

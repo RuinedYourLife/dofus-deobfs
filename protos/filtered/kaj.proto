@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kaj {
+  int32 erwf = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hrr {
+  int64 eieq = 1;
+}

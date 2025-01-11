@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jbv {
+  repeated int64 enyx = 1;
+}

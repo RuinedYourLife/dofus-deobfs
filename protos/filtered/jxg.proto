@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jxg {
+  int64 erjy = 1;
+  int32 erjz = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hpk {
+  bool ehxg = 1;
+}

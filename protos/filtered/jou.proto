@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jnn.proto";
+message jou {
+  int64 eqay = 1;
+  int32 eqaz = 2;
+  repeated int32 eqba = 3;
+  repeated int32 eqbb = 4;
+  string eqbc = 5;
+  jcr eqbd = 6;
+  int64 eqbe = 7;
+  int64 eqbf = 8;
+  int64 eqbg = 9;
+  optional int64 eqbh = 10;
+  int32 eqbj = 11;
+  bool eqbk = 12;
+  int32 eqbl = 13;
+  bool eqbm = 14;
+  int32 eqbn = 15;
+  int32 eqbo = 16;
+  int32 eqbp = 17;
+  int32 eqbq = 18;
+  int32 eqbr = 19;
+  int32 eqbs = 20;
+  int32 eqbt = 21;
+  int32 eqbu = 22;
+  int32 eqbv = 23;
+  int32 eqbw = 24;
+  int32 eqbx = 25;
+  int32 eqby = 26;
+  bool eqbz = 27;
+  int32 eqca = 28;
+  int64 eqcb = 29;
+  int32 eqcc = 30;
+  int64 eqcd = 31;
+  int32 eqce = 32;
+  bool eqcf = 33;
+  repeated jnn eqcg = 34;
+}

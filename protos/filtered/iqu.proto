@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jms.proto";
+import "jnc.proto";
+import "jie.proto";
+message iqu {
+  string emlf = 1;
+  jms emlg = 2;
+  string emlh = 3;
+  int64 emli = 4;
+  string emlj = 5;
+  int32 emlk = 6;
+  repeated jnc emll = 7;
+  jie emlm = 8;
+}

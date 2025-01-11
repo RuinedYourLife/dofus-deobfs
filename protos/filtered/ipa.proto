@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message ipa {
+  jcw emdu = 1;
+  int32 emdv = 2;
+}

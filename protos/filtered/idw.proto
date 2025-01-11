@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jdn.proto";
+message idw {
+  string ekef = 1;
+  jdn ekeg = 2;
+  int32 ekeh = 3;
+}

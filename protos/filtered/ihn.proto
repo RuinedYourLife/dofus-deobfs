@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ihn {
+  repeated int32 ekug = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jjd.proto";
+message igm {
+  repeated jjd ekpr = 1;
+}

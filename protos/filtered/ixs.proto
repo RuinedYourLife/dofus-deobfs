@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ixm.proto";
+message ixs {
+  int32 enkg = 1;
+  repeated ixm enkh = 2;
+}

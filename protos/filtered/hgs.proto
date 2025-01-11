@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jms.proto";
+message hgs {
+  int32 egpb = 1;
+  int32 egpc = 2;
+  jms egpd = 3;
+  string egpe = 4;
+  string egpf = 5;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jwz {
+  bool erix = 1;
+}

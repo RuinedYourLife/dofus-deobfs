@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ioa {
+  repeated int32 elzd = 1;
+}

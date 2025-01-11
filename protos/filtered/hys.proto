@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hys {
+  int32 ejif = 1;
+  int32 ejig = 2;
+  int32 ejih = 3;
+}

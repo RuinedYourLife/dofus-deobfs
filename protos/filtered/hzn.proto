@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hzn {
+  int32 ejmi = 1;
+  int32 ejmj = 2;
+}

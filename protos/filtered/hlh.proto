@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jcl.proto";
+message hlh {
+  int64 ehhe = 1;
+  jcl ehhf = 2;
+  int64 ehhg = 3;
+  optional int32 ehhh = 4;
+}

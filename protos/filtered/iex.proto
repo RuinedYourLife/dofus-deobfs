@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iex {
+  int64 ekin = 1;
+}

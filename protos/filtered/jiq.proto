@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jiq {
+  jio eown = 1;
+  int64 eowo = 2;
+  enum jio {
+    STARTED = 0;
+    JOINING_PHASE = 1;
+    POSITIONING_PHASE = 2;
+  }
+}

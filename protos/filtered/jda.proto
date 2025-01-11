@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum jda {
+  RESULT_LOST = 0;
+  RESULT_DRAW = 1;
+  RESULT_VICTORY = 2;
+  RESULT_TAX = 3;
+  RESULT_DEFENDER_GROUP = 4;
+}

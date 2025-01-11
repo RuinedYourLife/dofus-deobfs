@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hgh {
+  string egnb = 1;
+  int32 egnc = 2;
+}

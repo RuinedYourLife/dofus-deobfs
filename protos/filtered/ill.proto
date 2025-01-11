@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jlb.proto";
+message ill {
+  int64 elod = 1;
+  jlb eloe = 2;
+}

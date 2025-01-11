@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ipg {
+  int32 emey = 1;
+}

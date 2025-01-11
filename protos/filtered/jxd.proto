@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jxd {
+  int32 erjm = 1;
+  int32 erjn = 2;
+}

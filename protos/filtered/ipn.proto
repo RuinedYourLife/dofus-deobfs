@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ipn {
+  int64 emgl = 1;
+}

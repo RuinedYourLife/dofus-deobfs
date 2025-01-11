@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hzt {
+  int32 ejne = 1;
+  int64 ejnf = 2;
+}

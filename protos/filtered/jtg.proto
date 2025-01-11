@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jth.proto";
+message jtg {
+  int32 eqsx = 1;
+  repeated jth eqsy = 2;
+  int32 eqsz = 3;
+}

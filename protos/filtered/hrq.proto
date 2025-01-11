@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hrq {
+  hro eiem = 1;
+  enum hro {
+    SUCCESS = 0;
+    ERROR = 1;
+  }
+}

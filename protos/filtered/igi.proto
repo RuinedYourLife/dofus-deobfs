@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message igi {
+  int64 ekoz = 1;
+}

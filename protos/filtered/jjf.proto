@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jjh.proto";
+import "jcm.proto";
+message jjf {
+  repeated jjh eozv = 1;
+  optional jcm eozw = 2;
+}

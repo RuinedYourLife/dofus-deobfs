@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "jjx.proto";
+import "jjy.proto";
+import "jjz.proto";
+message jjt {
+  int32 epby = 1;
+  int64 epbz = 2;
+  int32 epca = 3;
+  jjr epcb = 4;
+  int32 epcc = 5;
+  int32 epcd = 6;
+  int32 epce = 7;
+  oneof epci {
+    jjx epcf = 8;
+    jjy epcg = 9;
+    jjz epch = 10;
+  }
+  enum jjr {
+    DISSIPATED = 0;
+    DISSIPATED_BY_DEATH = 1;
+    DISSIPATED_BY_STRONG_DISPEL = 2;
+    REALLY_NOT_DISSIPATED = 3;
+  }
+}

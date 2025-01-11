@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jim.proto";
+message jzf {
+  jim erse = 1;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jxi {
+  int32 erkh = 1;
+  repeated int32 erki = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jos.proto";
+message hhe {
+  string egra = 1;
+  repeated jos egrb = 2;
+}

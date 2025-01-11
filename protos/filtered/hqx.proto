@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jms.proto";
+message hqx {
+  int64 eicw = 1;
+  jms eicx = 2;
+  int32 eicy = 3;
+}

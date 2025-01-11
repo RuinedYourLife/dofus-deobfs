@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jdn.proto";
+message idx {
+  jdn ekel = 1;
+}

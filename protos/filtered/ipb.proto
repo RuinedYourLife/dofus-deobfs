@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message ipb {
+  jcw emdz = 1;
+  int32 emea = 2;
+  int32 emeb = 3;
+}

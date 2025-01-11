@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message jaf {
+  repeated jgz entd = 1;
+}

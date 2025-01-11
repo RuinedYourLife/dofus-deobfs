@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message huu {
+  string eisq = 1;
+  int32 eisr = 2;
+}

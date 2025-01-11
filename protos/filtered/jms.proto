@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jms {
+  int32 eppq = 1;
+  int32 eppr = 2;
+  int64 epps = 3;
+  int32 eppt = 4;
+}

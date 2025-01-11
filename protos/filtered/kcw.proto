@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message kcw {
+  int32 esfg = 1;
+  Status esfh = 2;
+  bool esfi = 3;
+  bool esfj = 4;
+  enum Status {
+    ONLINE = 0;
+    MAINTENANCE = 1;
+  }
+}

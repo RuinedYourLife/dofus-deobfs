@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hru {
+  int32 eifp = 1;
+  int64 eifq = 2;
+}

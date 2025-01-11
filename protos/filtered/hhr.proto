@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hhr {
+  string egsz = 1;
+  int32 egta = 2;
+}

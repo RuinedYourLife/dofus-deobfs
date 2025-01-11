@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum jdb {
+  INVISIBLE = 0;
+  DETECTED = 1;
+  VISIBLE = 2;
+}

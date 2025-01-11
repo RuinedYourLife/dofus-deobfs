@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jmn {
+  int32 epor = 1;
+}

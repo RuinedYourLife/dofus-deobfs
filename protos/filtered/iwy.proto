@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message iwy {
+  bool enhc = 1;
+  string enhd = 2;
+  int32 enhe = 3;
+}

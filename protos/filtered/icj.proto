@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message icj {
+  int64 ejyd = 1;
+  int32 ejye = 2;
+  int32 ejyf = 3;
+}

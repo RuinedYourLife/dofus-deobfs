@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message kaq {
+  int32 erxj = 1;
+  bool erxk = 2;
+}

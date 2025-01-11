@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hxu {
+  int32 ejeh = 1;
+  int32 ejei = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ibe {
+  ibb ejty = 1;
+  repeated ibc ejtz = 2;
+  enum ibb {
+    HAVEN_BAG_ROOM_DISPATCH = 0;
+    HAVEN_BAG_ROOM_UPDATE = 1;
+  }
+  message ibc {
+    int32 ejtt = 1;
+    int32 ejtu = 2;
+  }
+}

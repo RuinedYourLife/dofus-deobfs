@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "hng.proto";
+message hor {
+  string ehuo = 1;
+  hop ehup = 2;
+  hng ehuq = 3;
+  enum hop {
+    CHARACTER = 0;
+    FORGETTABLE_BASE = 1;
+    FORGETTABLE_SPELL = 2;
+  }
+}

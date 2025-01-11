@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jos.proto";
+import "jhi.proto";
+message jot {
+  string eqas = 1;
+  repeated jos eqat = 2;
+  repeated jhi eqau = 3;
+}

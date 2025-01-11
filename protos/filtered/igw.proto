@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jmr.proto";
+message igw {
+  jmr ekrv = 1;
+}

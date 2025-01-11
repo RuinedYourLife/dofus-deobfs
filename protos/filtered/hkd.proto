@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message hkd {
+  hkb ehci = 1;
+  enum hkb {
+    ERROR = 0;
+    COOL_DOWN = 1;
+    BAD_ITEM = 2;
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hwd {
+  int32 eixd = 1;
+  int32 eixe = 2;
+}

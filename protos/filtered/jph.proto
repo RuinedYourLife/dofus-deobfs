@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jdq.proto";
+import "jdr.proto";
+message jph {
+  int32 eqeb = 1;
+  jdq eqec = 2;
+  jdr eqed = 3;
+  int32 eqee = 4;
+  int32 eqef = 5;
+}

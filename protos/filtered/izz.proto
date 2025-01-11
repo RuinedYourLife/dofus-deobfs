@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message izz {
+  izx ensh = 1;
+  enum izx {
+    DELETE_ERROR_NO_REASON = 0;
+    DELETE_ERROR_TOO_MANY_CHAR_DELETED = 1;
+    DELETE_ERROR_BAD_SECRET_ANSWER = 2;
+  }
+}

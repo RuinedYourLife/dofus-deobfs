@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jhi.proto";
+import "jdb.proto";
+message jlb {
+  repeated jhi ephx = 1;
+  int64 ephy = 2;
+  bool ephz = 3;
+  jdb epia = 4;
+}

@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+import "iko.proto";
+message ikz {
+  ikq ellp = 1;
+  ikr ellq = 2;
+  iks ellr = 3;
+  ikt ells = 4;
+  iku ellt = 5;
+  ikv ellu = 6;
+  ikw ellv = 7;
+  ikw ellw = 8;
+  ikx ellx = 9;
+  iko elly = 10;
+  message ikq {
+    int32 eljd = 1;
+    int32 elje = 2;
+    int32 eljf = 3;
+    int32 eljg = 4;
+    int32 eljh = 5;
+    int32 elji = 6;
+    float eljj = 7;
+    float eljk = 8;
+    int32 eljl = 9;
+  }
+  message ikr {
+    int32 eljp = 1;
+    int32 eljq = 2;
+    int32 eljr = 3;
+    int32 eljs = 4;
+    int32 eljt = 5;
+    int32 elju = 6;
+    float eljv = 7;
+    int32 eljw = 8;
+  }
+  message iks {
+    int32 elka = 1;
+    int32 elkb = 2;
+    float elkc = 3;
+    float elkd = 4;
+  }
+  message ikt {
+    int32 elkh = 1;
+    int32 elki = 2;
+    float elkj = 3;
+  }
+  message iku {
+    int32 elkn = 1;
+    int32 elko = 2;
+    float elkp = 3;
+  }
+  message ikv {
+    int32 elkt = 1;
+    int32 elku = 2;
+    float elkv = 3;
+  }
+  message ikw {
+    int32 elkz = 1;
+    int32 ella = 2;
+    int32 ellb = 3;
+    float ellc = 4;
+    float elld = 5;
+    float elle = 6;
+    float ellf = 7;
+  }
+  message ikx {
+    int32 ellj = 1;
+    int32 ellk = 2;
+    int32 elll = 3;
+  }
+}

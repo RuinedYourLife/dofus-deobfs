@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jie.proto";
+message iue {
+  int64 emwf = 1;
+  jie emwg = 2;
+}

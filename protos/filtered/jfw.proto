@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "jmu.proto";
+import "jfz.proto";
+message jfw {
+  int32 eokc = 1;
+  int32 eokd = 2;
+  repeated jmu eoke = 3;
+  int64 eokf = 4;
+  int32 eokg = 5;
+  int32 eokh = 6;
+  repeated jmu eoki = 7;
+  jfu eokj = 8;
+  message jfu {
+    repeated jfz eoju = 1;
+    int32 eojv = 2;
+    int32 eojw = 3;
+    optional int32 eojx = 4;
+  }
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jcw.proto";
+message ino {
+  jcw elxf = 1;
+  int64 elxg = 2;
+  int32 elxh = 3;
+}

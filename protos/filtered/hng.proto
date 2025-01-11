@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hne.proto";
+message hng {
+  map<int32, hne> ehpp = 1;
+}

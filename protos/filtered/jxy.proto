@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jxy {
+  string ermu = 1;
+  string ermv = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hof {
+  string ehte = 1;
+}

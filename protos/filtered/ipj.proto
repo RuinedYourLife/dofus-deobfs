@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ipj {
+  int32 emfs = 1;
+  int32 emft = 2;
+  int32 emfu = 3;
+}

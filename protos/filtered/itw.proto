@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message itw {
+  int64 emvi = 1;
+}

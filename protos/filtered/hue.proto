@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jft.proto";
+message hue {
+  jft eiqb = 1;
+  int32 eiqc = 2;
+  int32 eiqd = 3;
+  int32 eiqe = 4;
+  optional int32 eiqf = 5;
+  int32 eiqh = 6;
+  int64 eiqi = 7;
+}

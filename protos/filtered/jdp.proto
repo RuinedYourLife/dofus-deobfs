@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum jdp {
+  ENERGY = 0;
+  SERENITY = 1;
+  STAMINA = 2;
+  LOVE = 3;
+  MATURITY = 4;
+  TIREDNESS = 5;
+  CARRIER = 6;
+  FERTILE = 7;
+  PREGNANT = 8;
+}

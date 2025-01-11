@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jdc.proto";
+import "jfp.proto";
+message jfq {
+  jdc eoix = 1;
+  bool eoiy = 2;
+  jfp eoiz = 3;
+}

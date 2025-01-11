@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hmw.proto";
+message hny {
+  bool ehrx = 1;
+  hmw ehry = 2;
+}

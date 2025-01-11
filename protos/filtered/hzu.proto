@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jma.proto";
+message hzu {
+  jma ejnj = 1;
+}

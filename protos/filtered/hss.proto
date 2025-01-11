@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message hss {
+  int32 eikk = 1;
+  hsq eikl = 2;
+  enum hsq {
+    UNDEFINED_ERROR = 0;
+    INVALID = 1;
+    ALREADY_USED = 2;
+    UNALLOWED_RIGHTS = 3;
+    UNALLOWED_NOW = 4;
+  }
+}

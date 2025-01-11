@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+enum ixx {
+  GLOBAL = 0;
+  TEAM = 1;
+  GUILD = 2;
+  ALLIANCE = 3;
+  PARTY = 4;
+  SALES = 5;
+  SEEK = 6;
+  NOOB = 7;
+  ADMIN = 8;
+  ARENA = 9;
+  PRIVATE = 10;
+  INFO = 12;
+  FIGHT_LOG = 13;
+  ADS = 14;
+  EVENT = 15;
+  EXCHANGE = 16;
+}

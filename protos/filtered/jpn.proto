@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jht.proto";
+message jpn {
+  bool eqez = 1;
+  jht eqfa = 2;
+}

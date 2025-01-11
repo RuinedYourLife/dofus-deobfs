@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "hmx.proto";
+message hnw {
+  oneof ehro {
+    hnu ehrl = 1;
+    Error ehrm = 2;
+  }
+  message hnu {
+    hmx ehrh = 1;
+  }
+  enum Error {
+    FEATURE_DISABLED = 0;
+    MAX_QUANTITY = 1;
+    INVALID_NAME_SIZE = 2;
+    PRESET_NOT_FOUND = 3;
+    UNKNOWN = 4;
+  }
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message hxg {
+  int32 ejbh = 1;
+  repeated hxe ejbi = 2;
+  message hxe {
+    int32 ejba = 1;
+    oneof ejbd {
+      hxb ejbb = 2;
+      hxc ejbc = 3;
+    }
+    message hxb {
+      int32 ejar = 1;
+      hwz ejas = 2;
+      message hwz {
+        int32 ejam = 1;
+        int32 ejan = 2;
+      }
+    }
+    message hxc {
+      int32 ejaw = 1;
+    }
+  }
+}

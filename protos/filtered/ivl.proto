@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ivl {
+  bool enaz = 1;
+}

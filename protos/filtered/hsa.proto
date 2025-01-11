@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "hpz.proto";
+import "jgz.proto";
+import "hst.proto";
+message hsa {
+  int32 eigk = 1;
+  hpz eigl = 2;
+  int64 eigm = 3;
+  int32 eign = 4;
+  repeated jgz eigo = 5;
+  repeated hst eigp = 6;
+  bool eigq = 7;
+  string eigr = 8;
+}

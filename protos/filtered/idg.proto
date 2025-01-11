@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message idg {
+  bool ekbr = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hva {
+  int32 eitl = 1;
+}

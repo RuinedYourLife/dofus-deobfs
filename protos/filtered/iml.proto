@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iml {
+  int32 elsn = 1;
+  int64 elso = 2;
+}

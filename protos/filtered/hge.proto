@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hge {
+  string egmo = 1;
+}

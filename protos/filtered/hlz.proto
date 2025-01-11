@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hlz {
+  int32 ehkc = 1;
+  int32 ehkd = 2;
+}

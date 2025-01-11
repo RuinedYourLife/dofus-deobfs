@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hey {
+  int32 eghi = 1;
+}

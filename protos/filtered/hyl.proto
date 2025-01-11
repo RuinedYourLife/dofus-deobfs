@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hyl {
+  int32 ejhb = 1;
+}

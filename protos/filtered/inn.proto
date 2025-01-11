@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message inn {
+  int64 elxb = 1;
+}

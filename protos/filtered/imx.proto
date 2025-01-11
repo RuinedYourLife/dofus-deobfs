@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message imx {
+  int32 elun = 1;
+  int32 eluo = 2;
+}

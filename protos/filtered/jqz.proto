@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jqy.proto";
+message jqz {
+  jqy eqkk = 1;
+}

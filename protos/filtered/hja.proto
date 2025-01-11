@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hja {
+  int32 egxt = 1;
+  int32 egxu = 2;
+  optional bool egxv = 3;
+}

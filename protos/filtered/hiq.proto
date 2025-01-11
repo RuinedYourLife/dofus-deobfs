@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jdq.proto";
+import "jdr.proto";
+message hiq {
+  int64 egwn = 1;
+  jdq egwo = 2;
+  jdr egwp = 3;
+  int32 egwq = 4;
+}

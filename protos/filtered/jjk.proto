@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jjk {
+  string epap = 1;
+  int32 epaq = 2;
+  jji epar = 3;
+  message jji {
+    string epak = 1;
+    string epal = 2;
+  }
+}

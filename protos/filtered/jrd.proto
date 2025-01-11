@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "jqy.proto";
+import "jmr.proto";
+message jrd {
+  jqy eqky = 1;
+  jmr eqkz = 2;
+  oneof eqlc {
+    PartyMember eqla = 3;
+    jrb eqlb = 4;
+  }
+  message PartyMember {
+    int64 eqko = 1;
+    bool eqkp = 2;
+  }
+  message jrb {
+    int64 eqkt = 1;
+    string eqku = 2;
+  }
+}

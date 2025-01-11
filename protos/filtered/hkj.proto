@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hkj {
+  repeated hkh ehdg = 1;
+  message hkh {
+    int32 ehdb = 1;
+    int64 ehdc = 2;
+  }
+}

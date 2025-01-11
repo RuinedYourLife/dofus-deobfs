@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message inu {
+  int64 elyg = 1;
+}

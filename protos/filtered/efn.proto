@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message efn {
+  int64 blfi = 1;
+  int64 blfj = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hyr {
+  int32 ejia = 1;
+  int32 ejib = 2;
+}

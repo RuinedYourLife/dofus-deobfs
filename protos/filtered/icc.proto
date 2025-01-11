@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message icc {
+  int32 ejxa = 1;
+  int32 ejxb = 2;
+  string ejxc = 3;
+}

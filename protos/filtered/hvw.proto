@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jdp.proto";
+message hvw {
+  int32 eiwe = 1;
+  int32 eiwf = 2;
+  jdp eiwg = 3;
+}

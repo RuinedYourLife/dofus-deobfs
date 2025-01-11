@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hex {
+  repeated int32 eghd = 1;
+  repeated int32 eghe = 2;
+}

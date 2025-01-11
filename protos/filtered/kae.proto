@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message kae {
+  string ervn = 1;
+  string ervo = 2;
+  string ervp = 3;
+}

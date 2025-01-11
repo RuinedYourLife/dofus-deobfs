@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hmq {
+  int32 ehmn = 1;
+}

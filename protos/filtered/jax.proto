@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jgc.proto";
+message jax {
+  jgc envn = 2;
+}

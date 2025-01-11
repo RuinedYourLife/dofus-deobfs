@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "hpy.proto";
+import "jms.proto";
+message hsn {
+  int32 eiji = 1;
+  hpy eijj = 2;
+  int64 eijk = 3;
+  int64 eijl = 4;
+  string eijm = 5;
+  int32 eijn = 6;
+  int32 eijo = 7;
+  jms eijp = 8;
+}

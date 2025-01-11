@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hyq {
+  bool ejhw = 1;
+}

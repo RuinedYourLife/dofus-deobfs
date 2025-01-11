@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jjo.proto";
+message ilv {
+  int64 elpp = 1;
+  int64 elpq = 2;
+  jjo elpr = 3;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hhz.proto";
+message hic {
+  hhz eguq = 1;
+}

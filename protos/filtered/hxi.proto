@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "hxj.proto";
+import "hxk.proto";
+message hxi {
+  hxj ejbu = 1;
+  hxk ejbv = 2;
+}

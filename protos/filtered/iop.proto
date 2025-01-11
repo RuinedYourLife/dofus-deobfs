@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iop {
+  bool embm = 1;
+  repeated int32 embn = 2;
+}

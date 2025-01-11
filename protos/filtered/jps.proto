@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jps {
+  int64 eqfw = 1;
+  int32 eqfx = 2;
+}

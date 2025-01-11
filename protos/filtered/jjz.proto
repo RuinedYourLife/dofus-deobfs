@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jjz {
+  int32 epdi = 1;
+  int32 epdj = 2;
+  int32 epdk = 3;
+  int32 epdl = 4;
+}

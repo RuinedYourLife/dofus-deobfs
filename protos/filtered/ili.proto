@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ili {
+  repeated ilg elnl = 1;
+  message ilg {
+    int64 elng = 1;
+    int32 elnh = 2;
+  }
+}

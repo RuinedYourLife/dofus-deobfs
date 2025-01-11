@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message jho {
+  Status eorq = 1;
+  optional string eorr = 2;
+  enum Status {
+    STATUS_OFFLINE = 0;
+    STATUS_AVAILABLE = 1;
+    STATUS_IDLE = 2;
+    STATUS_AFK = 3;
+    STATUS_PRIVATE = 4;
+    STATUS_SOLO = 5;
+    STATUS_UNKNOWN = 6;
+  }
+}

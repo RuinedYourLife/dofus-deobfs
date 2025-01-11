@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ihe {
+  NORMAL = 0;
+  CRITICAL_HIT = 1;
+  CRITICAL_FAIL = 2;
+}

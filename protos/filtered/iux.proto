@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iux {
+  int64 emyu = 1;
+}

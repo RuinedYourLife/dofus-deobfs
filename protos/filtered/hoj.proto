@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jde.proto";
+message hoj {
+  string ehtw = 1;
+  jde ehtx = 2;
+}

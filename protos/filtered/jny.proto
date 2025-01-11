@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jmr.proto";
+import "jnx.proto";
+message jny {
+  int32 epwj = 1;
+  string epwk = 2;
+  jmr epwl = 3;
+  int64 epwm = 4;
+  jnx epwn = 5;
+}

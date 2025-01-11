@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jct.proto";
+message hjw {
+  repeated hju ehbm = 1;
+  message hju {
+    int64 ehbe = 1;
+    jct ehbf = 2;
+    int32 ehbg = 3;
+    optional int32 ehbh = 4;
+  }
+}

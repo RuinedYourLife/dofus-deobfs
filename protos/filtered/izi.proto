@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message izi {
+  int64 enqg = 1;
+  string enqh = 2;
+}

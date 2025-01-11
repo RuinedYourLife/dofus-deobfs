@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message ikp {
+  int32 elit = 1;
+  int32 eliu = 2;
+  int32 eliv = 3;
+  int32 eliw = 4;
+  int32 elix = 5;
+  int32 eliy = 6;
+  int32 eliz = 7;
+}

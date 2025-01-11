@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jdf.proto";
+message hlg {
+  int64 ehgw = 1;
+  int32 ehgx = 2;
+  int32 ehgy = 3;
+  int32 ehgz = 4;
+  jdf ehha = 5;
+}

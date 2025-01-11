@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iqt {
+  int32 emla = 1;
+  int32 emlb = 2;
+}

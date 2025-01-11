@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import "jms.proto";
+import "jlg.proto";
+message jpf {
+  int32 eqdm = 1;
+  int32 eqdn = 2;
+  oneof eqdq {
+    joy eqdo = 3;
+    jpd eqdp = 4;
+  }
+  message joy {
+    int64 eqcq = 1;
+    jms eqcr = 2;
+    bool eqcs = 3;
+    repeated jow eqct = 4;
+    message jow {
+      int32 eqck = 1;
+      string eqcl = 2;
+      string eqcm = 3;
+    }
+  }
+  message jpd {
+    repeated jpb eqdi = 1;
+    message jpb {
+      int64 eqdc = 1;
+      bool eqdd = 2;
+      joz eqde = 3;
+      message joz {
+        bool eqcx = 1;
+        jlg eqcy = 2;
+      }
+    }
+  }
+}

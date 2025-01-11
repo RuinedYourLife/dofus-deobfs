@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jit.proto";
+message ign {
+  int32 ekpv = 1;
+  repeated jit ekpw = 2;
+  repeated jit ekpx = 3;
+}

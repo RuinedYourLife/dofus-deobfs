@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ixi {
+  optional string enio = 1;
+}

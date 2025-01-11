@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message iym {
+  int32 enno = 1;
+  int32 ennp = 2;
+  int32 ennq = 3;
+  int32 ennr = 4;
+  int32 enns = 5;
+  int32 ennt = 6;
+}

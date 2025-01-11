@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jog.proto";
+message jxz {
+  string ermz = 1;
+  string erna = 2;
+  jog ernb = 3;
+}

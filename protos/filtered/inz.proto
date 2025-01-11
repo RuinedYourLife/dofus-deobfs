@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message inz {
+  repeated inx elyz = 1;
+  message inx {
+    int32 elyu = 1;
+    int32 elyv = 2;
+  }
+}

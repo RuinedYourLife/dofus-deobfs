@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message iad {
+  int32 ejpd = 1;
+  int32 ejpe = 2;
+  bool ejpf = 3;
+  int32 ejpg = 4;
+}

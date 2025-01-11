@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jbx {
+  int32 enzf = 1;
+}

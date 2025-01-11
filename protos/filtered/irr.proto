@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message irr {
+  int32 emoz = 1;
+  int32 empa = 2;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message ita {
+  isy emtb = 1;
+  enum isy {
+    BODY = 0;
+    FACE = 1;
+    COLORS = 2;
+    GENDER = 3;
+    BREED = 4;
+    NAME = 5;
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hzl {
+  int32 ejlv = 1;
+  int32 ejlw = 2;
+}

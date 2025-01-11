@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "hdq.proto";
+message hen {
+  hdq eggi = 1;
+}

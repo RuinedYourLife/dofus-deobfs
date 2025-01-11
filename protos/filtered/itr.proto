@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message itr {
+  itp emus = 1;
+  repeated int64 emut = 2;
+  enum itp {
+    UNKNOWN = 0;
+    ADMIN_COMMAND_REQUEST = 1;
+    PAYED = 2;
+    CANCELED = 3;
+  }
+}

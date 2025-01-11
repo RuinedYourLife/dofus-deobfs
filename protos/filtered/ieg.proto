@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ieg {
+  int32 ekgd = 1;
+}

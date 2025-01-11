@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message hud {
+  int32 eipv = 1;
+  repeated string eipw = 2;
+  repeated hub eipx = 3;
+  message hub {
+    int32 eipq = 1;
+    repeated htz eipr = 2;
+    message htz {
+      int32 eipk = 1;
+      optional bool eipl = 2;
+    }
+  }
+}

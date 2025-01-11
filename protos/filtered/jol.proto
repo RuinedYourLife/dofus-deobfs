@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message jol {
+  int32 epyo = 1;
+  string epyp = 2;
+  joi epyq = 3;
+  joj epyr = 4;
+  message joi {
+    int32 epye = 1;
+    int32 epyf = 2;
+  }
+  message joj {
+    bool epyj = 1;
+    repeated int32 epyk = 2;
+  }
+}

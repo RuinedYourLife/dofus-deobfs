@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "jrf.proto";
+message jrt {
+  repeated jrr eqng = 1;
+  string eqnh = 2;
+  message jrr {
+    jrf eqmu = 1;
+    jrp eqmv = 2;
+    int32 eqmw = 3;
+    int32 eqmx = 4;
+    int32 eqmy = 5;
+    int32 eqmz = 6;
+    int32 eqna = 7;
+    int32 eqnb = 8;
+    int32 eqnc = 9;
+    message jrp {
+      int32 eqmo = 1;
+      int32 eqmp = 2;
+      int32 eqmq = 3;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hqm {
+  int32 eibv = 1;
+  string eibw = 2;
+}

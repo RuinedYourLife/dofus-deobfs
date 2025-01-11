@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ios {
+  bool emcb = 1;
+  int32 emcc = 2;
+}

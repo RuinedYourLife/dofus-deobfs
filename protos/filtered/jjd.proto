@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "jcx.proto";
+import "jja.proto";
+import "jir.proto";
+message jjd {
+  int32 eozd = 1;
+  jcx eoze = 2;
+  int64 eozf = 3;
+  bool eozg = 4;
+  repeated jjb eozh = 5;
+  message jjb {
+    jja eoyy = 1;
+    jir eoyz = 2;
+  }
+}

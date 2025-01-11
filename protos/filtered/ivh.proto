@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "iul.proto";
+message ivh {
+  iul enai = 1;
+}

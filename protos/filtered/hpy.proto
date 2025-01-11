@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum hpy {
+  UNKNOWN = 0;
+  MONSTER_ATTACK = 1;
+  PLAYER_ATTACK = 2;
+  MEMBER_ATTACKED_PLAYERS = 3;
+  MEMBER_CHALLENGE = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ilx {
+  int64 elpw = 1;
+  int32 elpx = 2;
+}

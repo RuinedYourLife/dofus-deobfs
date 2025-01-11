@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "kbr.proto";
+import "kbt.proto";
+import "kbv.proto";
+message kbp {
+  oneof esai {
+    kbr esaf = 1;
+    kbt esag = 2;
+    kbv esah = 3;
+  }
+}

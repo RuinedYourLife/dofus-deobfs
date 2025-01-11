@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum jdi {
+  DISABLED = 0;
+  AUTOMATIC = 1;
+  MANUAL = 2;
+}

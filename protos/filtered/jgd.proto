@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jgd {
+  int64 eold = 1;
+  int32 eole = 2;
+  repeated int64 eolf = 3;
+}

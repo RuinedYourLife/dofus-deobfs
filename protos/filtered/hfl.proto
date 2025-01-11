@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hfl {
+  bool egjc = 1;
+}

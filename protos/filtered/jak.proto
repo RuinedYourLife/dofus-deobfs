@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message jak {
+  jai ento = 1;
+  enum jai {
+    NAME_GENERATOR_RETRY_TOO_SHORT = 0;
+    NAME_GENERATOR_UNAVAILABLE = 1;
+  }
+}

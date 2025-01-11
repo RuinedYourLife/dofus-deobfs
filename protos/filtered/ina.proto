@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ina {
+  int32 elve = 1;
+  int32 elvf = 2;
+  int64 elvg = 3;
+}

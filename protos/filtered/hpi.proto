@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message hpi {
+  hpg ehww = 1;
+  enum hpg {
+    SUCCESS = 0;
+    PRESET_NOT_FOUND = 1;
+    ERROR_NAME_SIZE = 2;
+    UNKNOWN_ERROR = 3;
+    FEATURE_DISABLED = 4;
+  }
+}

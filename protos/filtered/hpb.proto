@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+message hpb {
+  string ehvx = 1;
+  oneof ehwc {
+    how ehvy = 2;
+    hox ehvz = 3;
+    hoy ehwa = 4;
+    hoz ehwb = 5;
+  }
+  message how {
+    int32 ehvi = 1;
+    int32 ehvj = 2;
+  }
+  message hox {
+    int32 ehvn = 1;
+  }
+  message hoy {
+  }
+  message hoz {
+  }
+}

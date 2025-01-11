@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jtu {
+  repeated int32 eqvb = 1;
+  int32 eqvc = 2;
+}

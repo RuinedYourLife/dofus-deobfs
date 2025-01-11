@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ien {
+  int32 ekhd = 1;
+}

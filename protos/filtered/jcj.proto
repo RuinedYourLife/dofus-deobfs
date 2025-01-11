@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jmz.proto";
+message jcj {
+  int32 eoar = 1;
+  jch eoas = 2;
+  string eoat = 3;
+  jmz eoau = 4;
+  int64 eoav = 5;
+  enum jch {
+    SELL = 0;
+    BUY = 1;
+    EXPIRE = 2;
+  }
+}

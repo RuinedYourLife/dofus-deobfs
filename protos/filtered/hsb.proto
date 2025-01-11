@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hst.proto";
+message hsb {
+  int32 eigv = 1;
+  hst eigw = 2;
+}

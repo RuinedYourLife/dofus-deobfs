@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jnf.proto";
+message jne {
+  int32 epru = 1;
+  jnf eprv = 2;
+  bool eprw = 3;
+  repeated string eprx = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message iua {
+  ity emvq = 1;
+  enum ity {
+    ROLE_PLAY = 0;
+    FIGHT = 1;
+  }
+}

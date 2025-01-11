@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ilc {
+  int64 elml = 1;
+  int32 elmm = 2;
+  int32 elmn = 3;
+  optional int32 elmo = 4;
+}

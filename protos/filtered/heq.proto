@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "hdq.proto";
+message heq {
+  hdq eggm = 1;
+  heo eggn = 2;
+  optional int32 eggo = 3;
+  enum heo {
+    ERROR_UNDEFINED = 0;
+    NEW_HINT = 1;
+    FINISHED = 2;
+    WRONG = 3;
+    LOST = 4;
+    ERROR_IMPOSSIBLE = 5;
+    WRONG_AND_YOU_KNOW_IT = 6;
+  }
+}

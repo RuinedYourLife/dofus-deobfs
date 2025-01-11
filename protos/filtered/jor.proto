@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jor {
+  int64 eqah = 1;
+  int64 eqai = 2;
+  int32 eqaj = 3;
+}

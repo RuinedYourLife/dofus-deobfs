@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jzs {
+  int64 erub = 1;
+  int32 eruc = 2;
+}

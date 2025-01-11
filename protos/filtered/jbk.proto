@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jbk {
+  repeated int64 enxk = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "jhj.proto";
+import "jhk.proto";
+import "jhl.proto";
+message jhi {
+  int32 eopz = 1;
+  oneof eoqd {
+    jhj eoqa = 2;
+    jhk eoqb = 3;
+    jhl eoqc = 4;
+  }
+}

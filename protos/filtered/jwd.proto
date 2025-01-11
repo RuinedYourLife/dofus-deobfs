@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message jwd {
+  int64 erfg = 1;
+  int64 erfh = 2;
+  jwb erfi = 3;
+  int64 erfj = 4;
+  repeated jnn erfk = 5;
+  enum jwb {
+    UNKNOWN = 0;
+    INFINITE = 1;
+    DATE = 2;
+    FIGHT_COUNT = 3;
+    FIGHTS_WON_COUNT = 4;
+    FIGHTS_LOST_COUNT = 5;
+  }
+}

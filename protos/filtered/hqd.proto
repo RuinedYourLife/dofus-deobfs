@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hqd {
+  int32 eiad = 1;
+}

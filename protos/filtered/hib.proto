@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hib {
+  int32 egul = 1;
+  int32 egum = 2;
+}

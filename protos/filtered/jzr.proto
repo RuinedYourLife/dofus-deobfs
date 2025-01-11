@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jft.proto";
+message jzr {
+  jft ertx = 1;
+}

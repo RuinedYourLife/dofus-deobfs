@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hfy {
+  int64 eglt = 1;
+  int64 eglu = 2;
+}

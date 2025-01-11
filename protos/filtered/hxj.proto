@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "jcq.proto";
+import "jcr.proto";
+import "jms.proto";
+import "jho.proto";
+message hxj {
+  int64 ejbz = 1;
+  string ejca = 2;
+  jcq ejcb = 3;
+  int32 ejcc = 4;
+  jcr ejcd = 5;
+  bool ejce = 6;
+  jms ejcf = 7;
+  bool ejcg = 8;
+  jho ejch = 9;
+}

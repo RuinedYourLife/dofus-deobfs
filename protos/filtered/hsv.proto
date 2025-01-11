@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsv {
+  int64 eilb = 1;
+  bool eilc = 2;
+}

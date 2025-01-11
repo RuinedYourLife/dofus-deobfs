@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jne.proto";
+message hyi {
+  repeated jne ejgp = 1;
+}

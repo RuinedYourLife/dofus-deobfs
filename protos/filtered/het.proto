@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "hdq.proto";
+message het {
+  hdq eggt = 1;
+  her eggu = 2;
+  int32 eggv = 3;
+  enum her {
+    ERROR_UNDEFINED = 0;
+    OK = 1;
+    WRONG = 2;
+    TOO_MANY = 3;
+    ERROR_IMPOSSIBLE = 4;
+    WRONG_INDEX = 5;
+    SAME_MAP = 6;
+  }
+}

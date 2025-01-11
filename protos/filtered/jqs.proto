@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jqr.proto";
+message jqs {
+  jqr eqjp = 1;
+  int64 eqjq = 2;
+  string eqjr = 3;
+}

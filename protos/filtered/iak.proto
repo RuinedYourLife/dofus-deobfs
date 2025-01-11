@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "jmr.proto";
+message iak {
+  int32 ejrc = 1;
+  int32 ejrd = 2;
+  repeated iai ejre = 3;
+  message iai {
+    int32 ejql = 1;
+    bool ejqm = 2;
+    int32 ejqn = 3;
+    string ejqo = 4;
+    string ejqp = 5;
+    bool ejqq = 6;
+    string ejqr = 7;
+    jmr ejqs = 8;
+    int32 ejqt = 9;
+    int32 ejqu = 10;
+    int32 ejqv = 11;
+    repeated int32 ejqw = 12;
+    bool ejqx = 13;
+    int64 ejqy = 14;
+  }
+}

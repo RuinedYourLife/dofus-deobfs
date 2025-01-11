@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "joq.proto";
+import "jor.proto";
+message jop {
+  oneof epzy {
+    joq epzw = 1;
+    jor epzx = 2;
+  }
+}

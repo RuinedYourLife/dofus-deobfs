@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message irk {
+  repeated int32 emnu = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jlz.proto";
+message ido {
+  repeated jlz ekcy = 1;
+  repeated jlz ekcz = 2;
+}

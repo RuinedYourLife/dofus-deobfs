@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jou.proto";
+message hvm {
+  jou eiuz = 1;
+}

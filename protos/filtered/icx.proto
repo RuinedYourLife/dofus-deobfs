@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "jdi.proto";
+message icx {
+  int64 ejzy = 1;
+  int32 ejzz = 2;
+  string ekaa = 3;
+  bool ekab = 4;
+  bool ekac = 5;
+  repeated int32 ekad = 6;
+  repeated int32 ekae = 7;
+  repeated jdi ekaf = 8;
+  int32 ekag = 9;
+  int32 ekah = 10;
+  int32 ekai = 11;
+  int32 ekaj = 12;
+  int32 ekak = 13;
+  int32 ekal = 14;
+  icv ekam = 15;
+  bool ekan = 16;
+  enum icv {
+    SORT_BY_NAME = 0;
+    SORT_BY_LEVEL = 1;
+    SORT_BY_NB_MEMBERS = 2;
+    SORT_BY_LAST_ACTIVITY = 3;
+  }
+}

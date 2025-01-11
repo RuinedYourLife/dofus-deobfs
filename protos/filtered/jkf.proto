@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "jdc.proto";
+message jkf {
+  int64 epdw = 1;
+  jdc epdx = 2;
+  int32 epdy = 3;
+  int32 epdz = 4;
+  int32 epea = 5;
+  jka epeb = 6;
+  int32 epec = 7;
+  repeated jkd eped = 8;
+  bool epee = 9;
+  enum jka {
+    GLYPH = 0;
+    TRAP = 1;
+    WALL = 2;
+    PORTAL = 3;
+    RUNE = 4;
+  }
+  message jkd {
+    int32 epdp = 1;
+    int32 epdq = 2;
+    int32 epdr = 3;
+    jkb epds = 4;
+    enum jkb {
+      CELLS_CIRCLE = 0;
+      CELLS_CROSS = 1;
+      CELLS_SQUARE = 2;
+    }
+  }
+}

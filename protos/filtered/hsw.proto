@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hsw {
+  int64 eilg = 1;
+}

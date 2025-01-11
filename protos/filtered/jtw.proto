@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jcr.proto";
+message jtw {
+  jcr eqvl = 1;
+  int32 eqvm = 2;
+  repeated int32 eqvn = 3;
+  string eqvo = 4;
+}

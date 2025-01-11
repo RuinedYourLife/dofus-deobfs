@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message igf {
+  int32 ekoh = 1;
+  int32 ekoi = 2;
+}

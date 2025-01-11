@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hpt {
+  bool ehyx = 1;
+  map<string, int32> ehyy = 2;
+  int32 ehyz = 3;
+}

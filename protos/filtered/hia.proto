@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hia {
+  int32 egug = 1;
+  int32 eguh = 2;
+}

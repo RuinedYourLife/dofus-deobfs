@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jiu.proto";
+import "jiv.proto";
+import "jiw.proto";
+import "jix.proto";
+message jit {
+  int64 eowz = 1;
+  int32 eoxa = 2;
+  int32 eoxb = 3;
+  int32 eoxc = 4;
+  jcr eoxd = 5;
+  bool eoxe = 6;
+  oneof eoxj {
+    jiu eoxf = 7;
+    jiv eoxg = 8;
+    jiw eoxh = 9;
+    jix eoxi = 10;
+  }
+}

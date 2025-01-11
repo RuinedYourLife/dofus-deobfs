@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jhg {
+  int32 eops = 1;
+  int32 eopt = 2;
+  int32 eopu = 3;
+  int32 eopv = 4;
+}

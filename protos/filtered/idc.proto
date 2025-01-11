@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jog.proto";
+message idc {
+  jog ekaz = 1;
+}

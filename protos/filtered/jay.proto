@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jay {
+  int32 envr = 1;
+  bool envs = 2;
+}

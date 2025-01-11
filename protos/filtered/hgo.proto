@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jom.proto";
+message hgo {
+  repeated jom egoi = 1;
+  repeated jom egoj = 2;
+}

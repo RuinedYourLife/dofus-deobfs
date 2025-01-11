@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message jcc {
+  jgz eoaa = 1;
+  int32 eoab = 2;
+}

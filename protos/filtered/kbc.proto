@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jcs.proto";
+message kbc {
+  int64 erzd = 1;
+  bool erze = 2;
+  jcs erzf = 3;
+  bool erzg = 4;
+}

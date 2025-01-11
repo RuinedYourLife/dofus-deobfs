@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jie.proto";
+message hmy {
+  jie ehoa = 1;
+  jie ehob = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message iqo {
+  int32 emkb = 1;
+  int64 emkc = 2;
+  iqm emkd = 3;
+  message iqm {
+    bool emjw = 1;
+    repeated int64 emjx = 2;
+  }
+}

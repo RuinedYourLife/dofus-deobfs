@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message iuq {
+  int32 emxm = 1;
+  iuo emxn = 2;
+  oneof emxs {
+    string emxo = 3;
+    int64 emxq = 4;
+  }
+  enum iuo {
+    FRIEND = 0;
+    SPOUSE = 1;
+    PARTY = 2;
+    GUILD = 3;
+    ALLIANCE = 4;
+    CRAFTER = 5;
+    INTERLOCUTOR = 6;
+    FIGHT = 7;
+  }
+}

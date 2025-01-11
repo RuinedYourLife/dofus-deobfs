@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jft.proto";
+import "jhv.proto";
+message jwt {
+  jft erhs = 1;
+  jhv erht = 2;
+}

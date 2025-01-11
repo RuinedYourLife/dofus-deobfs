@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "efn.proto";
+message hmi {
+  int32 ehll = 1;
+  bool ehlm = 2;
+  repeated string ehln = 3;
+  efn blew = 4;
+}

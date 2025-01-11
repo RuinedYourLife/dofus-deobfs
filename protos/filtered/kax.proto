@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message kax {
+  int32 eryh = 1;
+  repeated kav eryi = 2;
+  message kav {
+    int32 erya = 1;
+    int64 eryb = 2;
+    optional int64 eryc = 3;
+  }
+}

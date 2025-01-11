@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jnn.proto";
+message jmz {
+  int32 epqu = 1;
+  repeated jnn epqv = 2;
+  oneof epqz {
+    int32 epqw = 3;
+    jmx epqy = 4;
+  }
+  message jmx {
+    int64 epqp = 1;
+    string epqq = 2;
+  }
+}

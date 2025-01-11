@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hxh {
+  int32 ejbm = 1;
+  int32 ejbn = 2;
+  int64 ejbo = 3;
+  int64 ejbp = 4;
+  int64 ejbq = 5;
+}

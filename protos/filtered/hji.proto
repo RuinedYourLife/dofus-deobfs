@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message hji {
+  hjg egyw = 1;
+  int32 egyx = 2;
+  enum hjg {
+    OK = 0;
+    ERROR_UNKNOWN = 1;
+    ERROR_FLOOD = 2;
+  }
+}

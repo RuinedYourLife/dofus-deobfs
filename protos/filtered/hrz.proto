@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message hrz {
+  int32 eigf = 1;
+  hrx eigg = 2;
+  enum hrx {
+    UNKNOWN = 0;
+    PLAYER_NOT_FOUND = 1;
+    PARTY_NOT_FOUND = 2;
+    PARTY_FULL = 3;
+    PLAYER_BUSY = 4;
+    PLAYER_ALREADY_INVITED = 5;
+    PLAYER_TOO_SOLICITED = 6;
+    PLAYER_LOYAL = 7;
+    UNMODIFIABLE = 8;
+    UNMET_CRITERION = 9;
+    NOT_ENOUGH_ROOM = 10;
+    COMPOSITION_CHANGED = 11;
+    PLAYER_IN_TUTORIAL = 12;
+  }
+}

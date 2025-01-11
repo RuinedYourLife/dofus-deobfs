@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum jds {
+  PRICE_ASC = 0;
+  PRICE_DSC = 1;
+}

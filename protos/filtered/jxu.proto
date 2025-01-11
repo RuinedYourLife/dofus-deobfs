@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jhu.proto";
+message jxu {
+  jhu ermf = 1;
+}

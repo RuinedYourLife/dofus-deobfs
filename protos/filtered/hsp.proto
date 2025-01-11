@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsp {
+  int32 eikf = 1;
+  string eikg = 2;
+}

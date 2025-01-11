@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message isb {
+  int32 emqi = 1;
+}

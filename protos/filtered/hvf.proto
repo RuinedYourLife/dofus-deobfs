@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hvf {
+  int32 eiue = 1;
+  string eiuf = 2;
+}

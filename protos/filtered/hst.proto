@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "jie.proto";
+import "jcr.proto";
+import "jho.proto";
+import "jhf.proto";
+message hst {
+  int64 eikp = 1;
+  int64 eikq = 2;
+  string eikr = 3;
+  jie eiks = 4;
+  int32 eikt = 5;
+  jcr eiku = 6;
+  jho eikv = 7;
+  repeated jhf eikw = 8;
+}

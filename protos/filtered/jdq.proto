@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum jdq {
+  ACTION_INVALID = 0;
+  ACTION_BOOST = 1;
+  ACTION_REMOVE_BOOST = 2;
+  ACTION_SET = 3;
+}

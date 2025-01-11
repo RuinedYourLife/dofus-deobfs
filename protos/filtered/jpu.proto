@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jpu {
+  bool eqgf = 1;
+  int32 eqgg = 2;
+  repeated string eqgh = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jvu {
+  int32 eref = 1;
+  bool ereg = 2;
+  int64 ereh = 3;
+}

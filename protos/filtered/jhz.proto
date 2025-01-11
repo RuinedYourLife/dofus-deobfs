@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "jcq.proto";
+import "jct.proto";
+message jhz {
+  jcq eotq = 1;
+  int32 eotr = 2;
+  int32 eots = 3;
+  int64 eott = 4;
+  int64 eotu = 5;
+  jhx eotv = 6;
+  message jhx {
+    int32 eotj = 1;
+    int32 eotk = 2;
+    int32 eotl = 3;
+    jct eotm = 4;
+  }
+}

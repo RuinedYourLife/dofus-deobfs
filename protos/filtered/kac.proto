@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message kac {
+  string erve = 1;
+  kaa ervf = 2;
+  enum kaa {
+    TEXT = 0;
+    INFO = 1;
+    ERROR = 2;
+  }
+}

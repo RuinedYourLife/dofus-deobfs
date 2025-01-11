@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jyn {
+  string erpg = 1;
+}

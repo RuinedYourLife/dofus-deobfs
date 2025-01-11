@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hii {
+  int32 egvp = 1;
+}

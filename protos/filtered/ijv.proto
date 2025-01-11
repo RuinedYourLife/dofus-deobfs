@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+message ijv {
+  oneof elfp {
+    ijr elfm = 1;
+    ijs elfn = 2;
+    ijt elfo = 3;
+  }
+  message ijr {
+    int32 eler = 1;
+    oneof elew {
+      int32 eles = 2;
+      int32 eleu = 3;
+    }
+  }
+  message ijs {
+    string elfa = 1;
+    int32 elfb = 2;
+  }
+  message ijt {
+    int32 elff = 1;
+    int32 elfg = 2;
+    int64 elfh = 3;
+    int64 elfi = 4;
+  }
+}

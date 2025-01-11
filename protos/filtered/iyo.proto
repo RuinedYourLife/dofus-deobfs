@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "jho.proto";
+message iyo {
+  int32 enoa = 1;
+  int64 enob = 2;
+  jho enoc = 3;
+}

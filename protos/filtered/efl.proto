@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message efl {
+  bool blel = 1;
+  Error blem = 2;
+  enum Error {
+    UNKNOWN = 0;
+    SUBSCRIPTION_REQUIRED = 1;
+    BAD_LEVEL = 2;
+    LIMIT_EXCEEDED = 3;
+    NOT_ENABLED = 4;
+    ALREADY_REPORTED = 5;
+  }
+}

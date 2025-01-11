@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "jie.proto";
+import "jth.proto";
+message jvo {
+  string ercy = 1;
+  string ercz = 2;
+  int32 erda = 3;
+  map<int32, jvm> erdb = 4;
+  optional int32 erdc = 5;
+  optional int32 erde = 6;
+  optional int32 erdg = 7;
+  jie erdi = 8;
+  bool erdj = 9;
+  string erdk = 10;
+  int32 erdl = 11;
+  jth erdm = 12;
+  message jvm {
+    int32 ercs = 1;
+    optional int32 erct = 2;
+  }
+}

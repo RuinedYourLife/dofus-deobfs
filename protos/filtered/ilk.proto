@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ilk {
+  int64 elny = 1;
+  int64 elnz = 2;
+}

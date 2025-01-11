@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hxg.proto";
+message hwk {
+  int32 eiyi = 1;
+  hxg eiyj = 2;
+}

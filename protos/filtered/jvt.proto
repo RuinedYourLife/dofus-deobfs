@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message jvt {
+  repeated jvr ereb = 1;
+  message jvr {
+    int32 erdu = 1;
+    int32 erdv = 2;
+    bool erdw = 3;
+    int64 erdx = 4;
+  }
+}

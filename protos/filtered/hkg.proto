@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jdk.proto";
+message hkg {
+  string ehcr = 1;
+  int32 ehcs = 2;
+  jdk ehct = 3;
+  bool ehcu = 4;
+  int32 ehcv = 5;
+  int32 ehcw = 6;
+}

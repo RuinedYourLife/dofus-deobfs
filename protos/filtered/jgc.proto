@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jgd.proto";
+message jgc {
+  int32 eokv = 1;
+  repeated jgd eokw = 2;
+  int32 eokx = 3;
+  int32 eoky = 4;
+  jga eokz = 5;
+  enum jga {
+    CHALLENGE_COMPLETED = 0;
+    CHALLENGE_FAILED = 1;
+    CHALLENGE_RUNNING = 2;
+  }
+}

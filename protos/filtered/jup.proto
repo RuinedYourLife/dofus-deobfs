@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jup {
+  optional int32 eqyj = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jfp.proto";
+message ilp {
+  jfp elou = 1;
+  bool elov = 2;
+}

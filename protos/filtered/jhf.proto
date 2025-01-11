@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jie.proto";
+import "jhg.proto";
+message jhf {
+  int32 eopl = 1;
+  int32 eopm = 2;
+  jie eopn = 3;
+  jhd eopo = 4;
+  message jhd {
+    int32 eopg = 1;
+    jhg eoph = 2;
+  }
+}

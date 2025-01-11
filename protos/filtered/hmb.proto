@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "hmf.proto";
+message hmb {
+  hmf ehkm = 1;
+  optional int64 ehkn = 2;
+}

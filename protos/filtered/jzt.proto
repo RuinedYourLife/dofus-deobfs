@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jzs.proto";
+message jzt {
+  repeated jzs erug = 1;
+}

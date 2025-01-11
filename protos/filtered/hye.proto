@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hye {
+  int32 ejfx = 1;
+}

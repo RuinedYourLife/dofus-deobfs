@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ike {
+  bool elgq = 1;
+}

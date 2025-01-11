@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ioi {
+  int32 emah = 1;
+}

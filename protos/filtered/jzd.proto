@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jin.proto";
+message jzd {
+  repeated jin errv = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ige {
+  int32 ekod = 1;
+}

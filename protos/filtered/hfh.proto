@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum hfh {
+  TELEPORTER_ZAAP = 0;
+  TELEPORTER_SUBWAY = 1;
+  TELEPORTER_PRISM = 2;
+  TELEPORTER_HAVEN_BAG = 3;
+  TELEPORTER_ANOMALY = 4;
+}

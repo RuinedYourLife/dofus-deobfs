@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hjy {
+  int32 ehbx = 1;
+  bool ehby = 2;
+}

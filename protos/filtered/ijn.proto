@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ihf.proto";
+message ijn {
+  ihf elef = 1;
+  int64 eleg = 2;
+}

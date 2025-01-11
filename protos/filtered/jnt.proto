@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jmz.proto";
+message jnt {
+  int32 epvi = 1;
+  string epvj = 2;
+  string epvk = 3;
+  string epvl = 4;
+  string epvm = 5;
+  repeated jmz epvn = 6;
+}

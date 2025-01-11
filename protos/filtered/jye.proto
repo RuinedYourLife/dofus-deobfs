@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jdl.proto";
+message jye {
+  jdl ernu = 1;
+}

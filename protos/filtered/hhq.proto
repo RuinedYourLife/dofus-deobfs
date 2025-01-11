@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hhq {
+  repeated int32 egsv = 1;
+}

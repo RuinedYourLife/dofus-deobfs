@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jie.proto";
+message jmu {
+  int32 epqd = 1;
+  int32 epqe = 2;
+  int32 epqf = 3;
+  jie epqg = 4;
+}

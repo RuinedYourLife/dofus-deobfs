@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jqe.proto";
+message jqn {
+  int64 eqiy = 1;
+  int64 eqiz = 2;
+  int32 eqja = 3;
+  jqe eqjb = 4;
+  string eqjc = 5;
+}

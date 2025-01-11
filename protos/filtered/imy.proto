@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message imy {
+  int32 elus = 1;
+  int32 elut = 2;
+  int32 eluu = 3;
+}

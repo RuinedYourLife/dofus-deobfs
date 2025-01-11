@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ikb {
+  repeated ijz elgh = 1;
+  message ijz {
+    int32 elgc = 1;
+    bool elgd = 2;
+  }
+}

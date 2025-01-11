@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum jrf {
+  ONE_VS_ONE = 0;
+  TWO_VS_TWO = 1;
+  THREE_VS_THREE = 2;
+}

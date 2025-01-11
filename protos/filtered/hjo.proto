@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jlg.proto";
+import "jft.proto";
+import "jcq.proto";
+import "jie.proto";
+message hjo {
+  int64 egzw = 1;
+  int64 egzx = 2;
+  string egzy = 3;
+  int32 egzz = 4;
+  int32 ehaa = 5;
+  jcr ehab = 6;
+  jlg ehac = 7;
+  jft ehad = 8;
+  jcq ehae = 9;
+  jie ehaf = 10;
+  hjm ehag = 11;
+  message hjm {
+    int64 egzo = 1;
+    int32 egzp = 2;
+    int32 egzq = 3;
+    bool egzr = 4;
+    bool egzs = 5;
+  }
+}

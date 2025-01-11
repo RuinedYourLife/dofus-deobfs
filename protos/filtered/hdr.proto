@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hdr {
+  int32 egdf = 1;
+}

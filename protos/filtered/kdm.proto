@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message kdm {
+  oneof eshj {
+    kdk eshg = 1;
+    Error eshh = 2;
+  }
+  message kdk {
+    repeated Friend eshc = 1;
+    message Friend {
+      string esgw = 1;
+      string esgx = 2;
+      repeated int32 esgy = 3;
+    }
+  }
+  enum Error {
+    UNKNOWN = 0;
+    FLOODING = 1;
+  }
+}

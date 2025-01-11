@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jol.proto";
+message jxc {
+  repeated jol erji = 1;
+}

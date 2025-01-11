@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jog.proto";
+message ide {
+  string ekbi = 1;
+  jog ekbj = 2;
+}

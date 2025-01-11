@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message ifd {
+  string ekjm = 1;
+  int32 ekjn = 2;
+  int32 ekjo = 3;
+  string ekjp = 4;
+  string ekjq = 5;
+  string ekjr = 6;
+  string ekjs = 7;
+  string ekjt = 8;
+  string ekju = 9;
+  string ekjv = 10;
+  string ekjw = 11;
+  string ekjx = 12;
+  string ekjy = 13;
+}

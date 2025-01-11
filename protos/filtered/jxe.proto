@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jol.proto";
+message jxe {
+  jol erjr = 1;
+}

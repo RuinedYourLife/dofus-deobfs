@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message idi {
+  int32 ekbz = 1;
+}

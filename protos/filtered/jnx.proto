@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "jft.proto";
+import "job.proto";
+import "joe.proto";
+message jnx {
+  jnv epvw = 1;
+  int64 epvx = 2;
+  int64 epvy = 3;
+  int32 epvz = 4;
+  int64 epwa = 5;
+  jft epwb = 6;
+  job epwc = 7;
+  joe epwd = 8;
+  optional int32 epwe = 9;
+  enum jnv {
+    NORMAL = 0;
+    WEAKENED = 1;
+    VULNERABLE = 2;
+    PROTECTED = 3;
+    INHIBITED = 4;
+  }
+}

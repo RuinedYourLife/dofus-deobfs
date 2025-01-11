@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "jhz.proto";
+import "jhi.proto";
+import "jph.proto";
+message jhw {
+  int64 eosw = 1;
+  int64 eosx = 2;
+  int64 eosy = 3;
+  int64 eosz = 4;
+  int64 eota = 5;
+  jhz eotb = 6;
+  int32 eotc = 7;
+  repeated jhi eotd = 8;
+  repeated jph eote = 9;
+  int64 eotf = 10;
+}

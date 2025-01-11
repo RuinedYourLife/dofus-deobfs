@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message izl {
+  int64 enqs = 1;
+}

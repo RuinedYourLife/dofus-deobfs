@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message jht {
+  oneof eosh {
+    jhq eosf = 1;
+    jhr eosg = 2;
+  }
+  message jhq {
+    string eorw = 1;
+  }
+  message jhr {
+    string eosa = 1;
+    string eosb = 2;
+  }
+}

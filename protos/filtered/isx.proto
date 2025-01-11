@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jcv.proto";
+message isx {
+  jcv emsx = 1;
+}

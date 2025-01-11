@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message isg {
+  string emre = 1;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "jcr.proto";
+message jhc {
+  string eoox = 1;
+  int32 eooy = 2;
+  jcr eooz = 3;
+  repeated int32 eopa = 4;
+  int32 eopb = 5;
+  jha eopc = 6;
+  message jha {
+    int32 eoos = 1;
+    int32 eoot = 2;
+  }
+}

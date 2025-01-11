@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jtf {
+  int32 eqsr = 1;
+  repeated int32 eqss = 2;
+  int32 eqst = 3;
+}

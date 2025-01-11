@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+enum hhz {
+  ERROR = 0;
+  PLAYER_BUSY = 1;
+  HOST_NOT_MIMICKABLE = 2;
+  HOST_WRAPPED = 3;
+  DUPLICATE = 4;
+  SUCCESS = 5;
+}

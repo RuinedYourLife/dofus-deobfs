@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "hfh.proto";
+message hfi {
+  hfh egip = 1;
+  hfh egiq = 2;
+  int64 egir = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+enum jqe {
+  BID_INVALID_ACTION = 0;
+  BID_CONSUME_BUFF = 1;
+  BID_CANCEL = 2;
+  BID_CREATE_KAMA = 3;
+  BID_CREATE_OGRINE = 4;
+  BID_BUY_KAMA = 5;
+  BID_BUY_OGRINE = 6;
+}

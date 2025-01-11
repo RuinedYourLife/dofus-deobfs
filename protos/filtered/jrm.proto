@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "jrf.proto";
+message jrm {
+  bool eqlw = 1;
+  jrk eqlx = 2;
+  jrf eqly = 3;
+  enum jrk {
+    REGISTERED = 0;
+    WAITING_FIGHT = 1;
+    STARTING_FIGHT = 2;
+    UNREGISTERED = 3;
+  }
+}

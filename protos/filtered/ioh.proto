@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ioh {
+  int32 emab = 1;
+  int32 emac = 2;
+  int64 emad = 3;
+}

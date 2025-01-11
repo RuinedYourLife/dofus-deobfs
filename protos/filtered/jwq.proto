@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jwq {
+  int64 erhg = 1;
+  bool erhh = 2;
+}

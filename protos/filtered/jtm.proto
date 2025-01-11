@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message jtm {
+  oneof eqtv {
+    jtk eqtt = 1;
+    Error eqtu = 2;
+  }
+  message jtk {
+    int32 eqtl = 1;
+    int32 eqtm = 2;
+  }
+  message Error {
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jgz.proto";
+message jae {
+  repeated jgz ensy = 1;
+  repeated jgz ensz = 2;
+}

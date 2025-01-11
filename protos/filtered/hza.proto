@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message hza {
+  string ejju = 1;
+  int32 ejjv = 2;
+  int32 ejjw = 3;
+  int32 ejjx = 4;
+  int32 ejjy = 5;
+  int32 ejjz = 6;
+  repeated int32 ejka = 7;
+}

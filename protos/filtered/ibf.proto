@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ibf {
+  repeated int32 ejud = 1;
+}

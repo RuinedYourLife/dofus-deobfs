@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jud.proto";
+message juw {
+  bool eqzt = 1;
+  optional jud eqzu = 2;
+}

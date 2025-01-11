@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jom.proto";
+message hgq {
+  int64 egos = 1;
+  jom egot = 2;
+}

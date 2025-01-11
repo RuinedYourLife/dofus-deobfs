@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+message jss {
+  jsi eqqt = 1;
+  jsq eqqu = 2;
+  bool eqqv = 3;
+  message jsi {
+    oneof eqpp {
+      jsd eqpl = 1;
+      jse eqpm = 2;
+      jsf eqpn = 3;
+      jsg eqpo = 4;
+    }
+    message jsd {
+    }
+    message jse {
+    }
+    message jsf {
+      int32 eqpe = 1;
+    }
+    message jsg {
+    }
+  }
+  message jsq {
+    oneof eqqp {
+      jsk eqqk = 1;
+      jsl eqql = 2;
+      jsm eqqm = 3;
+      jsn eqqn = 4;
+      jso eqqo = 5;
+    }
+    message jsk {
+    }
+    message jsl {
+    }
+    message jsm {
+      int32 eqpz = 1;
+    }
+    message jsn {
+    }
+    message jso {
+      string eqqg = 1;
+    }
+  }
+}

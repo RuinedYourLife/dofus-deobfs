@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hte {
+  int64 eimr = 1;
+  bool eims = 2;
+  int64 eimt = 3;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message jtr {
+  oneof equn {
+    jtp equl = 1;
+    Error equm = 2;
+  }
+  message jtp {
+    repeated int32 equd = 1;
+    int32 eque = 2;
+  }
+  message Error {
+  }
+}

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+import "jma.proto";
+import "jms.proto";
+import "jmr.proto";
+message jmh {
+  int32 epni = 1;
+  int32 epnj = 2;
+  oneof epno {
+    jmc epnk = 3;
+    jmd epnl = 4;
+    jme epnm = 5;
+    jmf epnn = 6;
+  }
+  message jmc {
+    jma epmm = 1;
+    jms epmn = 2;
+  }
+  message jmd {
+    repeated int32 epmr = 1;
+    repeated jma epms = 2;
+  }
+  message jme {
+    jma epmw = 1;
+    jmr epmx = 2;
+  }
+  message jmf {
+    jma epnb = 1;
+    jms epnc = 2;
+    repeated int32 epnd = 3;
+    int64 epne = 4;
+  }
+}

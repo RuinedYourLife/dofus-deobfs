@@ -1,0 +1,218 @@
+syntax = "proto3";
+
+import "jjt.proto";
+import "ihe.proto";
+import "jie.proto";
+import "jdb.proto";
+import "jfp.proto";
+import "ijv.proto";
+import "jlb.proto";
+import "jfq.proto";
+import "jkf.proto";
+message ijj {
+  int32 elci = 1;
+  int64 elcj = 2;
+  oneof eldr {
+    ijd elck = 3;
+    ije elcl = 4;
+    ijf elcm = 5;
+    ijg elcn = 6;
+    ijh elco = 7;
+    ijc elcp = 8;
+    ija elcq = 9;
+    ijb elcr = 10;
+    iiy elcs = 11;
+    iiz elct = 12;
+    iiv elcu = 13;
+    iiw elcv = 14;
+    iix elcw = 15;
+    iiu elcx = 16;
+    iio elcy = 17;
+    iip elcz = 18;
+    iiq elda = 19;
+    iii eldb = 20;
+    iij eldc = 21;
+    iin eldd = 22;
+    iif elde = 23;
+    iig eldf = 24;
+    iih eldg = 25;
+    ihw eldh = 26;
+    iid eldi = 27;
+    iie eldj = 28;
+    iht eldk = 29;
+    ihu eldl = 30;
+    ihv eldm = 31;
+    ihp eldn = 32;
+    ihq eldo = 33;
+    ihr eldp = 34;
+    ihs eldq = 35;
+  }
+  message ijd {
+    int64 elbk = 1;
+    int32 elbl = 2;
+    int32 elbm = 3;
+  }
+  message ije {
+    int64 elbq = 1;
+    int32 elbr = 2;
+  }
+  message ijf {
+    int64 elbv = 1;
+  }
+  message ijg {
+    int64 elbz = 1;
+    int32 elca = 2;
+  }
+  message ijh {
+    int64 elce = 1;
+  }
+  message ijc {
+    jjt elbg = 1;
+  }
+  message ija {
+    int64 elas = 1;
+    int32 elat = 2;
+    int32 elau = 3;
+    int32 elav = 4;
+    optional int32 elaw = 5;
+  }
+  message ijb {
+    int64 elbb = 1;
+    int32 elbc = 2;
+  }
+  message iiy {
+    int64 elah = 1;
+    int32 elai = 2;
+  }
+  message iiz {
+    int64 elam = 1;
+    int32 elan = 2;
+    int32 elao = 3;
+  }
+  message iiv {
+    int64 ekzv = 1;
+  }
+  message iiw {
+    int64 ekzz = 1;
+  }
+  message iix {
+    int64 elad = 1;
+  }
+  message iiu {
+    int64 ekzj = 1;
+    int32 ekzk = 2;
+    ihe ekzl = 3;
+    bool ekzm = 4;
+    bool ekzn = 5;
+    oneof ekzr {
+      iis ekzo = 6;
+      int32 ekzp = 7;
+    }
+    message iis {
+      int32 ekzd = 1;
+      int32 ekze = 2;
+      repeated int32 ekzf = 3;
+    }
+  }
+  message iio {
+    repeated int64 ekyp = 1;
+  }
+  message iip {
+    int64 ekyt = 1;
+    int32 ekyu = 2;
+  }
+  message iiq {
+    int64 ekyy = 1;
+    int32 ekyz = 2;
+  }
+  message iii {
+    int64 ekxq = 1;
+    int32 ekxr = 2;
+  }
+  message iij {
+    int64 ekxv = 1;
+    int32 ekxw = 2;
+    int32 ekxx = 3;
+  }
+  message iin {
+    int64 ekyg = 1;
+    bool ekyh = 2;
+    oneof ekyl {
+      iil ekyi = 3;
+      int32 ekyj = 4;
+    }
+    message iil {
+      int32 ekyb = 1;
+      bool ekyc = 2;
+    }
+  }
+  message iif {
+    int64 ekxb = 3;
+    int32 ekxc = 4;
+  }
+  message iig {
+    int64 ekxg = 3;
+    int64 ekxh = 4;
+  }
+  message iih {
+    int64 ekxl = 3;
+    jie ekxm = 4;
+  }
+  message ihw {
+    int64 ekvw = 1;
+    jdb ekvx = 2;
+  }
+  message iid {
+    oneof ekwt {
+      ihy ekwr = 1;
+      iib ekws = 2;
+    }
+    message ihy {
+      repeated jfp ekwb = 1;
+    }
+    message iib {
+      repeated ihz ekwn = 1;
+      message ihz {
+        ijv ekwf = 1;
+        int32 ekwg = 2;
+        jie ekwh = 3;
+        jlb ekwi = 4;
+        repeated jfq ekwj = 5;
+      }
+    }
+  }
+  message iie {
+    jkf ekwx = 1;
+  }
+  message iht {
+    int32 ekvh = 1;
+  }
+  message ihu {
+    int32 ekvl = 1;
+    int32 ekvm = 2;
+    int64 ekvn = 3;
+  }
+  message ihv {
+    int32 ekvr = 1;
+    bool ekvs = 2;
+  }
+  message ihp {
+    int64 ekuk = 3;
+    int32 ekul = 4;
+  }
+  message ihq {
+    int64 ekup = 3;
+    int32 ekuq = 4;
+  }
+  message ihr {
+    int64 ekuu = 3;
+    int32 ekuv = 4;
+  }
+  message ihs {
+    int32 ekuz = 1;
+    bool ekva = 2;
+    int32 ekvb = 3;
+    int32 ekvc = 4;
+    int32 ekvd = 5;
+  }
+}

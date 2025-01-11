@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jro {
+  int32 eqmi = 1;
+  int64 eqmj = 2;
+  bool eqmk = 3;
+}

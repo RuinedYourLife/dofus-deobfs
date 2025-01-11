@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jwd.proto";
+message jwa {
+  repeated jwd erfc = 1;
+}

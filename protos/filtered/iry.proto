@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iry {
+  int32 empv = 1;
+  bool empw = 2;
+}

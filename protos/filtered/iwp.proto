@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "jdt.proto";
+import "jcp.proto";
+import "jho.proto";
+message iwp {
+  int64 enft = 1;
+  jdt enfu = 2;
+  jcp enfv = 3;
+  iwn enfw = 4;
+  message iwn {
+    int64 enfm = 1;
+    string enfn = 2;
+    int32 enfo = 3;
+    jho enfp = 4;
+  }
+}

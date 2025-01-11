@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "izg.proto";
+message izw {
+  izu ensc = 1;
+  izg ensd = 2;
+  enum izu {
+    CREATE_OK = 0;
+    CREATE_ERROR_NO_REASON = 1;
+    CREATE_ERROR_INVALID_NAME = 2;
+    CREATE_ERROR_TOO_MANY_CHARACTERS = 3;
+    CREATE_ERROR_NOT_ALLOWED = 4;
+    CREATE_ERROR_NEW_PLAYER_NOT_ALLOWED = 5;
+  }
+}

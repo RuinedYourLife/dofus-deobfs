@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hsy {
+  int32 eilo = 1;
+  int32 eilp = 2;
+}

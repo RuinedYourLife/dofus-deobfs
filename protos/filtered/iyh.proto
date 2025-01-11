@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ixx.proto";
+message iyh {
+  repeated ixx enmy = 1;
+  repeated ixx enmz = 2;
+}

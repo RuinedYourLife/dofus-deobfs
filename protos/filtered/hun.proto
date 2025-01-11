@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hun {
+  repeated int32 eirs = 1;
+}

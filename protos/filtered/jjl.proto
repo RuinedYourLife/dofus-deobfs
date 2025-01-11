@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jjl {
+  int32 epav = 1;
+  int32 epaw = 2;
+  int64 epax = 3;
+}

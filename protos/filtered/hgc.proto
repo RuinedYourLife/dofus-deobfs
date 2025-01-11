@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "hfh.proto";
+message hgc {
+  hfh egmd = 1;
+  int64 egme = 2;
+  int32 egmf = 3;
+  int32 egmg = 4;
+  int32 egmh = 5;
+  oneof egmj {
+    hga egmi = 6;
+  }
+  message hga {
+    int32 egly = 1;
+    int64 eglz = 2;
+  }
+}

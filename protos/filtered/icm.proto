@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message icm {
+  int64 ejyp = 1;
+  bool ejyq = 2;
+}

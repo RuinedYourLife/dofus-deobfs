@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ipc {
+  int32 emef = 1;
+  bool emeg = 2;
+}

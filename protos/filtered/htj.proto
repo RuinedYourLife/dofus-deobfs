@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message htj {
+  repeated int32 einh = 1;
+}

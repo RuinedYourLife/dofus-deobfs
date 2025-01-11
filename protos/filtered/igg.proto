@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message igg {
+  repeated int32 ekom = 1;
+  optional int32 ekon = 2;
+  int64 ekop = 3;
+  bool ekoq = 4;
+}

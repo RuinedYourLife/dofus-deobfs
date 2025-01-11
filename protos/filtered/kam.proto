@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "kax.proto";
+message kam {
+  repeated kax erwr = 1;
+}

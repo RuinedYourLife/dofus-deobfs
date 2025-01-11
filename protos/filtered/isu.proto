@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message isu {
+  int32 emsp = 1;
+}

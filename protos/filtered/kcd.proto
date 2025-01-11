@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message kcd {
+  string escm = 1;
+  kcb escn = 2;
+  message kcb {
+    int64 esch = 1;
+    string esci = 2;
+  }
+}

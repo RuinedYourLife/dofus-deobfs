@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jnu {
+  int32 epvr = 1;
+  int32 epvs = 2;
+}

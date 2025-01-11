@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jft.proto";
+message jyp {
+  int64 erps = 1;
+  int64 erpt = 2;
+  int64 erpu = 3;
+  repeated jft erpv = 4;
+}

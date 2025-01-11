@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jaz {
+  int32 envw = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ieb {
+  int64 ekfj = 1;
+}

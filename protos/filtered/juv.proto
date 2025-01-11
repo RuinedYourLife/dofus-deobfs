@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message juv {
+  int32 eqzn = 1;
+  optional int32 eqzo = 2;
+}

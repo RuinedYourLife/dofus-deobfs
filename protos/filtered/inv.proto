@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message inv {
+  int32 elyk = 1;
+  int32 elyl = 2;
+}

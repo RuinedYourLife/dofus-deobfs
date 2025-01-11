@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iog {
+  int32 elzw = 1;
+  bool elzx = 2;
+}

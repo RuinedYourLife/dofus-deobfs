@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message irf {
+  ird emmy = 1;
+  enum ird {
+    OK = 0;
+    USER = 1;
+    MISSING_RESSOURCE = 2;
+    IMPOSSIBLE_MODIFICATION = 3;
+  }
+}

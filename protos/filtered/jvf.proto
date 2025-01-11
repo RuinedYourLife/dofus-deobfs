@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jvo.proto";
+message jvf {
+  bool erbn = 1;
+  jvo erbo = 2;
+}

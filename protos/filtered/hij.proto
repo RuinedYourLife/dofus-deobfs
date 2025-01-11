@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hij {
+  repeated int32 egvt = 1;
+  repeated int32 egvu = 2;
+}

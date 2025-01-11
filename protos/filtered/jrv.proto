@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jrv {
+  int32 eqnr = 1;
+  int32 eqns = 2;
+  int32 eqnt = 3;
+  bool eqnu = 4;
+}

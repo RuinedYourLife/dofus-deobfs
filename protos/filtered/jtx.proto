@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jcr.proto";
+import "jie.proto";
+message jtx {
+  string eqvs = 1;
+  jcr eqvt = 2;
+  jie eqvu = 3;
+}

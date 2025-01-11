@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jsa {
+  bool eqoq = 1;
+  bool eqor = 2;
+}

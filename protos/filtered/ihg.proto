@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ihg {
+  int32 eksy = 1;
+  int64 eksz = 2;
+}

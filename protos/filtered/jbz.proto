@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jfw.proto";
+message jbz {
+  repeated jfw enzn = 1;
+}

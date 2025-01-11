@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iys {
+  int32 enou = 1;
+}

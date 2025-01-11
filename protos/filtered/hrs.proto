@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "hpz.proto";
+message hrs {
+  int32 eieu = 1;
+  hpz eiev = 2;
+  string eiew = 3;
+  int32 eiex = 4;
+  int64 eiey = 5;
+  string eiez = 6;
+  int64 eifa = 7;
+}

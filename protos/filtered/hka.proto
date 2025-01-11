@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hka {
+  repeated int32 ehcd = 1;
+  bool ehce = 2;
+}

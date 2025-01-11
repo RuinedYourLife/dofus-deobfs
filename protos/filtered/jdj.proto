@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum jdj {
+  APPLICATION_ADDED = 0;
+  APPLICATION_DELETED = 1;
+  APPLICATION_UPDATED = 2;
+}

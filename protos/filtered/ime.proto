@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jcx.proto";
+message ime {
+  jcx elra = 1;
+  int32 elrb = 2;
+  int64 elrc = 3;
+  int64 elrd = 4;
+  bool elre = 5;
+  repeated int32 elrf = 6;
+}

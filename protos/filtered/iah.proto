@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message iah {
+  int32 ejqc = 1;
+  int32 ejqd = 2;
+  bool ejqe = 3;
+  int64 ejqf = 4;
+  string ejqg = 5;
+  string ejqh = 6;
+}

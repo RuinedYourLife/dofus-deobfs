@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message jmo {
+  int32 epov = 1;
+  optional int32 epow = 2;
+  bool epoy = 3;
+}

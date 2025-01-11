@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "jdt.proto";
+import "jcp.proto";
+import "jcq.proto";
+import "jcr.proto";
+import "jho.proto";
+import "jlg.proto";
+import "jft.proto";
+message iwm {
+  int64 enfd = 1;
+  jdt enfe = 2;
+  jcp enff = 3;
+  int64 enfg = 4;
+  int32 enfh = 5;
+  iwk enfi = 6;
+  message iwk {
+    int64 enen = 1;
+    string eneo = 2;
+    int32 enep = 3;
+    jcq eneq = 4;
+    int32 ener = 5;
+    jcr enes = 6;
+    int32 enet = 7;
+    bool eneu = 8;
+    jho enev = 9;
+    jlg enew = 10;
+    jft enex = 11;
+    int32 eney = 12;
+    int32 enez = 13;
+  }
+}

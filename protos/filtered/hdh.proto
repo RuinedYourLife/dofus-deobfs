@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "hdi.proto";
+import "hdj.proto";
+import "hdk.proto";
+message hdh {
+  oneof egcf {
+    hdi egcc = 1;
+    hdj egcd = 2;
+    hdk egce = 3;
+  }
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "jdc.proto";
+message iko {
+  int64 elij = 1;
+  jdc elik = 2;
+  oneof elip {
+    ikj elil = 3;
+    ikk elim = 4;
+    ikl elin = 5;
+    ikm elio = 6;
+  }
+  message ikj {
+  }
+  message ikk {
+    int32 elhv = 1;
+  }
+  message ikl {
+    int32 elhz = 1;
+    iko elia = 2;
+  }
+  message ikm {
+    int32 elie = 1;
+    iko elif = 2;
+  }
+}

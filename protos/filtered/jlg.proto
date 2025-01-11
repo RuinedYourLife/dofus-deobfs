@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "jog.proto";
+import "jlh.proto";
+message jlg {
+  int32 epit = 1;
+  string epiu = 2;
+  int32 epiv = 3;
+  jle epiw = 4;
+  message jle {
+    jog epio = 1;
+    jlc epip = 2;
+    message jlc {
+      int64 epie = 1;
+      int32 epif = 2;
+      int32 epig = 3;
+      jlh epih = 4;
+      int32 epii = 5;
+      optional string epij = 6;
+    }
+  }
+}

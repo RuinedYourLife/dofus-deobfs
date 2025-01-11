@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kah {
+  int32 ervy = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jkh.proto";
+import "jki.proto";
+message ilu {
+  repeated jkh elpi = 1;
+  int32 elpj = 2;
+  int32 elpk = 3;
+  repeated jki elpl = 4;
+}

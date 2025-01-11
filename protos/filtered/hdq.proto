@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum hdq {
+  CLASSIC = 0;
+  PORTAL = 1;
+  LEGENDARY = 2;
+}

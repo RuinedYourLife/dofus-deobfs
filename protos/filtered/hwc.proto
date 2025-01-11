@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message hwc {
+  int32 eiwy = 1;
+  int32 eiwz = 2;
+}

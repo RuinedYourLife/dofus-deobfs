@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "kcu.proto";
+message kby {
+  kcu esbv = 1;
+}

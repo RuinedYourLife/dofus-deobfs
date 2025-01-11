@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jie.proto";
+message ivf {
+  int32 emzx = 1;
+  string emzy = 2;
+  int64 emzz = 3;
+  jie enaa = 4;
+}

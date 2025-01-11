@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ifj {
+  bool ekkw = 1;
+  int64 ekkx = 2;
+}

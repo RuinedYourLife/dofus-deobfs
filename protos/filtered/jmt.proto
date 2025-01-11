@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jmu.proto";
+import "jmv.proto";
+message jmt {
+  jmu eppx = 1;
+  repeated jmu eppy = 2;
+  repeated jmv eppz = 3;
+}

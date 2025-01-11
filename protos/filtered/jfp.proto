@@ -1,0 +1,189 @@
+syntax = "proto3";
+
+import "jii.proto";
+import "jie.proto";
+import "jcu.proto";
+import "jcr.proto";
+import "jlg.proto";
+import "jft.proto";
+import "jct.proto";
+import "jcl.proto";
+import "jhz.proto";
+import "jon.proto";
+import "jmt.proto";
+import "jcq.proto";
+import "jnx.proto";
+import "jnu.proto";
+import "jfq.proto";
+import "jlb.proto";
+import "jho.proto";
+message jfp {
+  int64 eoir = 1;
+  jii eois = 2;
+  jfn eoit = 3;
+  message jfn {
+    jie eoik = 1;
+    oneof eoin {
+      jex eoil = 2;
+      jfl eoim = 3;
+    }
+    message jex {
+      oneof eogb {
+        jeo eoft = 4;
+        jep eofu = 5;
+        jes eofv = 6;
+        jev eofw = 7;
+        jnx eofx = 8;
+        jnu eofy = 9;
+        int32 eofz = 10;
+      }
+      message jeo {
+        string eoei = 1;
+        oneof eoel {
+          jel eoej = 2;
+          jem eoek = 3;
+        }
+        message jel {
+          repeated jcu eodu = 1;
+          jcr eodv = 2;
+          repeated jei eodw = 3;
+          int64 eodx = 4;
+          jhz eody = 5;
+          jej eodz = 6;
+          message jei {
+            oneof eodl {
+              jea eodb = 3;
+              jlg eodc = 4;
+              jeb eodd = 5;
+              jec eode = 6;
+              jed eodf = 7;
+              jee eodg = 8;
+              jef eodh = 9;
+              jeg eodi = 10;
+              int32 eodj = 11;
+            }
+            message jea {
+              repeated jdy eobk = 1;
+              message jdy {
+                jie eobf = 1;
+                int32 eobg = 2;
+              }
+            }
+            message jeb {
+              jft eobo = 1;
+              jct eobp = 2;
+            }
+            message jec {
+              int32 eobt = 1;
+              string eobu = 2;
+            }
+            message jed {
+              optional int32 eoby = 1;
+              optional string eoca = 2;
+            }
+            message jee {
+              optional int32 eocf = 1;
+              int32 eoch = 2;
+              optional int32 eoci = 3;
+              optional int32 eock = 4;
+            }
+            message jef {
+              jcl eocp = 1;
+              string eocq = 2;
+              int32 eocr = 3;
+            }
+            message jeg {
+              int32 eocv = 1;
+              int32 eocw = 2;
+              string eocx = 3;
+            }
+          }
+          message jej {
+            int32 eodp = 1;
+            int32 eodq = 2;
+          }
+        }
+        message jem {
+          string eoed = 1;
+          int32 eoee = 2;
+        }
+      }
+      message jep {
+        jon eoep = 1;
+        int32 eoeq = 2;
+      }
+      message jes {
+        jmt eofa = 1;
+        int32 eofb = 2;
+        jcq eofc = 3;
+        jeq eofd = 4;
+        message jeq {
+          optional int32 eoeu = 1;
+          repeated jmt eoew = 2;
+        }
+      }
+      message jev {
+        int32 eofm = 1;
+        jcr eofn = 2;
+        int32 eofo = 3;
+        jet eofp = 4;
+        message jet {
+          repeated int32 eofh = 1;
+          repeated int32 eofi = 2;
+        }
+      }
+    }
+    message jfl {
+      jfq eohz = 1;
+      int32 eoia = 2;
+      jlb eoib = 3;
+      repeated int32 eoic = 4;
+      oneof eoig {
+        jfd eoid = 5;
+        jfi eoie = 6;
+        jfj eoif = 7;
+      }
+      message jfd {
+        string eogq = 1;
+        jho eogr = 2;
+        int32 eogs = 3;
+        int32 eogt = 4;
+        bool eogu = 5;
+        oneof eogx {
+          jfa eogv = 6;
+          jfb eogw = 7;
+        }
+        message jfa {
+          int32 eogf = 1;
+          jhz eogg = 2;
+          int32 eogh = 3;
+          jcr eogi = 4;
+        }
+        message jfb {
+          int32 eogm = 1;
+        }
+      }
+      message jfi {
+        oneof eohp {
+          jff eohn = 1;
+          jfg eoho = 2;
+        }
+        message jff {
+          int32 eohb = 1;
+          int32 eohc = 2;
+          int32 eohd = 3;
+          jhz eohe = 4;
+        }
+        message jfg {
+          int32 eohi = 1;
+          int32 eohj = 2;
+        }
+      }
+      message jfj {
+        int32 eoht = 1;
+        int32 eohu = 2;
+        int64 eohv = 3;
+      }
+    }
+  }
+}

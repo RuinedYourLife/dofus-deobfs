@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "jny.proto";
+message hmu {
+  jny ehmv = 1;
+  hms ehmw = 2;
+  enum hms {
+    DEFENDERS_WIN = 0;
+    ATTACKERS_WIN = 1;
+  }
+}

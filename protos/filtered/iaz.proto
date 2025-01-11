@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iaz {
+  bool ejtl = 1;
+}

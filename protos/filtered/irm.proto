@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message irm {
+  repeated int32 emoc = 1;
+  repeated int32 emod = 2;
+  float emoe = 3;
+  float emof = 4;
+  int32 emog = 5;
+  int32 emoh = 6;
+  int32 emoi = 7;
+  int32 emoj = 8;
+}

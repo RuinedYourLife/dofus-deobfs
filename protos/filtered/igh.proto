@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jdf.proto";
+message igh {
+  int64 ekou = 1;
+  jdf ekov = 2;
+}

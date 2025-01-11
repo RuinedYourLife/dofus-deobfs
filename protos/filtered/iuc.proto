@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message iuc {
+  int64 emvx = 1;
+}

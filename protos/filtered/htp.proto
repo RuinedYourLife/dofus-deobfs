@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message htp {
+  int32 eioh = 1;
+}

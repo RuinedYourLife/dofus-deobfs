@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message izr {
+  int64 enrq = 1;
+  bool enrr = 2;
+}

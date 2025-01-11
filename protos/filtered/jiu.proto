@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jiu {
+  int32 eoxn = 1;
+}

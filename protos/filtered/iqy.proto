@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jou.proto";
+message iqy {
+  repeated jou emmb = 1;
+  bool emmc = 2;
+}

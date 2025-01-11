@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message hlb {
+  int32 ehfv = 1;
+  int64 ehfw = 2;
+  int64 ehfx = 3;
+  bool ehfy = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jol.proto";
+message ich {
+  repeated jol ejxy = 1;
+}

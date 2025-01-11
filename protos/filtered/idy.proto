@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message idy {
+  bool ekep = 1;
+  int32 ekeq = 2;
+  int64 eker = 3;
+  int64 ekes = 4;
+  int64 eket = 5;
+  string ekeu = 6;
+  int32 ekev = 7;
+  int32 ekew = 8;
+}

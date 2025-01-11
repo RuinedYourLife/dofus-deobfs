@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ihi {
+  int32 ekth = 1;
+  int32 ekti = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iac {
+  int32 ejoy = 1;
+  int32 ejoz = 2;
+}

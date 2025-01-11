@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ixm {
+  int32 enjb = 1;
+  int32 enjc = 2;
+}

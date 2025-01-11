@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jjn {
+  int32 epbg = 1;
+  int32 epbh = 2;
+  int32 epbi = 3;
+  string epbj = 4;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ise {
+  int32 emqz = 1;
+}

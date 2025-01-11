@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message iri {
+  int32 emnl = 1;
+  int32 emnm = 2;
+}

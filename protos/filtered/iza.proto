@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message iza {
+  iyy enpn = 1;
+  int32 enpo = 2;
+  enum iyy {
+    NONE = 0;
+    SUCCESS = 1;
+    GUEST = 2;
+    IN_FIGHT = 3;
+    NOT_ENOUGH_POINT = 4;
+  }
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kcm {
+  int32 esee = 1;
+}

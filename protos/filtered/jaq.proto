@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jaq {
+  int32 enul = 1;
+}

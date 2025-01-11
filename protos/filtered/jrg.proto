@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jrf.proto";
+message jrg {
+  jrf eqlh = 1;
+}

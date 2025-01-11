@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message idk {
+  string ekch = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message hwu {
+  repeated hws eizt = 1;
+  message hws {
+    int32 eizo = 1;
+    bool eizp = 2;
+  }
+}

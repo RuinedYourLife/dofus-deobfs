@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "jlg.proto";
+message icr {
+  jlg ejzk = 1;
+  int32 ejzl = 2;
+}

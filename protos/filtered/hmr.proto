@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jny.proto";
+message hmr {
+  jny ehmr = 1;
+}

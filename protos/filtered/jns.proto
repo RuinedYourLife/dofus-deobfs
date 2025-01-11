@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "jie.proto";
+import "jdf.proto";
+message jns {
+  int32 epva = 1;
+  int32 epvb = 2;
+  oneof epve {
+    jnp epvc = 3;
+    jnq epvd = 4;
+  }
+  message jnp {
+    jie epup = 1;
+    optional jdf epuq = 2;
+  }
+  message jnq {
+    int32 epuv = 1;
+    int32 epuw = 2;
+  }
+}

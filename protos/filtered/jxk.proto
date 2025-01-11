@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message jxk {
+  int64 erkn = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "jgz.proto";
+import "jnn.proto";
+message jbu {
+  jgz enyq = 1;
+  repeated jnn enyr = 2;
+  int32 enys = 3;
+  bool enyt = 4;
+}

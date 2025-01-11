@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jsu {
+  bool eqrd = 1;
+  int32 eqre = 2;
+  int32 eqrf = 3;
+  int32 eqrg = 4;
+}

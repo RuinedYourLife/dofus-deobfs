@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message irz {
+  repeated int32 emqa = 1;
+}

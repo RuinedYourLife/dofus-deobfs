@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message kcx {
+  int64 esfn = 1;
+}

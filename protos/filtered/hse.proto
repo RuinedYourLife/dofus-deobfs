@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "jhg.proto";
+message hse {
+  int32 eihk = 1;
+  int64 eihl = 2;
+  jhg eihm = 3;
+  optional int32 eihn = 4;
+}

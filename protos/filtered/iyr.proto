@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message iyr {
+  int64 enoo = 1;
+  int64 enop = 2;
+  int64 enoq = 3;
+}

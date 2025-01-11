@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jcb {
+  int32 enzv = 1;
+  bool enzw = 2;
+}

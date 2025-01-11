@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message juu {
+  bool eqzj = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "jne.proto";
+import "jdt.proto";
+message ixz {
+  string enkz = 1;
+  repeated jne enla = 2;
+  oneof enle {
+    string enlb = 3;
+    jdt enld = 4;
+  }
+}

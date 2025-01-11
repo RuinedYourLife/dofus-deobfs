@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message jjm {
+  int32 epbb = 1;
+  int32 epbc = 2;
+}

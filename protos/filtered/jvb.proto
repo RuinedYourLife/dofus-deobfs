@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message jvb {
+  string erap = 1;
+  string eraq = 2;
+  int32 erar = 3;
+  bool eras = 4;
+}

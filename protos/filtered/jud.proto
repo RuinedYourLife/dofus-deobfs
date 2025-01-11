@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+enum jud {
+  AMULET = 0;
+  RING_LEFT = 1;
+  RING_RIGHT = 2;
+  BELT = 3;
+  BOOTS = 4;
+  PETMOUNT = 5;
+  DRAGOTURKEY = 6;
+  RHINEETLE = 7;
+  SEEMYOOL = 8;
+  CAPE = 9;
+  HAT = 10;
+  PET = 11;
+  SHIELD = 12;
+  BOW = 13;
+  WAND = 14;
+  STAFF = 15;
+  DAGGER = 16;
+  SCYTHE = 17;
+  AXE = 18;
+  LANCE = 19;
+  HAMMER = 20;
+  SHOVEL = 21;
+  SWORD = 22;
+  DISGUISE = 23;
+  WINGS = 24;
+  SHOULDERS = 25;
+}

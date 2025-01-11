@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message hzk {
+  int32 ejlo = 1;
+  int32 ejlp = 2;
+  optional int32 ejlq = 3;
+}

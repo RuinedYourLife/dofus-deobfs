@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jdm.proto";
+message jys {
+  jdm erqh = 1;
+}

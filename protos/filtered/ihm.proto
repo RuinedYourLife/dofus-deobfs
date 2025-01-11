@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ihm {
+  bool ekua = 1;
+  int32 ekub = 2;
+  bool ekuc = 3;
+}

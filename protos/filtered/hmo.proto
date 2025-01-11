@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+import "jny.proto";
+message hmo {
+  repeated jny ehmf = 1;
+}

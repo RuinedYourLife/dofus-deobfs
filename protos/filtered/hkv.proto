@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message hkv {
+  int64 eheu = 1;
+}

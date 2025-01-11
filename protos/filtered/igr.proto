@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import "jmh.proto";
+import "jfp.proto";
+import "jic.proto";
+import "jid.proto";
+import "ihc.proto";
+import "jiy.proto";
+import "igv.proto";
+import "jmr.proto";
+import "igx.proto";
+import "igy.proto";
+import "igz.proto";
+message igr {
+  int32 ekqm = 1;
+  int64 ekqn = 2;
+  repeated jmh ekqo = 3;
+  repeated jfp ekqp = 4;
+  repeated jic ekqq = 5;
+  repeated jid ekqr = 6;
+  repeated ihc ekqs = 7;
+  repeated jiy ekqt = 8;
+  bool ekqu = 9;
+  oneof ekra {
+    igv ekqv = 10;
+    jmr ekqw = 11;
+    igx ekqx = 12;
+    igy ekqy = 13;
+    igz ekqz = 14;
+  }
+}
