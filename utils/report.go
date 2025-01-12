@@ -38,11 +38,10 @@ func GenerateEnumMatchReport(matches []MessageMatch, outputFile string) error {
 		})
 
 		for _, match := range matches {
-			report.WriteString(fmt.Sprintf("%s (%s) -> %s (%s) (confidence: %.0f%%)\n",
+			report.WriteString(fmt.Sprintf("%s (%s) -> %s (confidence: %.0f%%)\n",
 				match.ObfuscatedMsg,
 				filepath.Base(match.ObfuscatedFile),
 				match.OriginalMsg,
-				filepath.Base(match.OriginalFile),
 				match.MatchPercent,
 			))
 		}

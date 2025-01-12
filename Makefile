@@ -1,8 +1,8 @@
 all:
-	go run .
+	@go run .
 
 debug:
-	go run . -log debug
+	@go run . -log debug
 
 warn:
-	go run . -log warn
+	@go run . -log warn

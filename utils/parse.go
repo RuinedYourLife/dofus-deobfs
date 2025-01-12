@@ -12,12 +12,20 @@ import (
 	"github.com/fatih/color"
 )
 
+type EnumMatch struct {
+	ObfuscatedEnum string   // Full path like "iqe.ipz"
+	OriginalEnum   string   // Full path like "ExchangeCraftResultEvent.CraftResult"
+	Values         []string // For logging/debugging
+	Confidence     float64  // Store the confidence score
+}
+
 type MessageMatch struct {
 	ObfuscatedMsg  string
 	ObfuscatedFile string
 	OriginalMsg    string
 	OriginalFile   string
 	MatchPercent   float64
+	EnumMatches    []EnumMatch
 }
 
 type EnumValue struct {
@@ -113,7 +121,7 @@ func LoadAndParseProtos(dir string, filter []string, logger *slog.Logger) (*Desc
 
 	logger.Info(fmt.Sprintf("parsed %s files & %s messages",
 		color.GreenString(strconv.Itoa(fileCount)),
-		color.GreenString(strconv.Itoa(len(desc.MessageType))),
+		color.GreenString(strconv.Itoa(countTotalMessages(desc.MessageType))),
 	))
 	return &desc, nil
 }
@@ -123,32 +131,53 @@ func ParseProtoFile(content string) (*Descriptor, error) {
 	var currentMsg *MessageType
 	var currentEnum *EnumType
 	var currentOneofIndex *int
-	var braceCount = 0
+	var parentMsgs []*MessageType
+	var nestLevel int
 
 	lines := strings.Split(content, "\n")
-	for _, line := range lines {
-		line = strings.TrimSpace(line)
-
-		braceCount += strings.Count(line, "{")
-		braceCount -= strings.Count(line, "}")
-
-		if braceCount == 0 {
-			currentMsg = nil
-			currentEnum = nil
-			currentOneofIndex = nil
-		}
-
-		// Parse message definitions
-		if strings.HasPrefix(line, "message ") {
-			name := strings.TrimSpace(strings.TrimPrefix(line, "message "))
-			name = strings.TrimSuffix(name, "{")
-			msg := MessageType{Name: name}
-			desc.MessageType = append(desc.MessageType, msg)
-			currentMsg = &desc.MessageType[len(desc.MessageType)-1]
+	for i := 0; i < len(lines); i++ {
+		line := strings.TrimSpace(lines[i])
+		if line == "" || strings.HasPrefix(line, "//") {
 			continue
 		}
 
-		// Parse enum definitions
+		// Track opening braces
+		if strings.Contains(line, "{") {
+			nestLevel++
+		}
+
+		// Handle closing braces
+		if line == "}" {
+			nestLevel--
+			if currentEnum != nil {
+				currentEnum = nil
+			} else if currentOneofIndex != nil && nestLevel == 1 {
+				currentOneofIndex = nil
+			} else if currentMsg != nil {
+				if len(parentMsgs) > 0 {
+					currentMsg = parentMsgs[len(parentMsgs)-1]
+					parentMsgs = parentMsgs[:len(parentMsgs)-1]
+				} else if nestLevel == 0 {
+					currentMsg = nil
+				}
+			}
+			continue
+		}
+
+		if strings.HasPrefix(line, "message ") {
+			name := strings.TrimSuffix(strings.TrimPrefix(line, "message "), " {")
+			msg := MessageType{Name: name}
+			if currentMsg == nil {
+				desc.MessageType = append(desc.MessageType, msg)
+				currentMsg = &desc.MessageType[len(desc.MessageType)-1]
+			} else {
+				parentMsgs = append(parentMsgs, currentMsg)
+				currentMsg.NestedType = append(currentMsg.NestedType, msg)
+				currentMsg = &currentMsg.NestedType[len(currentMsg.NestedType)-1]
+			}
+			continue
+		}
+
 		if strings.HasPrefix(line, "enum ") {
 			name := strings.TrimSpace(strings.TrimPrefix(line, "enum "))
 			name = strings.TrimSuffix(name, "{")
@@ -169,8 +198,8 @@ func ParseProtoFile(content string) (*Descriptor, error) {
 				name := strings.TrimSpace(strings.TrimPrefix(line, "oneof "))
 				name = strings.TrimSpace(strings.TrimSuffix(name, "{"))
 				idx := len(currentMsg.OneOfDecl)
-				currentOneofIndex = &idx
 				currentMsg.OneOfDecl = append(currentMsg.OneOfDecl, OneOfDecl{Name: name})
+				currentOneofIndex = &idx
 			}
 			continue
 		}
@@ -235,6 +264,14 @@ func ParseProtoFile(content string) (*Descriptor, error) {
 	}
 
 	return &desc, nil
+}
+
+func countTotalMessages(messages []MessageType) int {
+	total := len(messages)
+	for _, msg := range messages {
+		total += countTotalMessages(msg.NestedType)
+	}
+	return total
 }
 
 func parseFieldNumber(s string) int {

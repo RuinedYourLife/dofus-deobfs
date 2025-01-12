@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 	"os"
-	"path/filepath"
+	"strconv"
 	"strings"
 
 	"github.com/fatih/color"
@@ -63,51 +63,75 @@ func (h *PrettyHandler) Handle(ctx context.Context, r slog.Record) error {
 	// Format based on message type
 	var output string
 	switch msg := r.Message; msg {
-	case "found enum-based match":
-		obfs, obfsFile, orig, origFile := "", "", "", ""
+	case "found matching enum in messages":
+		obfsMsg, origMsg, enumMatch := "", "", ""
+		for _, attr := range orderedAttrs {
+			switch attr.k {
+			case "obfuscated_msg":
+				obfsMsg = color.GreenString(attr.v)
+			case "original_msg":
+				origMsg = color.GreenString(attr.v)
+			case "enum_match":
+				enumMatch = color.YellowString(attr.v)
+			}
+		}
+		output = fmt.Sprintf("%s found matching enum between messages: %s -> %s (%s)",
+			level, obfsMsg, origMsg, enumMatch)
+
+	case "found top-level message match":
+		obfs, orig := "", ""
 		for _, attr := range orderedAttrs {
 			switch attr.k {
 			case "obfuscated":
 				obfs = color.GreenString(attr.v)
-			case "obfuscated_file":
-				obfsFile = color.BlueString(filepath.Base(attr.v))
 			case "original":
 				orig = color.GreenString(attr.v)
-			case "original_file":
-				origFile = color.BlueString(filepath.Base(attr.v))
 			}
 		}
-		output = fmt.Sprintf("%s found enum-based match: %s (%s) -> %s (%s)",
-			level, obfs, obfsFile, orig, origFile)
+		output = fmt.Sprintf("%s found top-level message match: %s -> %s",
+			level, obfs, orig)
 
 	case "matching enum":
-		name, values := "", ""
+		obfsEnum, origEnum, values := "", "", ""
 		for _, attr := range orderedAttrs {
 			switch attr.k {
-			case "name":
-				name = color.YellowString(attr.v)
+			case "obfuscated_enum":
+				obfsEnum = color.YellowString(attr.v)
+			case "original_enum":
+				origEnum = color.YellowString(attr.v)
 			case "values":
 				values = truncateEnumValues(attr.v)
 			}
 		}
-		output = fmt.Sprintf("%s     matching enum: %s with values: %s",
-			level, name, values)
+		output = fmt.Sprintf("%s     matching enum: %s -> %s with values: %s",
+			level, obfsEnum, origEnum, values)
 
-	case "enum matching complete":
-		matches, total := "", ""
+	case "matching summary":
+		var withEnums, found string
+		var progress float64
 		for _, attr := range orderedAttrs {
 			switch attr.k {
-			case "matches":
-				matches = color.GreenString(attr.v)
-			case "total_with_enums":
-				total = color.GreenString(attr.v)
+			case "obfuscated_with_enums":
+				withEnums = color.YellowString(attr.v)
+			case "enum_matches_found":
+				found = color.GreenString(attr.v)
+			case "matching_progress":
+				progress, _ = strconv.ParseFloat(strings.TrimSuffix(attr.v, "%"), 64)
 			}
 		}
-		output = fmt.Sprintf("%s found %s enum-based matches out of %s messages with enums",
-			level, matches, total)
 
-	case "some messages with enums weren't matched":
-		output = fmt.Sprintf("%s messages with enums that weren't matched:", level)
+		progressBar := createProgressBar(progress)
+		output = fmt.Sprintf(`%s Matching Summary:
+    Enum Matches:
+        Messages with enums: %s
+        Matches found:       %s
+    Progress: %s %.1f%%`,
+			level,
+			withEnums,
+			found,
+			progressBar,
+			progress,
+		)
 
 	case "unmatched message":
 		name, enums := "", ""
@@ -148,4 +172,24 @@ func InitLogger(level LogLevel) *slog.Logger {
 	prettyHandler.l = Logger
 	slog.SetDefault(Logger)
 	return Logger
+}
+
+// Helper to create a progress bar
+func createProgressBar(percent float64) string {
+	width := 30
+	completed := int(percent * float64(width) / 100)
+
+	bar := strings.Builder{}
+	bar.WriteString("[")
+
+	// Add completed portion
+	bar.WriteString(color.GreenString(strings.Repeat("=", completed)))
+
+	// Add remaining portion
+	if completed < width {
+		bar.WriteString(color.HiBlackString(strings.Repeat("-", width-completed)))
+	}
+
+	bar.WriteString("]")
+	return bar.String()
 }
