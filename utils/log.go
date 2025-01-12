@@ -106,7 +106,7 @@ func (h *PrettyHandler) Handle(ctx context.Context, r slog.Record) error {
 		output = fmt.Sprintf("%s     matching enum: %s -> %s with values: %s",
 			level, obfsEnum, origEnum, values)
 
-	case "matching summary":
+	case "enum matching summary":
 		var withEnums, found string
 		var progress float64
 		for _, attr := range orderedAttrs {
@@ -121,10 +121,9 @@ func (h *PrettyHandler) Handle(ctx context.Context, r slog.Record) error {
 		}
 
 		progressBar := createProgressBar(progress)
-		output = fmt.Sprintf(`%s Matching Summary:
-    Enum Matches:
-        Messages with enums: %s
-        Matches found:       %s
+		output = fmt.Sprintf(`%s Enum Matching Summary:
+	Messages with enums: %s
+	Matches found:       %s
     Progress: %s %.1f%%`,
 			level,
 			withEnums,
@@ -145,6 +144,101 @@ func (h *PrettyHandler) Handle(ctx context.Context, r slog.Record) error {
 		}
 		output = fmt.Sprintf("%s     %s (enum values: %s)",
 			level, name, enums)
+
+	case "strict structure matching summary":
+		var remaining, found, passes string
+		var progress float64
+		for _, attr := range orderedAttrs {
+			switch attr.k {
+			case "initial_unmatched_obfuscated":
+				remaining = color.YellowString(attr.v)
+			case "strict_matches_found":
+				found = color.GreenString(attr.v)
+			case "matching_progress":
+				progress, _ = strconv.ParseFloat(strings.TrimSuffix(attr.v, "%"), 64)
+			case "passes_needed":
+				passes = color.BlueString(attr.v)
+			}
+		}
+
+		progressBar := createProgressBar(progress)
+		output = fmt.Sprintf(`%s Strict Structure Matching Summary:
+	Initial unmatched: %s
+	Matches found:       %s
+	Passes needed:        %s
+    Progress: %s %.1f%%`,
+			level,
+			remaining,
+			found,
+			passes,
+			progressBar,
+			progress,
+		)
+
+	case "structure matching summary":
+		var remaining, found string
+		var progress float64
+		for _, attr := range orderedAttrs {
+			switch attr.k {
+			case "remaining_messages":
+				remaining = color.YellowString(attr.v)
+			case "structure_matches_found":
+				found = color.GreenString(attr.v)
+			case "matching_progress":
+				progress, _ = strconv.ParseFloat(strings.TrimSuffix(attr.v, "%"), 64)
+			}
+		}
+
+		progressBar := createProgressBar(progress)
+		output = fmt.Sprintf(`%s Structure Matching Summary:
+	Remaining messages: %s
+	Matches found:      %s
+    Progress: %s %.1f%%`,
+			level,
+			remaining,
+			found,
+			progressBar,
+			progress,
+		)
+
+	case "structure-based match":
+		obfs, orig := "", ""
+		var confidence float64
+		for _, attr := range orderedAttrs {
+			switch attr.k {
+			case "obfuscated":
+				obfs = color.GreenString(attr.v)
+			case "original":
+				orig = color.GreenString(attr.v)
+			case "confidence":
+				confidence, _ = strconv.ParseFloat(attr.v, 64)
+			}
+		}
+		output = fmt.Sprintf("%s found structure match: %s -> %s (confidence: %.2f%%)",
+			level, obfs, orig, confidence)
+
+	case "found structure-based match with alternatives":
+		obfs, orig, alts := "", "", ""
+		var confidence float64
+		for _, attr := range orderedAttrs {
+			switch attr.k {
+			case "obfuscated":
+				obfs = color.GreenString(attr.v)
+			case "original":
+				orig = color.YellowString(attr.v)
+			case "confidence":
+				confidence, _ = strconv.ParseFloat(attr.v, 64)
+			case "alternatives":
+				parts := strings.Split(attr.v, ", ")
+				coloredParts := make([]string, len(parts))
+				for i, s := range parts {
+					coloredParts[i] = color.YellowString(strings.TrimSpace(s))
+				}
+				alts = strings.Join(coloredParts, ", ")
+			}
+		}
+		output = fmt.Sprintf("%s found potential matches for %s (confidence: %.2f%%): %s, %s",
+			level, obfs, confidence, orig, alts)
 
 	default:
 		output = fmt.Sprintf("%s %s", level, msg)

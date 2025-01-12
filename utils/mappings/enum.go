@@ -1,65 +1,19 @@
-package utils
+package mappings
 
 import (
 	"fmt"
 	"log/slog"
 	"strings"
+
+	"github.com/ruinedyourlife/deobfs/utils"
 )
 
-// Helper function to get all enums in a message and its nested messages
-func getAllEnums(msg MessageType, parentPath string) map[string]EnumType {
-	enums := make(map[string]EnumType)
-
-	// Add direct enums with proper parent path
-	for _, enum := range msg.EnumType {
-		path := parentPath
-		if path == "" {
-			path = msg.Name
-		}
-		enums[path+"."+enum.Name] = enum
-	}
-
-	// Add nested message enums with proper hierarchy
-	for _, nested := range msg.NestedType {
-		nestedPath := parentPath
-		if nestedPath == "" {
-			nestedPath = msg.Name
-		}
-		nestedPath = nestedPath + "." + nested.Name
-		for path, enum := range getAllEnums(nested, nestedPath) {
-			enums[path] = enum
-		}
-	}
-
-	return enums
-}
-
-// Helper to get the top-level message containing an enum
-func getTopLevelMessage(msg MessageType, enumPath string) string {
-	parts := strings.Split(enumPath, ".")
-	if len(parts) < 2 {
-		return ""
-	}
-	topMsg := parts[0] // First part should be the top-level message name
-
-	// If this is the top message, check if it owns the enum
-	if msg.Name == topMsg {
-		return msg.Name
-	}
-
-	// Check nested messages
-	for _, nested := range msg.NestedType {
-		if found := getTopLevelMessage(nested, enumPath); found != "" {
-			return msg.Name // Return the parent message name
-		}
-	}
-
-	return ""
-}
-
 // FindEnumBasedMatches finds messages that have matching enum definitions
-func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Logger) []MessageMatch {
-	var matches []MessageMatch
+func FindEnumBasedMatches(obfuscated, unobfuscated *utils.Descriptor, logger *slog.Logger) []utils.MessageMatch {
+	// Initialize progress at start
+	utils.GlobalProgress.Init(len(obfuscated.MessageType))
+
+	var matches []utils.MessageMatch
 	var totalObfuscatedWithEnums int
 	var matchedMessages = make(map[string]bool)
 
@@ -81,13 +35,13 @@ func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Log
 		for _, unobsMsg := range unobfuscated.MessageType {
 			unobsEnums := getAllEnums(unobsMsg, "")
 
-			var enumMatches []EnumMatch
+			var enumMatches []utils.EnumMatch
 			var allEnumsMatched bool = true
 
 			// Try to match each enum and find their parent messages
 			for obfsPath, obfsEnum := range obfsEnums {
 				matched := false
-				var bestMatch EnumMatch
+				var bestMatch utils.EnumMatch
 				var bestConfidence float64
 
 				for unobsPath, unobsEnum := range unobsEnums {
@@ -97,7 +51,7 @@ func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Log
 						unobsParent := getTopLevelMessage(unobsMsg, strings.Split(unobsPath, ".")[0])
 
 						if confidence > bestConfidence {
-							bestMatch = EnumMatch{
+							bestMatch = utils.EnumMatch{
 								ObfuscatedEnum: obfsPath,
 								OriginalEnum:   unobsPath,
 								Values:         formatEnumValues(obfsEnum.Value),
@@ -131,7 +85,7 @@ func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Log
 				}
 				averageConfidence := totalConfidence / float64(len(enumMatches))
 
-				match := MessageMatch{
+				match := utils.MessageMatch{
 					ObfuscatedMsg:  obsMsg.Name,
 					ObfuscatedFile: obsMsg.SourceFile,
 					OriginalMsg:    unobsMsg.Name,
@@ -159,20 +113,21 @@ func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Log
 		}
 	}
 
+	// Update progress when we find matches
+	utils.GlobalProgress.AddMatches(len(matches))
+
 	// Enhanced summary logging
-	logger.Info("matching summary",
+	logger.Info("enum matching summary",
 		"obfuscated_with_enums", totalObfuscatedWithEnums,
 		"enum_matches_found", len(matches),
-		"matching_progress", fmt.Sprintf("%.1f%%",
-			float64(len(matches))/float64(len(obfuscated.MessageType))*100,
-		),
+		"matching_progress", fmt.Sprintf("%.1f%%", utils.GlobalProgress.GetProgress()),
 	)
 
 	// Log unmatched messages
 	if len(matches) < totalObfuscatedWithEnums {
 		for _, obsMsg := range obfuscated.MessageType {
 			if obfsEnums := getAllEnums(obsMsg, ""); len(obfsEnums) > 0 && !matchedMessages[obsMsg.Name] {
-				logger.Warn("unmatched message",
+				logger.Debug("unmatched message",
 					"name", obsMsg.Name,
 					"enums", formatEnumPaths(obfsEnums),
 				)
@@ -183,25 +138,8 @@ func FindEnumBasedMatches(obfuscated, unobfuscated *Descriptor, logger *slog.Log
 	return matches
 }
 
-func formatEnumValues(values []EnumValue) []string {
-	result := make([]string, len(values))
-	for i, v := range values {
-		result[i] = fmt.Sprintf("%s=%d", v.Name, v.Number)
-	}
-	return result
-}
-
-func formatEnumPaths(enums map[string]EnumType) string {
-	var parts []string
-	for path, enum := range enums {
-		values := formatEnumValues(enum.Value)
-		parts = append(parts, fmt.Sprintf("%s: [%s]", path, strings.Join(values, ", ")))
-	}
-	return strings.Join(parts, " | ")
-}
-
 // Returns true if both enum types have matching values, with a confidence score
-func compareEnums(obfs, unobfs EnumType) (bool, float64) {
+func compareEnums(obfs, unobfs utils.EnumType) (bool, float64) {
 	// Create maps of name->number for both enums
 	obfsMap := make(map[string]int)
 	unobsMap := make(map[string]int)
@@ -236,9 +174,70 @@ func compareEnums(obfs, unobfs EnumType) (bool, float64) {
 	return false, 0
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
+// Helper function to get all enums in a message and its nested messages
+func getAllEnums(msg utils.MessageType, parentPath string) map[string]utils.EnumType {
+	enums := make(map[string]utils.EnumType)
+
+	// Add direct enums with proper parent path
+	for _, enum := range msg.EnumType {
+		path := parentPath
+		if path == "" {
+			path = msg.Name
+		}
+		enums[path+"."+enum.Name] = enum
 	}
-	return b
+
+	// Add nested message enums with proper hierarchy
+	for _, nested := range msg.NestedType {
+		nestedPath := parentPath
+		if nestedPath == "" {
+			nestedPath = msg.Name
+		}
+		nestedPath = nestedPath + "." + nested.Name
+		for path, enum := range getAllEnums(nested, nestedPath) {
+			enums[path] = enum
+		}
+	}
+
+	return enums
+}
+
+// Helper to get the top-level message containing an enum
+func getTopLevelMessage(msg utils.MessageType, enumPath string) string {
+	parts := strings.Split(enumPath, ".")
+	if len(parts) < 2 {
+		return ""
+	}
+	topMsg := parts[0] // First part should be the top-level message name
+
+	// If this is the top message, check if it owns the enum
+	if msg.Name == topMsg {
+		return msg.Name
+	}
+
+	// Check nested messages
+	for _, nested := range msg.NestedType {
+		if found := getTopLevelMessage(nested, enumPath); found != "" {
+			return msg.Name // Return the parent message name
+		}
+	}
+
+	return ""
+}
+
+func formatEnumValues(values []utils.EnumValue) []string {
+	result := make([]string, len(values))
+	for i, v := range values {
+		result[i] = fmt.Sprintf("%s=%d", v.Name, v.Number)
+	}
+	return result
+}
+
+func formatEnumPaths(enums map[string]utils.EnumType) string {
+	var parts []string
+	for path, enum := range enums {
+		values := formatEnumValues(enum.Value)
+		parts = append(parts, fmt.Sprintf("%s: [%s]", path, strings.Join(values, ", ")))
+	}
+	return strings.Join(parts, " | ")
 }

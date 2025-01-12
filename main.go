@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/ruinedyourlife/deobfs/utils"
+	"github.com/ruinedyourlife/deobfs/utils/mappings"
 )
 
 func main() {
@@ -63,11 +64,18 @@ func main() {
 		os.Exit(1)
 	}
 
-	// First find matches based on enum values
-	matches := utils.FindEnumBasedMatches(obfuscated, unobfuscated, logger)
+	// 1. Find matches based on enum values
+	enumMatches := mappings.FindEnumBasedMatches(obfuscated, unobfuscated, logger)
 
-	// Generate report of enum-based matches
-	if err := utils.GenerateEnumMatchReport(matches, "reports/enum_matches.txt"); err != nil {
+	// 2. Find matches based on strict message structures (1-1 match)
+	structureMatches := mappings.FindStrictStructureBasedMatches(obfuscated, unobfuscated, enumMatches, logger)
+
+	// Generate reports
+	if err := utils.GenerateMatchReport(enumMatches, "reports/enum_matches.txt"); err != nil {
 		logger.Error("failed to generate enum matches report", "error", err)
+	}
+
+	if err := utils.GenerateMatchReport(structureMatches, "reports/structure_matches.txt"); err != nil {
+		logger.Error("failed to generate structure matches report", "error", err)
 	}
 }

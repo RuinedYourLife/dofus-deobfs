@@ -26,6 +26,7 @@ type MessageMatch struct {
 	OriginalFile   string
 	MatchPercent   float64
 	EnumMatches    []EnumMatch
+	Alternatives   []string
 }
 
 type EnumValue struct {
